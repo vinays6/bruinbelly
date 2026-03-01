@@ -6,25 +6,59 @@ import MenuPage from './pages/MenuPage';
 import FeedPage from './pages/FeedPage';
 import CalendarPage from './pages/CalendarPage';
 import SettingsPage from './pages/SettingsPage';
+import RatingPage from './pages/RatingPage';
 
 export default function App() {
-  const [page, setPage] = useState('home');
+  // page: string, e.g. 'home' | 'menu' | 'feed' | 'calendar' | 'settings' | 'rate'
+  const [page, setPage]         = useState('home');
+  const [itemId, setItemId]     = useState(null);
+  const [history, setHistory]   = useState(['home']);
 
-  const pages = {
-    home:     <HomePage onNav={setPage} />,
-    menu:     <MenuPage />,
-    feed:     <FeedPage />,
-    calendar: <CalendarPage />,
-    settings: <SettingsPage />,
+  // Navigate forward
+  const handleNav = (nextPage, nextItemId = null) => {
+    setHistory((h) => [...h, nextPage]);
+    setPage(nextPage);
+    setItemId(nextItemId);
+    window.scrollTo(0, 0);
   };
+
+  // Navigate back (like navigate(-1))
+  const handleBack = () => {
+    if (history.length <= 1) {
+      handleNav('home');
+      return;
+    }
+    const prev = history[history.length - 2];
+    setHistory((h) => h.slice(0, -1));
+    setPage(prev);
+    setItemId(null);
+    window.scrollTo(0, 0);
+  };
+
+  const isRatingPage = page === 'rate';
 
   return (
     <div className="min-h-screen flex justify-center" style={{ backgroundColor: '#FFFBF8' }}>
       <div className="w-full max-w-md relative">
-        <main className="pb-24 min-h-screen">
-          {pages[page]}
+        <main className={isRatingPage ? 'min-h-screen' : 'pb-24 min-h-screen'}>
+          {page === 'home'     && <HomePage     onNav={handleNav} />}
+          {page === 'menu'     && <MenuPage     onNav={handleNav} />}
+          {page === 'feed'     && <FeedPage />}
+          {page === 'calendar' && <CalendarPage />}
+          {page === 'settings' && <SettingsPage />}
+          {page === 'rate'     && (
+            <RatingPage
+              itemId={itemId}
+              onBack={handleBack}
+              onNav={handleNav}
+            />
+          )}
         </main>
-        <BottomNav active={page} onNav={setPage} />
+
+        {/* Hide bottom nav on rating page for immersive experience */}
+        {!isRatingPage && (
+          <BottomNav active={page} onNav={handleNav} />
+        )}
       </div>
     </div>
   );
