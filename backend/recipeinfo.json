@@ -1,2118 +1,2118 @@
 {
     "7109": [
-        "Vegetarian food item",
-        "Contains dairy",
-        "Contains soy",
-        "Contains egg"
+        "Vegetarian",
+        "dairy",
+        "soy",
+        "egg"
     ],
     "123": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "7110": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3600": [
-        "Contains dairy",
-        "Contains soy",
-        "Contains egg"
+        "dairy",
+        "soy",
+        "egg"
     ],
     "3473": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "7457": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "6445": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "369": [
-        "Contains soy",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "2884": [
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "6188": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "3801": [
-        "High carbon footprint food item",
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "dairy",
+        "wheat",
+        "Gluten"
     ],
     "8468": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "6494": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "7336": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "5939": [
-        "Contains soy",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Contains fish",
-        "Contains egg",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Low carbon",
+        "fish",
+        "egg",
+        "Vegan",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "463": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "5802": [
-        "Contains tree nuts",
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "tree nuts",
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "2729": [
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten",
-        "Contains egg"
+        "Vegetarian",
+        "wheat",
+        "Gluten",
+        "egg"
     ],
     "6408": [],
     "813": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3911": [
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "5914": [
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "9195": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "7108": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "1776": [
-        "Contains dairy",
-        "Contains fish",
-        "Contains egg"
+        "dairy",
+        "fish",
+        "egg"
     ],
     "7111": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "299": [
-        "Contains soy",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Halal",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "2763": [
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3451": [
-        "Vegetarian food item",
-        "Contains dairy",
-        "Contains soy",
-        "Contains egg"
+        "Vegetarian",
+        "dairy",
+        "soy",
+        "egg"
     ],
     "2370": [
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "9043": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "7435": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "7335": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "4814": [
-        "Contains dairy",
-        "Halal food item",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Halal",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "8967": [
-        "Contains soy",
-        "Contains dairy",
-        "Halal food item",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Halal",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3210": [
-        "Vegetarian food item",
-        "Contains dairy",
-        "Contains soy",
-        "Contains egg"
+        "Vegetarian",
+        "dairy",
+        "soy",
+        "egg"
     ],
     "8570": [
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "tree nuts",
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "1578": [
-        "Vegan food item",
-        "Contains soy",
-        "Low carbon footprint food item"
+        "Vegan",
+        "soy",
+        "Low carbon"
     ],
     "269": [
-        "Contains tree nuts",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "tree nuts",
+        "Halal",
+        "Low carbon",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "7334": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "7338": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "247": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Halal food item",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "Halal",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3042": [
-        "Vegan food item",
-        "Contains soy",
-        "Low carbon footprint food item"
+        "Vegan",
+        "soy",
+        "Low carbon"
     ],
     "3004": [
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "266": [
-        "Contains dairy",
-        "Halal food item",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Halal",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "1882": [
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "wheat",
+        "Gluten"
     ],
     "6903": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "2866": [
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3082": [
-        "Vegan food item",
-        "Contains soy",
-        "Low carbon footprint food item"
+        "Vegan",
+        "soy",
+        "Low carbon"
     ],
     "1616": [
-        "Food item prepared with alcohol",
-        "Vegetarian food item",
-        "Contains dairy",
-        "Contains egg"
+        "alcohol",
+        "Vegetarian",
+        "dairy",
+        "egg"
     ],
     "5480": [
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten",
-        "Low carbon footprint food item"
+        "Vegan",
+        "wheat",
+        "Gluten",
+        "Low carbon"
     ],
     "7308": [
-        "Contains soy",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "2219": [
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "997": [
-        "High carbon footprint food item",
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "dairy",
+        "wheat",
+        "Gluten"
     ],
     "2452": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "229": [
-        "Contains peanuts",
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "peanuts",
+        "tree nuts",
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "3164": [
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "tree nuts",
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "7125": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "7113": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Contains egg",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "egg",
+        "wheat",
+        "Gluten"
     ],
     "270": [
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Halal food item",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "tree nuts",
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "Halal",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3192": [
-        "Food item prepared with alcohol",
-        "Vegetarian food item",
-        "Contains dairy",
-        "Contains soy"
+        "alcohol",
+        "Vegetarian",
+        "dairy",
+        "soy"
     ],
     "6536": [
-        "Vegetarian food item"
+        "Vegetarian"
     ],
     "284": [
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3209": [
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "7114": [
-        "Contains dairy",
-        "Contains soy",
-        "Contains egg"
+        "dairy",
+        "soy",
+        "egg"
     ],
     "261": [
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Halal food item",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "tree nuts",
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "Halal",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "7886": [],
     "3238": [
-        "Vegan food item",
-        "Contains soy",
-        "Low carbon footprint food item"
+        "Vegan",
+        "soy",
+        "Low carbon"
     ],
     "3811": [
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3279": [
-        "Vegetarian food item",
-        "Contains dairy"
+        "Vegetarian",
+        "dairy"
     ],
     "287": [
-        "Vegan food item",
-        "Contains Gluten",
-        "Contains soy",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Gluten",
+        "soy",
+        "Low carbon"
     ],
     "3263": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "234": [
-        "Contains soy",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains Gluten"
+        "soy",
+        "Halal",
+        "Low carbon",
+        "Vegan",
+        "Gluten"
     ],
     "4318": [
-        "Vegetarian food item",
-        "Low carbon footprint food item",
-        "Contains egg"
+        "Vegetarian",
+        "Low carbon",
+        "egg"
     ],
     "8598": [],
     "3083": [
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "2995": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "6440": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "1205": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "6519": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3221": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3737": [
-        "Vegetarian food item",
-        "Contains dairy"
+        "Vegetarian",
+        "dairy"
     ],
     "6192": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "8389": [
-        "Contains soy",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Low carbon",
+        "egg",
+        "Vegan",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "110": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "3098": [
-        "Vegan food item",
-        "Contains soy",
-        "Low carbon footprint food item"
+        "Vegan",
+        "soy",
+        "Low carbon"
     ],
     "954": [
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "985": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "2224": [
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "922": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "7835": [
-        "Contains soy",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Low carbon",
+        "Vegan",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "8385": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "7937": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Contains fish",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "Halal",
+        "Low carbon",
+        "egg",
+        "fish",
+        "Vegan",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "8122": [
-        "Contains soy",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Low carbon",
+        "egg",
+        "Vegan",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3783": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "2830": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "126": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "902": [
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "Halal",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "971": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3774": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "4121": [
-        "High carbon footprint food item",
-        "Halal food item",
-        "Contains egg",
-        "Contains sesame seeds"
+        "High carbon",
+        "Halal",
+        "egg",
+        "sesame seeds"
     ],
     "3409": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3271": [
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten",
-        "Low carbon footprint food item"
+        "Vegan",
+        "wheat",
+        "Gluten",
+        "Low carbon"
     ],
     "3127": [
-        "Vegan food item",
-        "Contains tree nuts",
-        "Low carbon footprint food item"
+        "Vegan",
+        "tree nuts",
+        "Low carbon"
     ],
     "3902": [
-        "Food item prepared with alcohol",
-        "Vegan food item",
-        "Contains tree nuts",
-        "Low carbon footprint food item"
+        "alcohol",
+        "Vegan",
+        "tree nuts",
+        "Low carbon"
     ],
     "2253": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3288": [
-        "Vegetarian food item",
-        "Contains dairy",
-        "Contains soy",
-        "Contains sesame seeds"
+        "Vegetarian",
+        "dairy",
+        "soy",
+        "sesame seeds"
     ],
     "2035": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3101": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3173": [
-        "Contains dairy",
-        "Vegetarian food item",
-        "Halal food item"
+        "dairy",
+        "Vegetarian",
+        "Halal"
     ],
     "3907": [
-        "Contains soy",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Halal",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "1271": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "2972": [
-        "Contains soy",
-        "Contains dairy",
-        "Halal food item",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Halal",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3923": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "8544": [
-        "High carbon footprint food item",
-        "Contains dairy",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegan food item",
-        "Vegetarian food item"
+        "High carbon",
+        "dairy",
+        "Halal",
+        "Low carbon",
+        "egg",
+        "Vegan",
+        "Vegetarian"
     ],
     "3436": [
-        "Contains soy",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegetarian food item"
+        "soy",
+        "dairy",
+        "Low carbon",
+        "egg",
+        "Vegetarian"
     ],
     "3437": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3152": [
-        "Vegetarian food item",
-        "Contains dairy",
-        "Contains soy"
+        "Vegetarian",
+        "dairy",
+        "soy"
     ],
     "152": [
-        "Contains dairy",
-        "Vegetarian food item",
-        "Halal food item"
+        "dairy",
+        "Vegetarian",
+        "Halal"
     ],
     "3932": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "887": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "2111": [
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains dairy",
-        "Halal food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "tree nuts",
+        "soy",
+        "dairy",
+        "Halal",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "1302": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "3198": [
-        "Contains soy",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Halal",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "1069": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "2131": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "3156": [
-        "Vegan food item",
-        "Contains peanuts",
-        "Low carbon footprint food item"
+        "Vegan",
+        "peanuts",
+        "Low carbon"
     ],
     "3301": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3017": [
-        "Vegetarian food item",
-        "Contains dairy"
+        "Vegetarian",
+        "dairy"
     ],
     "3335": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "4256": [
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "tree nuts",
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3454": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3357": [
-        "Vegan food item",
-        "Contains soy",
-        "Low carbon footprint food item"
+        "Vegan",
+        "soy",
+        "Low carbon"
     ],
     "3322": [
-        "Vegetarian food item",
-        "Contains dairy"
+        "Vegetarian",
+        "dairy"
     ],
     "3328": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "2200": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "4201": [
-        "Contains Gluten",
-        "Contains wheat",
-        "Contains soy",
-        "Contains egg"
+        "Gluten",
+        "wheat",
+        "soy",
+        "egg"
     ],
     "3460": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3064": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3377": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "5029": [
-        "Contains dairy",
-        "Halal food item",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Halal",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3106": [
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "Low carbon",
+        "Vegan",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "3115": [
-        "Contains dairy",
-        "Contains Gluten",
-        "Contains wheat",
-        "Contains soy"
+        "dairy",
+        "Gluten",
+        "wheat",
+        "soy"
     ],
     "961": [
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "4021": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "2179": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3212": [
-        "Vegan food item",
-        "Contains soy",
-        "Low carbon footprint food item"
+        "Vegan",
+        "soy",
+        "Low carbon"
     ],
     "3231": [
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "958": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "2280": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "5438": [
-        "Vegetarian food item",
-        "Contains egg"
+        "Vegetarian",
+        "egg"
     ],
     "3464": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3390": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3378": [
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains tree nuts"
+        "dairy",
+        "Vegetarian",
+        "tree nuts"
     ],
     "2938": [
-        "Vegetarian food item",
-        "Contains dairy"
+        "Vegetarian",
+        "dairy"
     ],
     "3673": [
-        "Vegetarian food item",
-        "Contains dairy",
-        "Contains sesame seeds"
+        "Vegetarian",
+        "dairy",
+        "sesame seeds"
     ],
     "3000": [
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "tree nuts",
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "Low carbon",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3030": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "2531": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "5386": [
-        "Contains soy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "904": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "2935": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "3026": [
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten",
-        "Low carbon footprint food item"
+        "Vegan",
+        "wheat",
+        "Gluten",
+        "Low carbon"
     ],
     "936": [
-        "Vegetarian food item",
-        "Contains egg"
+        "Vegetarian",
+        "egg"
     ],
     "3616": [
-        "Contains soy",
-        "Contains dairy",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "3767": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "8767": [
-        "Food item prepared with alcohol",
-        "Vegetarian food item",
-        "Contains dairy",
-        "Low carbon footprint food item"
+        "alcohol",
+        "Vegetarian",
+        "dairy",
+        "Low carbon"
     ],
     "8904": [
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "4323": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "8765": [
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3346": [
-        "Vegetarian food item",
-        "Contains dairy"
+        "Vegetarian",
+        "dairy"
     ],
     "2164": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "133": [
-        "Vegan food item"
+        "Vegan"
     ],
     "7936": [
-        "Contains soy",
-        "Contains dairy",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Contains fish",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Halal",
+        "Low carbon",
+        "egg",
+        "fish",
+        "Vegan",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "8016": [
-        "Vegetarian food item",
-        "Contains dairy"
+        "Vegetarian",
+        "dairy"
     ],
     "2209": [
-        "Crustacean shellfish food item",
-        "Halal food item",
-        "Contains fish"
+        "shellfish",
+        "Halal",
+        "fish"
     ],
     "5465": [
-        "Contains fish"
+        "fish"
     ],
     "2143": [
-        "Halal food item",
-        "Contains Gluten",
-        "Contains wheat"
+        "Halal",
+        "Gluten",
+        "wheat"
     ],
     "6378": [
-        "Contains sesame seeds",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "sesame seeds",
+        "Halal",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "5476": [
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "Halal",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "6618": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "9172": [
-        "Vegan food item",
-        "Halal food item",
-        "Contains soy"
+        "Vegan",
+        "Halal",
+        "soy"
     ],
     "2244": [
-        "Contains dairy",
-        "Halal food item",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Halal",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "7054": [
-        "Contains dairy",
-        "Vegetarian food item",
-        "Halal food item"
+        "dairy",
+        "Vegetarian",
+        "Halal"
     ],
     "1634": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "6598": [
-        "Contains dairy",
-        "Halal food item",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Halal",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "1647": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "2889": [
-        "Contains dairy",
-        "Halal food item",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Halal",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "6272": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "877": [
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "Halal",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "7229": [],
     "6169": [
-        "Contains soy"
+        "soy"
     ],
     "9109": [
-        "Vegan food item",
-        "Contains Gluten",
-        "Contains wheat",
-        "Contains soy"
+        "Vegan",
+        "Gluten",
+        "wheat",
+        "soy"
     ],
     "6068": [
-        "Contains tree nuts",
-        "Contains soy",
-        "Halal food item",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "tree nuts",
+        "soy",
+        "Halal",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "7398": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "6327": [
-        "Contains soy",
-        "Contains dairy",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Halal",
+        "Low carbon",
+        "egg",
+        "Vegan",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "5036": [
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "Halal",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "5893": [
-        "Food item prepared with alcohol",
-        "Vegetarian food item",
-        "Contains dairy"
+        "alcohol",
+        "Vegetarian",
+        "dairy"
     ],
     "8064": [
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "egg",
+        "wheat",
+        "Gluten"
     ],
     "7378": [
-        "Food item prepared with alcohol",
-        "Vegetarian food item",
-        "Contains dairy"
+        "alcohol",
+        "Vegetarian",
+        "dairy"
     ],
     "440": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "374": [
-        "Vegetarian food item",
-        "Contains dairy"
+        "Vegetarian",
+        "dairy"
     ],
     "468": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "6791": [
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "tree nuts",
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "Low carbon",
+        "egg",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "6938": [
-        "Vegetarian food item",
-        "Contains dairy"
+        "Vegetarian",
+        "dairy"
     ],
     "6560": [
-        "Vegetarian food item",
-        "Contains dairy"
+        "Vegetarian",
+        "dairy"
     ],
     "8872": [
-        "Contains Gluten",
-        "Contains wheat",
-        "Contains soy",
-        "Contains egg"
+        "Gluten",
+        "wheat",
+        "soy",
+        "egg"
     ],
     "108": [
-        "Crustacean shellfish food item",
-        "Contains soy",
-        "Contains dairy",
-        "Contains fish",
-        "Contains egg",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "shellfish",
+        "soy",
+        "dairy",
+        "fish",
+        "egg",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "520": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "6807": [
-        "Contains tree nuts",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Vegetarian food item",
-        "Contains Gluten"
+        "tree nuts",
+        "dairy",
+        "Low carbon",
+        "Vegetarian",
+        "Gluten"
     ],
     "790": [
-        "Contains peanuts",
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Halal food item",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains Gluten"
+        "peanuts",
+        "tree nuts",
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "Halal",
+        "egg",
+        "Vegetarian",
+        "Gluten"
     ],
     "648": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "666": [
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "egg",
+        "wheat",
+        "Gluten"
     ],
     "5907": [
-        "High carbon footprint food item",
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "dairy",
+        "wheat",
+        "Gluten"
     ],
     "2215": [
-        "Food item prepared with alcohol",
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "alcohol",
+        "Vegan",
+        "Low carbon"
     ],
     "8043": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "soy",
+        "dairy",
+        "wheat",
+        "Gluten"
     ],
     "5916": [
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "7353": [
-        "Contains peanuts",
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "peanuts",
+        "tree nuts",
+        "soy",
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "7363": [
-        "Vegetarian food item"
+        "Vegetarian"
     ],
     "7223": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "452": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "656": [
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "egg",
+        "wheat",
+        "Gluten"
     ],
     "746": [
-        "Contains peanuts",
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "peanuts",
+        "tree nuts",
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "749": [
-        "Contains soy",
-        "Contains dairy",
-        "Halal food item",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Halal",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "794": [
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "5883": [
-        "Food item prepared with alcohol"
+        "alcohol"
     ],
     "321": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "5884": [
-        "Contains tree nuts",
-        "Contains dairy",
-        "Halal food item",
-        "Contains egg",
-        "Vegetarian food item"
+        "tree nuts",
+        "dairy",
+        "Halal",
+        "egg",
+        "Vegetarian"
     ],
     "342": [
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "egg",
+        "wheat",
+        "Gluten"
     ],
     "345": [
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "5384": [
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "5610": [
-        "Food item prepared with alcohol",
-        "Vegan food item"
+        "alcohol",
+        "Vegan"
     ],
     "7824": [],
     "6437": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "7002": [],
     "8266": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "soy",
+        "sesame seeds",
+        "wheat",
+        "Gluten"
     ],
     "7743": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "8230": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "5974": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "Low carbon",
+        "egg",
+        "Vegan",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "7518": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "8650": [
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "tree nuts",
+        "soy",
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "1788": [
-        "Contains dairy",
-        "Contains wheat"
+        "dairy",
+        "wheat"
     ],
     "3568": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "4655": [
-        "Vegetarian food item",
-        "Contains dairy"
+        "Vegetarian",
+        "dairy"
     ],
     "5180": [
-        "Crustacean shellfish food item"
+        "shellfish"
     ],
     "1748": [
-        "Contains peanuts",
-        "Crustacean shellfish food item",
-        "Contains soy",
-        "Contains tree nuts",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Contains fish",
-        "Contains egg",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "peanuts",
+        "shellfish",
+        "soy",
+        "tree nuts",
+        "sesame seeds",
+        "dairy",
+        "fish",
+        "egg",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "8280": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "1829": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Contains egg",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "egg",
+        "wheat",
+        "Gluten"
     ],
     "7627": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "8816": [
-        "Vegan food item"
+        "Vegan"
     ],
     "7466": [
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "8697": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "wheat",
+        "Gluten"
     ],
     "6490": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Contains fish",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "fish",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "6559": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "4894": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "2746": [
-        "Contains fish"
+        "fish"
     ],
     "1915": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "1568": [
-        "Contains Gluten",
-        "Contains wheat",
-        "Contains soy",
-        "Contains sesame seeds"
+        "Gluten",
+        "wheat",
+        "soy",
+        "sesame seeds"
     ],
     "4895": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "Low carbon",
+        "Vegan",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "2094": [
-        "Contains soy",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Low carbon",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "6328": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Vegetarian food item"
+        "High carbon",
+        "soy",
+        "dairy",
+        "Low carbon",
+        "Vegan",
+        "Vegetarian"
     ],
     "4608": [
-        "Contains soy",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Vegetarian food item"
+        "soy",
+        "dairy",
+        "Low carbon",
+        "Vegan",
+        "Vegetarian"
     ],
     "5942": [
-        "Vegan food item",
-        "Contains soy",
-        "Low carbon footprint food item"
+        "Vegan",
+        "soy",
+        "Low carbon"
     ],
     "2666": [
-        "Crustacean shellfish food item",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains fish",
-        "Contains egg",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "shellfish",
+        "soy",
+        "sesame seeds",
+        "fish",
+        "egg",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "5898": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Contains fish",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "Low carbon",
+        "egg",
+        "fish",
+        "Vegan",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "5915": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "5924": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "6310": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "7644": [
-        "Contains soy"
+        "soy"
     ],
     "2895": [
-        "Vegetarian food item"
+        "Vegetarian"
     ],
     "216": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "5943": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "soy",
+        "dairy",
+        "wheat",
+        "Gluten"
     ],
     "5899": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Contains fish",
-        "Contains egg",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "fish",
+        "egg",
+        "Low carbon",
+        "Vegan",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "5926": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "5934": [
-        "Vegan food item",
-        "Low carbon footprint food item",
-        "Contains sesame seeds"
+        "Vegan",
+        "Low carbon",
+        "sesame seeds"
     ],
     "1465": [
-        "Contains dairy",
-        "Contains Gluten",
-        "Contains wheat",
-        "Contains soy"
+        "dairy",
+        "Gluten",
+        "wheat",
+        "soy"
     ],
     "5900": [
-        "High carbon footprint food item",
-        "Contains peanuts",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Contains fish",
-        "Contains egg",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "peanuts",
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "Halal",
+        "Low carbon",
+        "fish",
+        "egg",
+        "Vegan",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "1419": [
-        "Vegan food item",
-        "Halal food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Halal",
+        "Low carbon"
     ],
     "6142": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Contains fish",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "soy",
+        "fish",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "1544": [
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "2680": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "Low carbon",
+        "Vegan",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "4435": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "Low carbon",
+        "Vegan",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "4648": [
-        "Contains peanuts",
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "peanuts",
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "8937": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "soy",
+        "dairy",
+        "wheat",
+        "Gluten"
     ],
     "1837": [
-        "High carbon footprint food item",
-        "Contains dairy",
-        "Contains soy"
+        "High carbon",
+        "dairy",
+        "soy"
     ],
     "2394": [
-        "Crustacean shellfish food item",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains fish",
-        "Contains egg",
-        "Contains wheat",
-        "Contains Gluten"
+        "shellfish",
+        "soy",
+        "sesame seeds",
+        "fish",
+        "egg",
+        "wheat",
+        "Gluten"
     ],
     "1456": [
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "8694": [
-        "Contains dairy",
-        "Contains Gluten",
-        "Contains wheat",
-        "Contains soy"
+        "dairy",
+        "Gluten",
+        "wheat",
+        "soy"
     ],
     "5903": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Contains wheat"
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "Halal",
+        "Low carbon",
+        "egg",
+        "Vegan",
+        "Vegetarian",
+        "wheat"
     ],
     "1535": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "4489": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "8471": [
-        "Contains soy",
-        "Contains dairy",
-        "Vegan food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Vegan",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "8296": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "2548": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "Low carbon",
+        "Vegan",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "3151": [
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "2409": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "3057": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "8978": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "soy",
+        "dairy",
+        "egg",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "2937": [
-        "Contains Gluten",
-        "Contains wheat",
-        "Contains soy",
-        "Contains sesame seeds"
+        "Gluten",
+        "wheat",
+        "soy",
+        "sesame seeds"
     ],
     "8219": [
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten",
-        "Low carbon footprint food item"
+        "Vegan",
+        "wheat",
+        "Gluten",
+        "Low carbon"
     ],
     "1257": [
-        "Contains tree nuts",
-        "Contains soy",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Vegan food item"
+        "tree nuts",
+        "soy",
+        "dairy",
+        "Low carbon",
+        "Vegan"
     ],
     "2621": [
-        "Vegetarian food item",
-        "Contains dairy",
-        "Contains soy",
-        "Contains egg"
+        "Vegetarian",
+        "dairy",
+        "soy",
+        "egg"
     ],
     "6557": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "1024": [
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "wheat",
+        "Gluten"
     ],
     "2908": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains egg",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "egg",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "3103": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "2998": [
-        "Vegan food item"
+        "Vegan"
     ],
     "8953": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "soy",
+        "dairy",
+        "egg",
+        "wheat",
+        "Gluten"
     ],
     "6128": [
-        "Contains dairy"
+        "dairy"
     ],
     "7996": [
-        "Vegan food item",
-        "Contains soy",
-        "Low carbon footprint food item"
+        "Vegan",
+        "soy",
+        "Low carbon"
     ],
     "1028": [
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "6385": [
-        "Food item prepared with alcohol",
-        "High carbon footprint food item",
-        "Contains dairy",
-        "Contains tree nuts"
+        "alcohol",
+        "High carbon",
+        "dairy",
+        "tree nuts"
     ],
     "6386": [
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "2823": [
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten",
-        "Contains egg"
+        "dairy",
+        "wheat",
+        "Gluten",
+        "egg"
     ],
     "5857": [
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "Low carbon",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "723": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "1023": [
-        "High carbon footprint food item",
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "dairy",
+        "wheat",
+        "Gluten"
     ],
     "2819": [
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "egg",
+        "wheat",
+        "Gluten"
     ],
     "7910": [
-        "Contains soy",
-        "Contains dairy",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "1025": [
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "wheat",
+        "Gluten"
     ],
     "2814": [
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten",
-        "Contains egg"
+        "dairy",
+        "wheat",
+        "Gluten",
+        "egg"
     ],
     "8003": [
-        "Contains dairy",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "1026": [
-        "High carbon footprint food item",
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "dairy",
+        "wheat",
+        "Gluten"
     ],
     "3891": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegan food item",
-        "Vegetarian food item"
+        "High carbon",
+        "soy",
+        "Halal",
+        "Low carbon",
+        "egg",
+        "Vegan",
+        "Vegetarian"
     ],
     "8470": [
-        "Contains dairy",
-        "Contains egg",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "egg",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "8781": [
-        "Contains soy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "6581": [
-        "Contains soy",
-        "Contains dairy",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Contains fish",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Halal",
+        "Low carbon",
+        "egg",
+        "fish",
+        "Vegan",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "477": [
-        "Vegetarian food item",
-        "Contains dairy"
+        "Vegetarian",
+        "dairy"
     ],
     "485": [
-        "Vegetarian food item",
-        "Contains dairy"
+        "Vegetarian",
+        "dairy"
     ],
     "780": [
-        "Contains soy",
-        "Contains dairy",
-        "Halal food item",
-        "Contains egg",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Halal",
+        "egg",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "2667": [
-        "Contains soy",
-        "Contains dairy",
-        "Contains egg",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "egg",
+        "wheat",
+        "Gluten"
     ],
     "9061": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "6019": [
-        "Vegan food item",
-        "Low carbon footprint food item"
+        "Vegan",
+        "Low carbon"
     ],
     "8840": [
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "dairy",
+        "Low carbon",
+        "Vegan",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "8832": [
-        "Contains soy",
-        "Contains dairy",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "soy",
+        "dairy",
+        "Low carbon",
+        "egg",
+        "Vegan",
+        "Vegetarian",
+        "wheat",
+        "Gluten"
     ],
     "3689": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Contains sesame seeds",
-        "Contains dairy",
-        "Halal food item",
-        "Low carbon footprint food item",
-        "Contains egg",
-        "Vegan food item",
-        "Vegetarian food item",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "soy",
+        "sesame seeds",
+        "dairy",
+        "Halal",
+        "Low carbon",
+        "egg",
+        "Vegan",
+        "Vegetarian",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ],
     "8951": [
-        "Crustacean shellfish food item",
-        "Contains soy",
-        "Contains dairy",
-        "Contains fish",
-        "Contains egg",
-        "Contains wheat",
-        "Contains Gluten"
+        "shellfish",
+        "soy",
+        "dairy",
+        "fish",
+        "egg",
+        "wheat",
+        "Gluten"
     ],
     "740": [
-        "Food item prepared with alcohol",
-        "Contains dairy",
-        "Contains wheat",
-        "Contains Gluten"
+        "alcohol",
+        "dairy",
+        "wheat",
+        "Gluten"
     ],
     "124": [
-        "Contains dairy",
-        "Contains Gluten",
-        "Contains wheat",
-        "Contains soy"
+        "dairy",
+        "Gluten",
+        "wheat",
+        "soy"
     ],
     "7918": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Halal food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "soy",
+        "Halal",
+        "wheat",
+        "Gluten"
     ],
     "7530": [
-        "Contains tree nuts",
-        "Low carbon footprint food item",
-        "Vegan food item",
-        "Contains wheat",
-        "Contains Gluten"
+        "tree nuts",
+        "Low carbon",
+        "Vegan",
+        "wheat",
+        "Gluten"
     ],
     "8573": [
-        "High carbon footprint food item",
-        "Contains soy",
-        "Contains dairy",
-        "Food item prepared with alcohol",
-        "Contains wheat",
-        "Contains Gluten"
+        "High carbon",
+        "soy",
+        "dairy",
+        "alcohol",
+        "wheat",
+        "Gluten"
     ]
 }
