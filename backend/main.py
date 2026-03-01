@@ -1,7 +1,6 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 import os
 from extensions import db
-
 app = Flask(__name__)
 
 # Database configuration (defaults to sqlite file `bruinbelly.db` in this folder)
@@ -34,7 +33,7 @@ def create_user():
     db.session.add(user)
     db.session.commit()
 
-    return 200
+    return '', 200
 
 
 @app.route("/create-review", methods=['POST'])
@@ -55,6 +54,34 @@ def create_review():
     db.session.add(review)
     db.session.commit()
     return '', 200
+
+@app.route("/restaurant/<int:restaurant_id>/items", methods=['GET'])
+def get_items_by_meal_period(restaurant_id):
+    """
+    Retrieve all items for each meal period for a specific restaurant.
+    """
+    try:
+        # Query the database for items grouped by meal period
+        restaurant = Restaurant.query.get(restaurant_id)
+        if not restaurant:
+            return jsonify({"error": "Restaurant not found"}), 404
+
+        # Assuming `Restaurant` has a relationship to `Item` and `Item` has a `meal_period` field
+        items_by_meal_period = {}
+        for item in restaurant.items:  # Assuming `restaurant.items` is the relationship
+            meal_period = item.meal_period or "Unknown"
+            if meal_period not in items_by_meal_period:
+                items_by_meal_period[meal_period] = []
+            items_by_meal_period[meal_period].append({
+                "id": item.id,
+                "name": item.name,
+                "description": item.description,
+                "price": item.price
+            })
+
+        return jsonify(items_by_meal_period), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)
