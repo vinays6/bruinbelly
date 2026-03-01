@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import './index.css';
+import BottomNav from './components/BottomNav';
+import HomePage from './pages/HomePage';
+import MenuPage from './pages/MenuPage';
+import FeedPage from './pages/FeedPage';
+import CalendarPage from './pages/CalendarPage';
+import SettingsPage from './pages/SettingsPage';
 
-function App() {
+export default function App() {
+  const [page, setPage] = useState('home');
+
+  const pages = {
+    home:     <HomePage onNav={setPage} />,
+    menu:     <MenuPage />,
+    feed:     <FeedPage />,
+    calendar: <CalendarPage />,
+    settings: <SettingsPage />,
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen flex justify-center" style={{ backgroundColor: '#FFFBF8' }}>
+      <div className="w-full max-w-md relative">
+        <main className="pb-24 min-h-screen">
+          {pages[page]}
+        </main>
+        <BottomNav active={page} onNav={setPage} />
+      </div>
     </div>
   );
 }
-
-export default App;
