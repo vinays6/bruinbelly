@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import os
 from extensions import db
 from models import Item, Menu, MenuItem
 app = Flask(__name__)
+CORS(app)
 
 # Database configuration (defaults to sqlite file `bruinbelly.db` in this folder)
 basedir = os.path.abspath(os.path.dirname(__file__))
