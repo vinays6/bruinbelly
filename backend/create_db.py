@@ -23,7 +23,7 @@ def create_database():
 # load all the data from the scraped data
 def initialize_db():
     with app.app_context():
-        with open('scrapemenu.json') as f:
+        with open('scrapemenu.json', 'r') as f:
             data = json.load(f)
 
         for place_name, dates in data.items():
@@ -60,14 +60,13 @@ def initialize_db():
 
                     # 5. Create or get item
                     item = Item.query.filter_by(
-                        name=item_name,
-                        restaurant_id=restaurant.id
+                        id=int(item_data['link'].split('=')[-1]),
                     ).first()
 
                     if not item:
                         item = Item(
+                            id=int(item_data['link'].split('=')[-1]),
                             name=item_name,
-                            restaurant=restaurant
                         )
                         db.session.add(item)
                         db.session.flush()
@@ -90,6 +89,19 @@ def initialize_db():
                         db.session.add(menu_item)
 
         db.session.commit() 
+        print("Initialized menu to db")
+        with open('recipeinfo.json', 'r') as f:
+            recipe_data = json.load(f)
+        
+        for item_id, tags in recipe_data.items():
+            item = db.session.get(Item, int(item_id))
+            print(item_id)
+            print(item)
+            for tag in tags:
+                if hasattr(item, tag.lower().replace(" ", '')):
+                    setattr(item, tag.lower().replace(" ", ''), True)
+        db.session.commit()
+        print("Initialized recipes to db")
         print("Initialized everything to db")
 
 
@@ -132,17 +144,17 @@ def dump_db():
                 print("  No menu")
 
             # Items
-            print("  Items:")
-            if not r.items:
-                print("    (none)")
-            for item in r.items:
-                print(f"    [{item.id}] {item.name}")
+            # print("  Items:")
+            # if not r.items:
+            #     print("    (none)")
+            # for item in r.items:
+            #     print(f"    [{item.id}] {item.name}")
 
         print("\n================ ITEMS ================")
         for item in Item.query.all():
             print(
                 f"[Item {item.id}] {item.name} "
-                f"(Restaurant: {item.restaurant.name})"
+                # f"(Restaurant: {item.restaurant.name})"
             )
 
             # Menu appearances

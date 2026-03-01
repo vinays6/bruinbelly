@@ -2,7 +2,6 @@ from extensions import db
 import enum
 from sqlalchemy import Enum, CheckConstraint
 
-
 class User(db.Model):
     __tablename__ = 'user'
 
@@ -37,12 +36,6 @@ class Restaurant(db.Model):
         'Menu',
         back_populates='restaurant',
         uselist=False,
-        cascade='all, delete-orphan'
-    )
-
-    items = db.relationship(
-        'Item',
-        back_populates='restaurant',
         cascade='all, delete-orphan'
     )
 
@@ -121,12 +114,6 @@ class Item(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
 
-    restaurant_id = db.Column(
-        db.Integer,
-        db.ForeignKey('restaurant.id'),
-        nullable=False  # FIXED
-    )
-
     name = db.Column(db.Text, nullable=False)
 
     # dietary flags (fine for hackathon)
@@ -137,7 +124,7 @@ class Item(db.Model):
     dairy = db.Column(db.Boolean, default=False)
     vegan = db.Column(db.Boolean, default=False)
     low_carbon = db.Column(db.Boolean, default=False)
-    eggs = db.Column(db.Boolean, default=False)
+    egg = db.Column(db.Boolean, default=False)
     sesame = db.Column(db.Boolean, default=False)
     halal = db.Column(db.Boolean, default=False)
     tree_nuts = db.Column(db.Boolean, default=False)
@@ -145,12 +132,7 @@ class Item(db.Model):
     fish = db.Column(db.Boolean, default=False)
     shellfish = db.Column(db.Boolean, default=False)
     alcohol = db.Column(db.Boolean, default=False)
-    peanut = db.Column(db.Boolean, default=False)
-
-    restaurant = db.relationship(
-        'Restaurant',
-        back_populates='items'
-    )
+    peanuts = db.Column(db.Boolean, default=False)
 
     menu_items = db.relationship(
         'MenuItem',
