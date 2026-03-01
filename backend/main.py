@@ -36,5 +36,25 @@ def create_user():
 
     return 200
 
+
+@app.route("/create-review", methods=['POST'])
+def create_review():
+    # rating and user_id are required; others are optional
+    # read binary image file if provided
+    img = request.files.get('image')
+    image_bytes = img.read() if img is not None else None
+
+    review = Review(
+        rating=int(request.form['rating']),
+        comment=request.form.get('comment'),
+        image_data=image_bytes,
+        user_id=int(request.form['user_id']),
+        restaurant_id=request.form.get('restaurant_id') and int(request.form['restaurant_id']),
+        item_id=request.form.get('item_id') and int(request.form['item_id'])
+    )
+    db.session.add(review)
+    db.session.commit()
+    return '', 200
+
 if __name__ == '__main__':
     app.run(debug=True)

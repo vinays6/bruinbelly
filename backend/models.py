@@ -25,6 +25,7 @@ class Restaurant(db.Model):
 class Item(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     restaurant_id = db.Column(db.Integer, db.ForeignKey('restaurant.id'), nullable=True)
+
     name = db.Column(db.Text)
     vegetarian = db.Column(db.Boolean)
     soy = db.Column(db.Boolean)
@@ -48,12 +49,16 @@ class Review(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     rating = db.Column(db.Integer, nullable=False)
     comment = db.Column(db.Text)
+    # binary image data stored directly in the database (optional)
+    image_data = db.Column(db.LargeBinary, nullable=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     restaurant_id = db.Column(db.Integer, db.ForeignKey('restaurant.id'), nullable=True)
     item_id = db.Column(db.Integer, db.ForeignKey('item.id'), nullable=True)
+    
 
     user = db.relationship('User', back_populates='reviews')
     restaurant = db.relationship('Restaurant', back_populates='reviews')
 
     def __repr__(self):
-        return f"<Review {self.id} rating={self.rating}>"
+        has_image = bool(self.image_data)
+        return f"<Review {self.id} rating={self.rating} image={'yes' if has_image else 'no'}>"
