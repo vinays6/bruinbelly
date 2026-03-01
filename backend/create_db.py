@@ -59,13 +59,16 @@ def initialize_db():
                     date_time = datetime.strptime(menu_date, format_string)
 
                     # 5. Create or get item
+                    item_id = int(item_data['link'].split('=')[-1])
+                    is_recipe = item_data['link'].split('?')[-1].split('=')[0] == 'recipe'
+                    full_item_id = ('r' if is_recipe else 'i') + str(item_id)
                     item = Item.query.filter_by(
-                        id=int(item_data['link'].split('=')[-1]),
+                        id=full_item_id,
                     ).first()
 
                     if not item:
                         item = Item(
-                            id=int(item_data['link'].split('=')[-1]),
+                            id=full_item_id,
                             name=item_name,
                         )
                         db.session.add(item)

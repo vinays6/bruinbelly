@@ -30,11 +30,16 @@ def hello_world():
 
 @app.route("/create-user", methods=['POST'])
 def create_user():
-    user = User(username=request.form['username'], email=request.form['email'])
+    user = User(username=request.form['username'], email=request.form['email'], password=request.form['password'])
     db.session.add(user)
     db.session.commit()
 
     return '', 200
+
+@app.route("/auth", methods=['POST'])
+def auth():
+    user = User.get(username=request.form['username'])
+    return user.password == request.form['password']
 
 
 @app.route("/create-review", methods=['POST'])
