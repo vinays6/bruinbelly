@@ -63,8 +63,8 @@ def create_review():
     db.session.commit()
     return '', 200
 
-@app.route("/restaurant/<int:restaurant_id>/items-by-meal-period", methods=['GET'])
-def get_items_by_meal_period(restaurant_id):
+@app.route("/restaurant/<int:restaurant_id>/items-by-meal-period/<string:date>", methods=['GET'])
+def get_items_by_meal_period(restaurant_id, date):
     """
     Retrieve all items for each meal period for a specific restaurant.
     """
@@ -74,13 +74,21 @@ def get_items_by_meal_period(restaurant_id):
         if not restaurant:
             return jsonify({"error": "Restaurant not found"}), 404
 
-        # Query all items for the restaurant grouped by meal period
-        menu_items = (
-            db.session.query(MenuItem)
-            .join(Menu)
-            .filter(Menu.restaurant_id == restaurant_id)
-            .all()
-        )
+        if date:
+            # Query all items for the restaurant grouped by meal period
+            menu_items = (
+                db.session.query(MenuItem)
+                .join(Menu)
+                .filter(Menu.restaurant_id == restaurant_id, MenuItem.date == date)
+                .all()
+            )
+        else:
+            menu_items = (
+                db.session.query(MenuItem)
+                .join(Menu)
+                .filter(Menu.restaurant_id == restaurant_id)
+                .all()
+            )
 
         # Group items by meal period
         items_by_meal_period = {}
