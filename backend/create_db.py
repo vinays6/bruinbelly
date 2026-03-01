@@ -1,6 +1,8 @@
 from main import app
 from extensions import db
-
+import json
+from models import Item, Restaurant, Review
+from extensions import db
 
 def create_database():
     with app.app_context():
@@ -17,5 +19,22 @@ def create_database():
         # `bruinbelly.db` file and rerun this script so the schema is rebuilt.
 
 
+# load all the data from the scraped data
+def initialize_db():
+    with app.app_context:
+        with open('scrapemenu.json') as f:
+            data = json.load(f)
+            for place in data.keys():
+                db_restaurant = Restaurant(name=place)
+                db.session.add(db_restaurant)
+                for date in data['place'].keys():
+                    for item in data['place']['date']:
+                        db_item = Item(restaurant_id = email=request.form['email'])
+                        db.session.add(user)
+            
+            db.session.commit()
+
+
 if __name__ == '__main__':
     create_database()
+    initialize_db()
