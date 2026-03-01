@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 import os
 from extensions import db
 
@@ -27,6 +27,14 @@ except Exception as e:
 @app.route("/")
 def hello_world():
     return f"<p>Hello, World! users: {User.query.all()}</p>"
+
+@app.route("/create-user", methods=['POST']):
+def create_user():
+    user = User(username=request.form['username'], email=request.form['email'])
+    db.session.add(user)
+    db.session.commit()
+    
+    return 200
 
 if __name__ == '__main__':
     app.run(debug=True)
