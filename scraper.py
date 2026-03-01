@@ -2,6 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+from tqdm import tqdm
 
 maindict = {}
 
@@ -46,39 +47,36 @@ def get_items(url):
     # 2. Parse the HTML
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    items = []
+    all_items = []
 
+    # each recipeList is present
     recipeLists = soup.select('div.recipe-list')
     for recipeList in recipeLists:
-        
-        item = {}
 
         parentIdStr = str(recipeList.parent.get('id')) # type: ignore
-        time = parentIdStr.split('-')[0]
-        item['time'] = time
+        recipeListTime = parentIdStr.split('-')[0]
 
-        prose = recipeList.select('section.recipe-card div.menu-item-title div.ucla-prose')
-        for prose in prose:
-            item['name'] = prose.get_text(strip=True)
-            # print(prose.get_text(strip=True))
+        for recipeCard in recipeList.select('section.recipe-card'):
+            
+            recipeCardItem = {}
 
-        cards = recipeList.select('section.recipe-card')
-        for card in cards:
-            item['link'] = "https://dining.ucla.edu" + card.select_one('div a')['href'] # type: ignore
-        
-        items.append(item)
+            recipeCardItem['time'] = recipeListTime
 
-    return(items)
+            recipeCardItem['name'] = recipeCard.select_one('div.menu-item-title div.ucla-prose').get_text(strip=True) # type: ignore
+            
+            recipeCardItem['link'] = "https://dining.ucla.edu" + recipeCard.select_one('div a')['href'] # type: ignore
 
+            all_items.append(recipeCardItem)
+
+    return(all_items)
 
 for i in range(len(placeNames)):
     daysDict = {}
-    for date in dates:
-        print(baseurls[i] + "?date=" + date)
-        daysDict[date] = get_items(baseurls[i] + "?date=" + date)
-        print("got items")
+    list1 = list(range(len(dates)))
+    for j in tqdm(list1):
+        daysDict[dates[j]] = get_items(baseurls[i] + "?date=" + dates[j])
     maindict[placeNames[i]] = daysDict
 
-with open('scrapemenu.json','w') as fp:
+with open('scrapemenu2.json','w') as fp:
     json.dump(maindict,fp,indent=4,ensure_ascii=False)
     fp.close()
