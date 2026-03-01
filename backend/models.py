@@ -113,7 +113,7 @@ class MenuItem(db.Model):
 class Item(db.Model):
     __tablename__ = 'item'
 
-    id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Text, primary_key=True)
 
     name = db.Column(db.Text, nullable=False)
 
