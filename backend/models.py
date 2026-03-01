@@ -22,6 +22,26 @@ class Restaurant(db.Model):
     def __repr__(self):
         return f"<Restaurant {self.name}>"
 
+class Item(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    restaurant_id = db.Column(db.Integer, db.ForeignKey('restaurant.id'), nullable=True)
+    name = db.Column(db.Text)
+    vegetarian = db.Column(db.Boolean)
+    soy = db.Column(db.Boolean)
+    gluten = db.Column(db.Boolean)
+    wheat = db.Column(db.Boolean)
+    dairy = db.Column(db.Boolean)
+    vegan = db.Column(db.Boolean)
+    low_carbon = db.Column(db.Boolean)
+    eggs = db.Column(db.Boolean)
+    sesame = db.Column(db.Boolean)
+    halal = db.Column(db.Boolean)
+    tree_nuts = db.Column(db.Boolean)
+    high_carbon = db.Column(db.Boolean)
+    fish = db.Column(db.Boolean)
+    shellfish = db.Column(db.Boolean)
+    alcohol = db.Column(db.Boolean)
+    peanut = db.Column(db.Boolean)
 
 class Review(db.Model):
     __tablename__ = 'review'
@@ -29,7 +49,8 @@ class Review(db.Model):
     rating = db.Column(db.Integer, nullable=False)
     comment = db.Column(db.Text)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
-    restaurant_id = db.Column(db.Integer, db.ForeignKey('restaurant.id'), nullable=False)
+    restaurant_id = db.Column(db.Integer, db.ForeignKey('restaurant.id'), nullable=True)
+    item_id = db.Column(db.Integer, db.ForeignKey('item.id'), nullable=True)
 
     user = db.relationship('User', back_populates='reviews')
     restaurant = db.relationship('Restaurant', back_populates='reviews')
