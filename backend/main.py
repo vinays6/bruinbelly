@@ -100,7 +100,7 @@ def get_items_by_meal_period(restaurant_id):
                 "shellfish": menu_item.item.shellfish,
                 "alcohol": menu_item.item.alcohol,
                 "peanuts": menu_item.item.peanuts,
-                "price": menu_item.item.price if hasattr(menu_item.item, 'price') else None
+                # "price": menu_item.item.price if hasattr(menu_item.item, 'price') else None
             })
 
         return jsonify(items_by_meal_period), 200
