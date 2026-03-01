@@ -58,3 +58,73 @@ export const TRENDING = {
   reviews: '[127]', emoji: '🫐',
   summary: '[Bruins are obsessed this week - the granola is freshly made and fruit portions are massive. Most reviewers say it is the best breakfast option on The Hill right now.]',
 };
+
+// ── Rating page item detail data ─────────────────────────────────────────────
+export const ITEM_DETAILS = {
+  'dn-1': {
+    name: '[Grilled Salmon]',
+    restaurant: '[De Neve Dining Hall]',
+    avgRating: 8.4,
+    description: '[A perfectly seasoned Atlantic salmon fillet, grilled to order with a lemon herb butter glaze. Served alongside roasted seasonal vegetables.]',
+    labels: ['[Gluten-Free]', '[High Protein]', '[Contains Fish]'],
+    allergens: ['[Fish]', '[Dairy]', '[Soy]'],
+    ingredients: ['[Atlantic Salmon]', '[Lemon Butter]', '[Garlic]', '[Fresh Dill]', '[Olive Oil]', '[Sea Salt]', '[Black Pepper]', '[Seasonal Vegetables]'],
+  },
+  'dn-2': {
+    name: '[Pasta Primavera]',
+    restaurant: '[De Neve Dining Hall]',
+    avgRating: 7.2,
+    description: '[House-made penne tossed with a light garlic olive oil sauce, fresh seasonal vegetables, and a sprinkle of parmesan.]',
+    labels: ['[Vegetarian]', '[Contains Dairy]', '[Contains Gluten]'],
+    allergens: ['[Gluten/Wheat]', '[Dairy]', '[Eggs]'],
+    ingredients: ['[Penne Pasta]', '[Zucchini]', '[Bell Peppers]', '[Cherry Tomatoes]', '[Garlic]', '[Olive Oil]', '[Parmesan]', '[Fresh Basil]'],
+  },
+  'dn-3': {
+    name: '[Caesar Salad]',
+    restaurant: '[De Neve Dining Hall]',
+    avgRating: 6.8,
+    description: '[Crisp romaine lettuce with house caesar dressing, house-made croutons, and shaved parmesan cheese.]',
+    labels: ['[Vegetarian]', '[Contains Dairy]', '[Contains Gluten]'],
+    allergens: ['[Dairy]', '[Gluten]', '[Eggs]', '[Anchovies]'],
+    ingredients: ['[Romaine Lettuce]', '[Caesar Dressing]', '[Croutons]', '[Parmesan]', '[Lemon Juice]', '[Black Pepper]'],
+  },
+  'dn-4': {
+    name: '[Chocolate Lava Cake]',
+    restaurant: '[De Neve Dining Hall]',
+    avgRating: 9.1,
+    description: '[A rich molten chocolate cake with a gooey dark chocolate center, dusted with powdered sugar. Served warm.]',
+    labels: ['[Vegetarian]', '[Contains Dairy]', '[Contains Gluten]'],
+    allergens: ['[Dairy]', '[Eggs]', '[Gluten]', '[Soy]'],
+    ingredients: ['[Dark Chocolate]', '[Butter]', '[Eggs]', '[Sugar]', '[Flour]', '[Vanilla Extract]', '[Salt]'],
+  },
+};
+
+// Fallback for unknown item IDs
+export const DEFAULT_ITEM_DETAIL = {
+  name: '[item_name]',
+  restaurant: '[restaurant_name]',
+  avgRating: 0,
+  description: '[A delicious dining hall item prepared fresh daily by the UCLA culinary team.]',
+  labels: ['[vegan_label]', '[allergen_label]'],
+  allergens: ['[allergen_labels]'],
+  ingredients: ['[ingredients_list]'],
+};
+
+export const PLACEHOLDER_REVIEWS = [
+  {
+    id: 'rev-placeholder-1',
+    username: '[bruin_foodie]',
+    rating: 4.5,
+    comment: '[Absolutely loved this today - the flavors were well-balanced and the portion size was generous. Would definitely get it again!]',
+    date: '[Today, 12:30 PM]',
+    imageUrl: null,
+  },
+  {
+    id: 'rev-placeholder-2',
+    username: '[hungry_bruin]',
+    rating: 3.5,
+    comment: '[Decent option for a weekday. A bit on the salty side today but overall enjoyable. The texture was spot on.]',
+    date: '[Yesterday, 6:15 PM]',
+    imageUrl: null,
+  },
+];
