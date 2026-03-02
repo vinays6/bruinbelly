@@ -22,7 +22,7 @@ const LoginPage = ({ onLogin }) => {
           <p className="text-xs font-semibold text-stone-400 tracking-widest uppercase mb-1">🐻 UCLA Dining</p>
           <h1 className="font-display text-3xl font-bold text-stone-800 leading-tight">
             Welcome to<br />
-            <span className="text-orange-500">BruinBites</span>
+            <span className="text-orange-500">BruinBelly</span>
           </h1>
           <p className="text-sm text-stone-400 mt-2">Log in to rate dishes and track what Bruins are eating.</p>
         </div>
