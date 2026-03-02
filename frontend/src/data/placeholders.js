@@ -1,4 +1,4 @@
-export const CURRENT_USER = 'hastnn';
+// CURRENT_USER is now set dynamically from login. Remove static version.
 
 export const DINING_HALLS = [
   {

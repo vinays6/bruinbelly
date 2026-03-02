@@ -7,13 +7,15 @@ import FeedPage from './pages/FeedPage';
 import CalendarPage from './pages/CalendarPage';
 import SettingsPage from './pages/SettingsPage';
 import RatingPage from './pages/RatingPage';
+import LoginPage from './pages/LoginPage';
+import { AuthProvider, useAuth } from './AuthContext';
 import { fetchMenuIfNeeded } from './store/menuStore';
 
-export default function App() {
-  // page: string, e.g. 'home' | 'menu' | 'feed' | 'calendar' | 'settings' | 'rate'
+function AppMain() {
   const [page, setPage]         = useState('home');
   const [itemId, setItemId]     = useState(null);
   const [history, setHistory]   = useState(['home']);
+  const { user, login, logout } = useAuth();
 
   useEffect(() => {
     fetchMenuIfNeeded();
@@ -27,7 +29,7 @@ export default function App() {
     window.scrollTo(0, 0);
   };
 
-  // Navigate back (like navigate(-1))
+  // Navigate back
   const handleBack = () => {
     if (history.length <= 1) {
       handleNav('home');
@@ -41,6 +43,12 @@ export default function App() {
   };
 
   const isRatingPage = page === 'rate';
+
+  if (!user) {
+    return (
+      <LoginPage onLogin={login} />
+    );
+  }
 
   return (
     <div className="min-h-screen flex justify-center" style={{ backgroundColor: '#FFFBF8' }}>
@@ -66,5 +74,13 @@ export default function App() {
         )}
       </div>
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <AuthProvider>
+      <AppMain />
+    </AuthProvider>
   );
 }

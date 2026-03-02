@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import FeedCard from '../components/FeedCard';
 import { FEED_POSTS } from '../data/placeholders';
+import { useAuth } from '../AuthContext';
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
@@ -406,6 +407,7 @@ function ShortCard({ short, isActive, liked, onLike, onComment, muted, onToggleM
 // ─── Shorts Feed ─────────────────────────────────────────────────────────────
 
 function ShortsFeed() {
+  const { user } = useAuth();
   const [shorts, setShorts] = useState(SAMPLE_SHORTS);
   const [activeIndex, setActiveIndex] = useState(0);
   const [likedShorts, setLikedShorts] = useState([]);
@@ -422,8 +424,8 @@ function ShortsFeed() {
       ...s,
       comments: [...s.comments, {
         id: `c${Date.now()}`,
-        username: 'hastnn',
-        initials: 'YO',
+        username: user?.username || '...',
+        initials: (user?.username || '..').slice(0, 2).toUpperCase(),
         avatarColor: '#FFD6BA',
         text,
         date: 'Just now',
@@ -434,8 +436,8 @@ function ShortsFeed() {
   const handlePost = ({ caption, restaurant, previewUrl }) => {
     setShorts(prev => [{
       id: `sh${Date.now()}`,
-      username: 'hastnn',
-      initials: 'YO',
+      username: user?.username || '...',
+      initials: (user?.username || '..').slice(0, 2).toUpperCase(),
       avatarColor: '#FFD6BA',
       caption,
       restaurant,
