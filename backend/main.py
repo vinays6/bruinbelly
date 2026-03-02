@@ -1,8 +1,13 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import os
+from datetime import datetime
+from zoneinfo import ZoneInfo
+from sqlalchemy import func
 from extensions import db
 from models import Item, Menu, MenuItem
 app = Flask(__name__)
+CORS(app)
 
 # Database configuration (defaults to sqlite file `bruinbelly.db` in this folder)
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -47,12 +52,11 @@ def create_review():
     # rating and user_id are required; others are optional
     # read binary image file if provided
     img = request.files.get('image')
-    image_bytes = img.read() if img is not None else None
 
     review = Review(
         rating=int(request.form['rating']),
         comment=request.form.get('comment'),
-        image_data=image_bytes,
+        image_data=img,
         user_id=int(request.form['user_id']),
         restaurant_id=request.form.get('restaurant_id') and int(request.form['restaurant_id']),
         item_id=request.form.get('item_id') and int(request.form['item_id'])
@@ -61,12 +65,73 @@ def create_review():
     db.session.commit()
     return '', 200
 
-@app.route("/restaurant/<int:restaurant_id>/items-by-meal-period", methods=['GET'])
-def get_items_by_meal_period(restaurant_id):
+@app.route("/restaurant-id/<string:restaurant_name>", methods=['GET'])
+def get_restaurant_id(restaurant_name):
+    """
+    Retrieve the restaurant ID by its name.
+    """
+    try:
+        # Get the restaurant name from query parameters
+        if not restaurant_name:
+            return jsonify({"error": "Restaurant name is required"}), 400
+
+        # Query the restaurant by name
+        restaurant = Restaurant.query.filter_by(name=restaurant_name).first()
+        if not restaurant:
+            return jsonify({"error": "Restaurant not found"}), 404
+
+        # Return the restaurant ID
+        return jsonify({"id": restaurant.id}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/restaurant/<int:restaurant_id>/reviews", methods=['GET'])
+def get_reviews_for_restaurant(restaurant_id):
+    """
+    Retrieve all reviews for a specific restaurant.
+    """
+    try:
+        # Query the restaurant to ensure it exists
+        restaurant = Restaurant.query.get(restaurant_id)
+        if not restaurant:
+            return jsonify({"error": "Restaurant not found"}), 404
+
+        # Query all reviews for the restaurant
+        reviews = Review.query.filter_by(restaurant_id=restaurant_id).all()
+
+        # Serialize the reviews
+        reviews_data = []
+        for review in reviews:
+            reviews_data.append({
+                "id": review.id,
+                "rating": review.rating,
+                "comment": review.comment,
+                "image_data": review.image_data,
+                "user_id": review.user_id,
+                "restaurant_id": review.restaurant_id,
+                "item_id": review.item_id,
+            })
+
+        return jsonify(reviews_data), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/restaurant/<int:restaurant_id>/items-by-meal-period/<string:date>", methods=['GET'])
+def get_items_by_meal_period(restaurant_id, date):
     """
     Retrieve all items for each meal period for a specific restaurant.
     """
     try:
+        requested_date = request.args.get("date")
+        if requested_date:
+            menu_date = parse_menu_date(requested_date)
+            if menu_date is None:
+                return jsonify({"error": "Invalid date format. Use YYYYMMDD or YYYY-MM-DD"}), 400
+        else:
+            menu_date = datetime.now(ZoneInfo("America/Los_Angeles")).date()
+        menu_date_key = menu_date.strftime("%Y%m%d")
+
         # Query the restaurant to ensure it exists
         restaurant = Restaurant.query.get(restaurant_id)
         if not restaurant:
@@ -77,8 +142,10 @@ def get_items_by_meal_period(restaurant_id):
             db.session.query(MenuItem)
             .join(Menu)
             .filter(Menu.restaurant_id == restaurant_id)
+            .filter(func.strftime("%Y%m%d", MenuItem.date) == menu_date_key)
             .all()
         )
+        print(f"[menu] restaurant={restaurant_id} date={menu_date_key} rows={len(menu_items)}")
 
         # Group items by meal period
         items_by_meal_period = {}
@@ -89,6 +156,7 @@ def get_items_by_meal_period(restaurant_id):
             items_by_meal_period[meal_period].append({
                 "id": menu_item.item.id,
                 "name": menu_item.item.name,
+                "date": menu_item.date.isoformat(),
                 "vegetarian": menu_item.item.vegetarian,
                 "soy": menu_item.item.soy,
                 "gluten": menu_item.item.gluten,
@@ -111,6 +179,16 @@ def get_items_by_meal_period(restaurant_id):
         return jsonify(items_by_meal_period), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+
+def parse_menu_date(value):
+    text = (value or "").strip()
+    for fmt in ("%Y%m%d", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(text, fmt).date()
+        except ValueError:
+            continue
+    return None
 
 if __name__ == '__main__':
     app.run(debug=True)

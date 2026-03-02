@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './index.css';
 import BottomNav from './components/BottomNav';
 import HomePage from './pages/HomePage';
@@ -7,12 +7,17 @@ import FeedPage from './pages/FeedPage';
 import CalendarPage from './pages/CalendarPage';
 import SettingsPage from './pages/SettingsPage';
 import RatingPage from './pages/RatingPage';
+import { fetchMenuIfNeeded } from './store/menuStore';
 
 export default function App() {
   // page: string, e.g. 'home' | 'menu' | 'feed' | 'calendar' | 'settings' | 'rate'
   const [page, setPage]         = useState('home');
   const [itemId, setItemId]     = useState(null);
   const [history, setHistory]   = useState(['home']);
+
+  useEffect(() => {
+    fetchMenuIfNeeded();
+  }, []);
 
   // Navigate forward
   const handleNav = (nextPage, nextItemId = null) => {

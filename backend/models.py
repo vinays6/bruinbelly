@@ -157,7 +157,7 @@ class Review(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     rating = db.Column(db.Integer, nullable=False)
     comment = db.Column(db.Text)
-    image_data = db.Column(db.LargeBinary)
+    image_data = db.Column(db.Text)
 
     user_id = db.Column(
         db.Integer,
