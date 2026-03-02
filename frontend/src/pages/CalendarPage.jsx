@@ -47,7 +47,7 @@ export default function CalendarPage() {
             <div className="w-14 h-14 rounded-3xl bg-white/20 flex items-center justify-center text-3xl">{day.emoji}</div>
           </div>
           <div className="bg-white/15 rounded-2xl p-4">
-            <p className="text-xs font-bold text-white/70 uppercase tracking-wider mb-2">✨ Why we recommends this</p>
+            <p className="text-xs font-bold text-white/70 uppercase tracking-wider mb-2">✨ Why we recommend this</p>
             <p className="text-sm text-white/90 leading-relaxed">{day.why}</p>
           </div>
         </div>
