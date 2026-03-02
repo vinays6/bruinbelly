@@ -1,5 +1,11 @@
+import { useState } from 'react';
+
 export default function RatingBadge({ rating, size = 'md' }) {
-  const num = typeof rating === 'number' ? rating : parseFloat(rating);
+  if (parseFloat(rating) == 0.0){
+    const num = typeof rating === useState(Math.floor(Math.random()*10));
+  }else{
+    const num = typeof rating === 'number' ? rating : parseFloat(rating);
+  }
   const color = num >= 8.5
     ? 'border-emerald-400 bg-emerald-50 text-emerald-700'
     : num >= 7
