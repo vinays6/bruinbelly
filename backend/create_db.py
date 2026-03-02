@@ -97,7 +97,7 @@ def initialize_db():
             recipe_data = json.load(f)
         
         for item_id, tags in recipe_data.items():
-            item = db.session.get(Item, int(item_id))
+            item = db.session.get(Item, item_id)
             print(item_id)
             print(item)
             for tag in tags:
