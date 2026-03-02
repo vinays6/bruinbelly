@@ -145,11 +145,7 @@ export async function fetchMenuIfNeeded(date = store.selectedDate) {
         ? await getItemRatingsSummary(uniqueItemIds)
         : {};
 
-      for (const item of allMenuItems) {
-        const summary = ratingsSummaryById?.[String(item.id)];
-        const avgRating = summary?.avg_rating;
-        item.rating = Number.isFinite(avgRating) ? avgRating * 2 : null;
-      }
+      applyRatingsSummaryToItems(allMenuItems, ratingsSummaryById);
 
       // if (requestToken !== latestRequestToken) {
       //   console.log("hi6");
@@ -201,6 +197,42 @@ export async function fetchMenuIfNeeded(date = store.selectedDate) {
 
   inFlightPromise = promise;
   return promise;
+}
+
+export async function refreshRatingsForItems(itemIds) {
+  const normalizedIds = [...new Set((itemIds || []).map((id) => Number(id)).filter(Number.isFinite))];
+  if (normalizedIds.length === 0) return store;
+  if (!store.allMenuItems.length) return store;
+
+  try {
+    const ratingsSummaryById = await getItemRatingsSummary(normalizedIds);
+    const nextAllItems = store.allMenuItems.map((item) => ({ ...item }));
+    applyRatingsSummaryToItems(nextAllItems, ratingsSummaryById);
+    const itemById = new Map(nextAllItems.map((item) => [String(item.id), item]));
+    const nextMenuByHall = Object.fromEntries(
+      Object.entries(store.menuByHall).map(([hallId, hallEntry]) => ([
+        hallId,
+        {
+          ...hallEntry,
+          categories: hallEntry.categories.map((category) => ({
+            ...category,
+            items: category.items.map((item) => itemById.get(String(item.id)) || item),
+          })),
+        },
+      ])),
+    );
+
+    store = {
+      ...store,
+      menuByHall: nextMenuByHall,
+      allMenuItems: nextAllItems,
+    };
+    notify();
+    return store;
+  } catch (error) {
+    console.error('Failed to refresh item ratings', error);
+    return store;
+  }
 }
 
 function getTodayDateString() {
@@ -261,4 +293,12 @@ function buildAllergenLabels(item) {
 function buildRecipeUrl(itemId) {
   if (!itemId) return '';
   return `https://dining.ucla.edu/menu-item/?recipe=${itemId}`;
+}
+
+function applyRatingsSummaryToItems(items, ratingsSummaryById) {
+  for (const item of items) {
+    const summary = ratingsSummaryById?.[String(item.id)];
+    const avgRating = summary?.avg_rating;
+    item.rating = Number.isFinite(avgRating) ? avgRating * 2 : null;
+  }
 }

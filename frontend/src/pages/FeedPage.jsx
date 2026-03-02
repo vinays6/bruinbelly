@@ -20,44 +20,44 @@ function getYouTubeId(url) {
 const SAMPLE_SHORTS = [
   {
     id: 'sh1',
-    username: '[bruin_foodie]',
+    username: 'bruin_foodie',
     initials: 'BF',
     avatarColor: '#FFB5C8',
-    caption: '[Chocolate Lava Cake at De Neve hitting DIFFERENT tonight 🍫🔥 Run dont walk]',
-    restaurant: '[De Neve]',
+    caption: 'Chocolate Lava Cake at De Neve is unreal tonight 🍫🔥 Run, do not walk.',
+    restaurant: 'De Neve',
     likes: 142,
-    date: '[Today, 6:10 PM]',
+    date: 'Today, 6:10 PM',
     previewUrl: 'youtube:asmr_food_lava',   // replaced below with real IDs
     emoji: '🍫',
     comments: [
-      { id: 'c1', username: '[hungry_bruin]', initials: 'HB', avatarColor: '#B8E4FF', text: '[Running to De Neve RIGHT now 😭]', date: '[2m ago]' },
-      { id: 'c2', username: '[ucla_eats_2025]', initials: 'UE', avatarColor: '#D4B8FF', text: '[The molten center is so good every time]', date: '[5m ago]' },
+      { id: 'c1', username: 'hungry_bruin', initials: 'HB', avatarColor: '#B8E4FF', text: 'Running to De Neve right now 😭', date: '2m ago' },
+      { id: 'c2', username: 'ucla_eats_2026', initials: 'UE', avatarColor: '#D4B8FF', text: 'The molten center is good every time.', date: '5m ago' },
     ],
   },
   {
     id: 'sh2',
-    username: '[hungry_bruin]',
+    username: 'hungry_bruin',
     initials: 'HB',
     avatarColor: '#B8E4FF',
-    caption: '[Acai Bowl Friday at Bruin Plate 🫐 this granola is so fresh I cannot]',
-    restaurant: '[Bruin Plate]',
+    caption: 'Acai Bowl Friday at Bruin Plate 🫐 Granola is extra fresh today.',
+    restaurant: 'Bruin Plate',
     likes: 87,
-    date: '[Yesterday, 11:30 AM]',
+    date: 'Yesterday, 11:30 AM',
     previewUrl: 'youtube:acai_bowl_video',
     emoji: '🫐',
     comments: [
-      { id: 'c3', username: '[westwood_wanderer]', initials: 'WW', avatarColor: '#FFD6BA', text: '[Granola just hits different on Fridays fr fr]', date: '[1h ago]' },
+      { id: 'c3', username: 'westwood_wanderer', initials: 'WW', avatarColor: '#FFD6BA', text: 'Granola hits different on Fridays.', date: '1h ago' },
     ],
   },
   {
     id: 'sh3',
-    username: '[hill_life_305]',
+    username: 'hill_life_305',
     initials: 'HL',
     avatarColor: '#B8F0D4',
-    caption: '[Feast Ramen Bowl POV: absolute perfection 🍜 soft boiled egg on point as always]',
-    restaurant: '[Feast]',
+    caption: 'Feast ramen bowl POV: absolute perfection 🍜 soft-boiled egg on point.',
+    restaurant: 'Feast',
     likes: 204,
-    date: '[2 days ago]',
+    date: '2 days ago',
     previewUrl: 'youtube:ramen_video_id',
     emoji: '🍜',
     comments: [],
@@ -182,7 +182,7 @@ function UploadModal({ onClose, onPost }) {
 
   const handlePost = () => {
     if (!canPost) return;
-    onPost({ caption: caption.trim(), restaurant: restaurant.trim() || '[The Hill]', previewUrl });
+    onPost({ caption: caption.trim(), restaurant: restaurant.trim() || 'The Hill', previewUrl });
     onClose();
   };
 
@@ -422,11 +422,11 @@ function ShortsFeed() {
       ...s,
       comments: [...s.comments, {
         id: `c${Date.now()}`,
-        username: '[you]',
+        username: 'hastnn',
         initials: 'YO',
         avatarColor: '#FFD6BA',
         text,
-        date: '[Just now]',
+        date: 'Just now',
       }],
     }));
   };
@@ -434,13 +434,13 @@ function ShortsFeed() {
   const handlePost = ({ caption, restaurant, previewUrl }) => {
     setShorts(prev => [{
       id: `sh${Date.now()}`,
-      username: '[you]',
+      username: 'hastnn',
       initials: 'YO',
       avatarColor: '#FFD6BA',
       caption,
       restaurant,
       likes: 0,
-      date: '[Just now]',
+      date: 'Just now',
       previewUrl,
       emoji: '🎥',
       comments: [],
@@ -583,7 +583,7 @@ export default function FeedPage() {
             {posts.length > 0 && (
               <div className="text-center py-8">
                 <p className="text-sm text-stone-400">You are all caught up! 🎉</p>
-                <p className="text-xs text-stone-300 mt-1">[New posts load from backend]</p>
+                <p className="text-xs text-stone-300 mt-1">New posts load from backend</p>
               </div>
             )}
           </>

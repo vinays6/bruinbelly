@@ -1,2118 +1,6331 @@
 {
-    "7109": [
-        "vegetarian",
-        "dairy",
-        "soy",
-        "egg"
-    ],
-    "123": [
-        "vegan",
-        "low_carbon"
-    ],
-    "7110": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3600": [
-        "dairy",
-        "soy",
-        "egg"
-    ],
-    "3473": [
-        "vegan",
-        "low_carbon"
-    ],
-    "7457": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "6445": [
-        "vegan",
-        "low_carbon"
-    ],
-    "369": [
-        "soy",
-        "dairy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "2884": [
-        "soy",
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "6188": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "3801": [
-        "high_carbon",
-        "dairy",
-        "wheat",
-        "gluten"
-    ],
-    "8468": [
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "6494": [
-        "vegan",
-        "low_carbon"
-    ],
-    "7336": [
-        "vegan",
-        "low_carbon"
-    ],
-    "5939": [
-        "soy",
-        "dairy",
-        "low_carbon",
-        "fish",
-        "egg",
-        "vegan",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "463": [
-        "vegan",
-        "low_carbon"
-    ],
-    "5802": [
-        "tree_nuts",
-        "dairy",
-        "egg",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "2729": [
-        "vegetarian",
-        "wheat",
-        "gluten",
-        "egg"
-    ],
-    "6408": [],
-    "813": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3911": [
-        "soy",
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "5914": [
-        "soy",
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "9195": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "7108": [
-        "vegan",
-        "low_carbon"
-    ],
-    "1776": [
-        "dairy",
-        "fish",
-        "egg"
-    ],
-    "7111": [
-        "vegan",
-        "low_carbon"
-    ],
-    "299": [
-        "soy",
-        "halal",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "2763": [
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3451": [
-        "vegetarian",
-        "dairy",
-        "soy",
-        "egg"
-    ],
-    "2370": [
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "9043": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "7435": [
-        "vegan",
-        "low_carbon"
-    ],
-    "7335": [
-        "vegan",
-        "low_carbon"
-    ],
-    "4814": [
-        "dairy",
-        "halal",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "8967": [
-        "soy",
-        "dairy",
-        "halal",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3210": [
-        "vegetarian",
-        "dairy",
-        "soy",
-        "egg"
-    ],
-    "8570": [
-        "tree_nuts",
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "1578": [
-        "vegan",
-        "soy",
-        "low_carbon"
-    ],
-    "269": [
-        "tree_nuts",
-        "halal",
-        "low_carbon",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "7334": [
-        "vegan",
-        "low_carbon"
-    ],
-    "7338": [
-        "vegan",
-        "low_carbon"
-    ],
-    "247": [
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "halal",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3042": [
-        "vegan",
-        "soy",
-        "low_carbon"
-    ],
-    "3004": [
-        "soy",
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "266": [
-        "dairy",
-        "halal",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "1882": [
-        "dairy",
-        "wheat",
-        "gluten"
-    ],
-    "6903": [
-        "vegan",
-        "low_carbon"
-    ],
-    "2866": [
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3082": [
-        "vegan",
-        "soy",
-        "low_carbon"
-    ],
-    "1616": [
-        "alcohol",
-        "vegetarian",
-        "dairy",
-        "egg"
-    ],
-    "5480": [
-        "vegan",
-        "wheat",
-        "gluten",
-        "low_carbon"
-    ],
-    "7308": [
-        "soy",
-        "dairy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "2219": [
-        "soy",
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "997": [
-        "high_carbon",
-        "dairy",
-        "wheat",
-        "gluten"
-    ],
-    "2452": [
-        "vegan",
-        "low_carbon"
-    ],
-    "229": [
-        "peanuts",
-        "tree_nuts",
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "egg",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "3164": [
-        "tree_nuts",
-        "soy",
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "7125": [
-        "soy",
-        "low_carbon",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "7113": [
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "egg",
-        "wheat",
-        "gluten"
-    ],
-    "270": [
-        "tree_nuts",
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "halal",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3192": [
-        "alcohol",
-        "vegetarian",
-        "dairy",
-        "soy"
-    ],
-    "6536": [
-        "vegetarian"
-    ],
-    "284": [
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3209": [
-        "soy",
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "7114": [
-        "dairy",
-        "soy",
-        "egg"
-    ],
-    "261": [
-        "tree_nuts",
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "halal",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "7886": [],
-    "3238": [
-        "vegan",
-        "soy",
-        "low_carbon"
-    ],
-    "3811": [
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3279": [
-        "vegetarian",
-        "dairy"
-    ],
-    "287": [
-        "vegan",
-        "gluten",
-        "soy",
-        "low_carbon"
-    ],
-    "3263": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "234": [
-        "soy",
-        "halal",
-        "low_carbon",
-        "vegan",
-        "gluten"
-    ],
-    "4318": [
-        "vegetarian",
-        "low_carbon",
-        "egg"
-    ],
-    "8598": [],
-    "3083": [
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "2995": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "6440": [
-        "vegan",
-        "low_carbon"
-    ],
-    "1205": [
-        "vegan",
-        "low_carbon"
-    ],
-    "6519": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3221": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3737": [
-        "vegetarian",
-        "dairy"
-    ],
-    "6192": [
-        "vegan",
-        "low_carbon"
-    ],
-    "8389": [
-        "soy",
-        "dairy",
-        "low_carbon",
-        "egg",
-        "vegan",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "110": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "3098": [
-        "vegan",
-        "soy",
-        "low_carbon"
-    ],
-    "954": [
-        "soy",
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "985": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "2224": [
-        "soy",
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "922": [
-        "vegan",
-        "low_carbon"
-    ],
-    "7835": [
-        "soy",
-        "dairy",
-        "low_carbon",
-        "vegan",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "8385": [
-        "vegan",
-        "low_carbon"
-    ],
-    "7937": [
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "halal",
-        "low_carbon",
-        "egg",
-        "fish",
-        "vegan",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "8122": [
-        "soy",
-        "dairy",
-        "low_carbon",
-        "egg",
-        "vegan",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3783": [
-        "vegan",
-        "low_carbon"
-    ],
-    "2830": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "126": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "902": [
-        "halal",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "971": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3774": [
-        "vegan",
-        "low_carbon"
-    ],
-    "4121": [
-        "high_carbon",
-        "halal",
-        "egg",
-        "sesame_seeds"
-    ],
-    "3409": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3271": [
-        "vegan",
-        "wheat",
-        "gluten",
-        "low_carbon"
-    ],
-    "3127": [
-        "vegan",
-        "tree_nuts",
-        "low_carbon"
-    ],
-    "3902": [
-        "alcohol",
-        "vegan",
-        "tree_nuts",
-        "low_carbon"
-    ],
-    "2253": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3288": [
-        "vegetarian",
-        "dairy",
-        "soy",
-        "sesame_seeds"
-    ],
-    "2035": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3101": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3173": [
-        "dairy",
-        "vegetarian",
-        "halal"
-    ],
-    "3907": [
-        "soy",
-        "halal",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "1271": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "2972": [
-        "soy",
-        "dairy",
-        "halal",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3923": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "8544": [
-        "high_carbon",
-        "dairy",
-        "halal",
-        "low_carbon",
-        "egg",
-        "vegan",
-        "vegetarian"
-    ],
-    "3436": [
-        "soy",
-        "dairy",
-        "low_carbon",
-        "egg",
-        "vegetarian"
-    ],
-    "3437": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3152": [
-        "vegetarian",
-        "dairy",
-        "soy"
-    ],
-    "152": [
-        "dairy",
-        "vegetarian",
-        "halal"
-    ],
-    "3932": [
-        "vegan",
-        "low_carbon"
-    ],
-    "887": [
-        "vegan",
-        "low_carbon"
-    ],
-    "2111": [
-        "tree_nuts",
-        "soy",
-        "dairy",
-        "halal",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "1302": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "3198": [
-        "soy",
-        "halal",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "1069": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "2131": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "3156": [
-        "vegan",
-        "peanuts",
-        "low_carbon"
-    ],
-    "3301": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3017": [
-        "vegetarian",
-        "dairy"
-    ],
-    "3335": [
-        "vegan",
-        "low_carbon"
-    ],
-    "4256": [
-        "tree_nuts",
-        "soy",
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3454": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3357": [
-        "vegan",
-        "soy",
-        "low_carbon"
-    ],
-    "3322": [
-        "vegetarian",
-        "dairy"
-    ],
-    "3328": [
-        "vegan",
-        "low_carbon"
-    ],
-    "2200": [
-        "vegan",
-        "low_carbon"
-    ],
-    "4201": [
-        "gluten",
-        "wheat",
-        "soy",
-        "egg"
-    ],
-    "3460": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3064": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3377": [
-        "vegan",
-        "low_carbon"
-    ],
-    "5029": [
-        "dairy",
-        "halal",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3106": [
-        "low_carbon",
-        "vegan",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "3115": [
-        "dairy",
-        "gluten",
-        "wheat",
-        "soy"
-    ],
-    "961": [
-        "soy",
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "4021": [
-        "vegan",
-        "low_carbon"
-    ],
-    "2179": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3212": [
-        "vegan",
-        "soy",
-        "low_carbon"
-    ],
-    "3231": [
-        "soy",
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "958": [
-        "vegan",
-        "low_carbon"
-    ],
-    "2280": [
-        "vegan",
-        "low_carbon"
-    ],
-    "5438": [
-        "vegetarian",
-        "egg"
-    ],
-    "3464": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3390": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3378": [
-        "dairy",
-        "vegetarian",
-        "tree_nuts"
-    ],
-    "2938": [
-        "vegetarian",
-        "dairy"
-    ],
-    "3673": [
-        "vegetarian",
-        "dairy",
-        "sesame_seeds"
-    ],
-    "3000": [
-        "tree_nuts",
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "low_carbon",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3030": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "2531": [
-        "vegan",
-        "low_carbon"
-    ],
-    "5386": [
-        "soy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "904": [
-        "vegan",
-        "low_carbon"
-    ],
-    "2935": [
-        "vegan",
-        "low_carbon"
-    ],
-    "3026": [
-        "vegan",
-        "wheat",
-        "gluten",
-        "low_carbon"
-    ],
-    "936": [
-        "vegetarian",
-        "egg"
-    ],
-    "3616": [
-        "soy",
-        "dairy",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "3767": [
-        "vegan",
-        "low_carbon"
-    ],
-    "8767": [
-        "alcohol",
-        "vegetarian",
-        "dairy",
-        "low_carbon"
-    ],
-    "8904": [
-        "soy",
-        "dairy",
-        "egg",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "4323": [
-        "vegan",
-        "low_carbon"
-    ],
-    "8765": [
-        "soy",
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3346": [
-        "vegetarian",
-        "dairy"
-    ],
-    "2164": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "133": [
-        "vegan"
-    ],
-    "7936": [
-        "soy",
-        "dairy",
-        "halal",
-        "low_carbon",
-        "egg",
-        "fish",
-        "vegan",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "8016": [
-        "vegetarian",
-        "dairy"
-    ],
-    "2209": [
-        "shellfish",
-        "halal",
-        "fish"
-    ],
-    "5465": [
-        "fish"
-    ],
-    "2143": [
-        "halal",
-        "gluten",
-        "wheat"
-    ],
-    "6378": [
-        "sesame_seeds",
-        "halal",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "5476": [
-        "halal",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "6618": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "9172": [
-        "vegan",
-        "halal",
-        "soy"
-    ],
-    "2244": [
-        "dairy",
-        "halal",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "7054": [
-        "dairy",
-        "vegetarian",
-        "halal"
-    ],
-    "1634": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "6598": [
-        "dairy",
-        "halal",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "1647": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "2889": [
-        "dairy",
-        "halal",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "6272": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "877": [
-        "halal",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "7229": [],
-    "6169": [
-        "soy"
-    ],
-    "9109": [
-        "vegan",
-        "gluten",
-        "wheat",
-        "soy"
-    ],
-    "6068": [
-        "tree_nuts",
-        "soy",
-        "halal",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "7398": [
-        "vegan",
-        "low_carbon"
-    ],
-    "6327": [
-        "soy",
-        "dairy",
-        "halal",
-        "low_carbon",
-        "egg",
-        "vegan",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "5036": [
-        "halal",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "5893": [
-        "alcohol",
-        "vegetarian",
-        "dairy"
-    ],
-    "8064": [
-        "soy",
-        "dairy",
-        "egg",
-        "wheat",
-        "gluten"
-    ],
-    "7378": [
-        "alcohol",
-        "vegetarian",
-        "dairy"
-    ],
-    "440": [
-        "soy",
-        "sesame_seeds",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "374": [
-        "vegetarian",
-        "dairy"
-    ],
-    "468": [
-        "vegan",
-        "low_carbon"
-    ],
-    "6791": [
-        "tree_nuts",
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "low_carbon",
-        "egg",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "6938": [
-        "vegetarian",
-        "dairy"
-    ],
-    "6560": [
-        "vegetarian",
-        "dairy"
-    ],
-    "8872": [
-        "gluten",
-        "wheat",
-        "soy",
-        "egg"
-    ],
-    "108": [
-        "shellfish",
-        "soy",
-        "dairy",
-        "fish",
-        "egg",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "520": [
-        "vegan",
-        "low_carbon"
-    ],
-    "6807": [
-        "tree_nuts",
-        "dairy",
-        "low_carbon",
-        "vegetarian",
-        "gluten"
-    ],
-    "790": [
-        "peanuts",
-        "tree_nuts",
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "halal",
-        "egg",
-        "vegetarian",
-        "gluten"
-    ],
-    "648": [
-        "vegan",
-        "low_carbon"
-    ],
-    "666": [
-        "soy",
-        "dairy",
-        "egg",
-        "wheat",
-        "gluten"
-    ],
-    "5907": [
-        "high_carbon",
-        "dairy",
-        "wheat",
-        "gluten"
-    ],
-    "2215": [
-        "alcohol",
-        "vegan",
-        "low_carbon"
-    ],
-    "8043": [
-        "high_carbon",
-        "soy",
-        "dairy",
-        "wheat",
-        "gluten"
-    ],
-    "5916": [
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "7353": [
-        "peanuts",
-        "tree_nuts",
-        "soy",
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "7363": [
-        "vegetarian"
-    ],
-    "7223": [
-        "vegan",
-        "low_carbon"
-    ],
-    "452": [
-        "vegan",
-        "low_carbon"
-    ],
-    "656": [
-        "soy",
-        "dairy",
-        "egg",
-        "wheat",
-        "gluten"
-    ],
-    "746": [
-        "peanuts",
-        "tree_nuts",
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "749": [
-        "soy",
-        "dairy",
-        "halal",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "794": [
-        "dairy",
-        "egg",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "5883": [
-        "alcohol"
-    ],
-    "321": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "5884": [
-        "tree_nuts",
-        "dairy",
-        "halal",
-        "egg",
-        "vegetarian"
-    ],
-    "342": [
-        "soy",
-        "dairy",
-        "egg",
-        "wheat",
-        "gluten"
-    ],
-    "345": [
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "5384": [
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "5610": [
-        "alcohol",
-        "vegan"
-    ],
-    "7824": [],
-    "6437": [
-        "vegan",
-        "low_carbon"
-    ],
-    "7002": [],
-    "8266": [
-        "high_carbon",
-        "soy",
-        "sesame_seeds",
-        "wheat",
-        "gluten"
-    ],
-    "7743": [
-        "vegan",
-        "low_carbon"
-    ],
-    "8230": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "5974": [
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "low_carbon",
-        "egg",
-        "vegan",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "7518": [
-        "vegan",
-        "low_carbon"
-    ],
-    "8650": [
-        "tree_nuts",
-        "soy",
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "1788": [
-        "dairy",
-        "wheat"
-    ],
-    "3568": [
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "4655": [
-        "vegetarian",
-        "dairy"
-    ],
-    "5180": [
-        "shellfish"
-    ],
-    "1748": [
-        "peanuts",
-        "shellfish",
-        "soy",
-        "tree_nuts",
-        "sesame_seeds",
-        "dairy",
-        "fish",
-        "egg",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "8280": [
-        "soy",
-        "sesame_seeds",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "1829": [
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "egg",
-        "wheat",
-        "gluten"
-    ],
-    "7627": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "8816": [
-        "vegan"
-    ],
-    "7466": [
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "8697": [
-        "high_carbon",
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "wheat",
-        "gluten"
-    ],
-    "6490": [
-        "high_carbon",
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "fish",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "6559": [
-        "vegan",
-        "low_carbon"
-    ],
-    "4894": [
-        "vegan",
-        "low_carbon"
-    ],
-    "2746": [
-        "fish"
-    ],
-    "1915": [
-        "vegan",
-        "low_carbon"
-    ],
-    "1568": [
-        "gluten",
-        "wheat",
-        "soy",
-        "sesame_seeds"
-    ],
-    "4895": [
-        "soy",
-        "sesame_seeds",
-        "low_carbon",
-        "vegan",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "2094": [
-        "soy",
-        "dairy",
-        "low_carbon",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "6328": [
-        "high_carbon",
-        "soy",
-        "dairy",
-        "low_carbon",
-        "vegan",
-        "vegetarian"
-    ],
-    "4608": [
-        "soy",
-        "dairy",
-        "low_carbon",
-        "vegan",
-        "vegetarian"
-    ],
-    "5942": [
-        "vegan",
-        "soy",
-        "low_carbon"
-    ],
-    "2666": [
-        "shellfish",
-        "soy",
-        "sesame_seeds",
-        "fish",
-        "egg",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "5898": [
-        "soy",
-        "sesame_seeds",
-        "low_carbon",
-        "egg",
-        "fish",
-        "vegan",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "5915": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "5924": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "6310": [
-        "soy",
-        "sesame_seeds",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "7644": [
-        "soy"
-    ],
-    "2895": [
-        "vegetarian"
-    ],
-    "216": [
-        "vegan",
-        "low_carbon"
-    ],
-    "5943": [
-        "high_carbon",
-        "soy",
-        "dairy",
-        "wheat",
-        "gluten"
-    ],
-    "5899": [
-        "high_carbon",
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "fish",
-        "egg",
-        "low_carbon",
-        "vegan",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "5926": [
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "5934": [
-        "vegan",
-        "low_carbon",
-        "sesame_seeds"
-    ],
-    "1465": [
-        "dairy",
-        "gluten",
-        "wheat",
-        "soy"
-    ],
-    "5900": [
-        "high_carbon",
-        "peanuts",
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "halal",
-        "low_carbon",
-        "fish",
-        "egg",
-        "vegan",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "1419": [
-        "vegan",
-        "halal",
-        "low_carbon"
-    ],
-    "6142": [
-        "high_carbon",
-        "soy",
-        "fish",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "1544": [
-        "soy",
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "2680": [
-        "soy",
-        "sesame_seeds",
-        "low_carbon",
-        "vegan",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "4435": [
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "low_carbon",
-        "vegan",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "4648": [
-        "peanuts",
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "8937": [
-        "high_carbon",
-        "soy",
-        "dairy",
-        "wheat",
-        "gluten"
-    ],
-    "1837": [
-        "high_carbon",
-        "dairy",
-        "soy"
-    ],
-    "2394": [
-        "shellfish",
-        "soy",
-        "sesame_seeds",
-        "fish",
-        "egg",
-        "wheat",
-        "gluten"
-    ],
-    "1456": [
-        "soy",
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "8694": [
-        "dairy",
-        "gluten",
-        "wheat",
-        "soy"
-    ],
-    "5903": [
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "halal",
-        "low_carbon",
-        "egg",
-        "vegan",
-        "vegetarian",
-        "wheat"
-    ],
-    "1535": [
-        "vegan",
-        "low_carbon"
-    ],
-    "4489": [
-        "vegan",
-        "low_carbon"
-    ],
-    "8471": [
-        "soy",
-        "dairy",
-        "vegan",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "8296": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "2548": [
-        "soy",
-        "sesame_seeds",
-        "low_carbon",
-        "vegan",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "3151": [
-        "soy",
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "2409": [
-        "soy",
-        "sesame_seeds",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "3057": [
-        "vegan",
-        "low_carbon"
-    ],
-    "8978": [
-        "high_carbon",
-        "soy",
-        "dairy",
-        "egg",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "2937": [
-        "gluten",
-        "wheat",
-        "soy",
-        "sesame_seeds"
-    ],
-    "8219": [
-        "vegan",
-        "wheat",
-        "gluten",
-        "low_carbon"
-    ],
-    "1257": [
-        "tree_nuts",
-        "soy",
-        "dairy",
-        "low_carbon",
-        "vegan"
-    ],
-    "2621": [
-        "vegetarian",
-        "dairy",
-        "soy",
-        "egg"
-    ],
-    "6557": [
-        "vegan",
-        "low_carbon"
-    ],
-    "1024": [
-        "dairy",
-        "wheat",
-        "gluten"
-    ],
-    "2908": [
-        "soy",
-        "sesame_seeds",
-        "egg",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "3103": [
-        "soy",
-        "sesame_seeds",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "2998": [
-        "vegan"
-    ],
-    "8953": [
-        "high_carbon",
-        "soy",
-        "dairy",
-        "egg",
-        "wheat",
-        "gluten"
-    ],
-    "6128": [
-        "dairy"
-    ],
-    "7996": [
-        "vegan",
-        "soy",
-        "low_carbon"
-    ],
-    "1028": [
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "6385": [
-        "alcohol",
-        "high_carbon",
-        "dairy",
-        "tree_nuts"
-    ],
-    "6386": [
-        "soy",
-        "dairy",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "2823": [
-        "dairy",
-        "wheat",
-        "gluten",
-        "egg"
-    ],
-    "5857": [
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "low_carbon",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "723": [
-        "vegan",
-        "low_carbon"
-    ],
-    "1023": [
-        "high_carbon",
-        "dairy",
-        "wheat",
-        "gluten"
-    ],
-    "2819": [
-        "soy",
-        "dairy",
-        "egg",
-        "wheat",
-        "gluten"
-    ],
-    "7910": [
-        "soy",
-        "dairy",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "1025": [
-        "dairy",
-        "wheat",
-        "gluten"
-    ],
-    "2814": [
-        "dairy",
-        "wheat",
-        "gluten",
-        "egg"
-    ],
-    "8003": [
-        "dairy",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "1026": [
-        "high_carbon",
-        "dairy",
-        "wheat",
-        "gluten"
-    ],
-    "3891": [
-        "high_carbon",
-        "soy",
-        "halal",
-        "low_carbon",
-        "egg",
-        "vegan",
-        "vegetarian"
-    ],
-    "8470": [
-        "dairy",
-        "egg",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "8781": [
-        "soy",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "6581": [
-        "soy",
-        "dairy",
-        "halal",
-        "low_carbon",
-        "egg",
-        "fish",
-        "vegan",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "477": [
-        "vegetarian",
-        "dairy"
-    ],
-    "485": [
-        "vegetarian",
-        "dairy"
-    ],
-    "780": [
-        "soy",
-        "dairy",
-        "halal",
-        "egg",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "2667": [
-        "soy",
-        "dairy",
-        "egg",
-        "wheat",
-        "gluten"
-    ],
-    "9061": [
-        "vegan",
-        "low_carbon"
-    ],
-    "6019": [
-        "vegan",
-        "low_carbon"
-    ],
-    "8840": [
-        "dairy",
-        "low_carbon",
-        "vegan",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "8832": [
-        "soy",
-        "dairy",
-        "low_carbon",
-        "egg",
-        "vegan",
-        "vegetarian",
-        "wheat",
-        "gluten"
-    ],
-    "3689": [
-        "high_carbon",
-        "soy",
-        "sesame_seeds",
-        "dairy",
-        "halal",
-        "low_carbon",
-        "egg",
-        "vegan",
-        "vegetarian",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ],
-    "8951": [
-        "shellfish",
-        "soy",
-        "dairy",
-        "fish",
-        "egg",
-        "wheat",
-        "gluten"
-    ],
-    "740": [
-        "alcohol",
-        "dairy",
-        "wheat",
-        "gluten"
-    ],
-    "124": [
-        "dairy",
-        "gluten",
-        "wheat",
-        "soy"
-    ],
-    "7918": [
-        "high_carbon",
-        "soy",
-        "halal",
-        "wheat",
-        "gluten"
-    ],
-    "7530": [
-        "tree_nuts",
-        "low_carbon",
-        "vegan",
-        "wheat",
-        "gluten"
-    ],
-    "8573": [
-        "high_carbon",
-        "soy",
-        "dairy",
-        "alcohol",
-        "wheat",
-        "gluten"
-    ]
+  "r1475": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r7110": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6542": [
+    "egg",
+    "vegetarian",
+    "low_carbon"
+  ],
+  "r2031": [],
+  "r6120": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r6121": [
+    "egg",
+    "vegetarian",
+    "low_carbon"
+  ],
+  "r123": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6161": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r1501": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r1578": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r1487": [
+    "gluten",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3473": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6497": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r6498": [
+    "vegan",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r7457": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r6582": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r2026": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r1737": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r138": [],
+  "r7129": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r7128": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7130": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7126": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1624": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1667": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6443": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6440": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6445": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2864": [
+    "halal",
+    "vegetarian"
+  ],
+  "r262": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r4881": [
+    "dairy",
+    "halal",
+    "sesame",
+    "vegetarian",
+    "egg"
+  ],
+  "r269": [
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "low_carbon",
+    "egg"
+  ],
+  "r3963": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r3815": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r3801": [
+    "high_carbon",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r6204": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r6205": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r1922": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r2377": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r1798": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r8468": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r1976": [],
+  "r5029": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian"
+  ],
+  "r2385": [
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r7333": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7334": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6905": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7336": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7338": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3210": [
+    "egg",
+    "vegetarian",
+    "dairy",
+    "soy"
+  ],
+  "r112": [
+    "fish",
+    "egg",
+    "dairy",
+    "soy"
+  ],
+  "r142": [],
+  "r5939": [
+    "vegan",
+    "dairy",
+    "wheat",
+    "fish",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg",
+    "alcohol"
+  ],
+  "r465": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r813": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r463": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r283": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r300": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r244": [
+    "egg",
+    "vegetarian",
+    "dairy"
+  ],
+  "r3954": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r4024": [
+    "halal",
+    "gluten",
+    "soy"
+  ],
+  "r247": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r6193": [
+    "halal",
+    "high_carbon",
+    "dairy"
+  ],
+  "r3042": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r2989": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r6188": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r3004": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r5914": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r8005": [
+    "gluten",
+    "dairy",
+    "soy",
+    "wheat"
+  ],
+  "r8006": [
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r8950": [
+    "gluten",
+    "dairy",
+    "soy",
+    "wheat"
+  ],
+  "r9195": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r3896": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r3528": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r266": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r309": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg",
+    "alcohol"
+  ],
+  "r3094": [
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r2370": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r1882": [
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r1933": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r104": [
+    "high_carbon",
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r110": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r6902": [],
+  "r7327": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r7435": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7335": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r5432": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r242": [
+    "dairy",
+    "sesame",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r297": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r288": [
+    "vegan",
+    "halal",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r3018": [
+    "soy"
+  ],
+  "r6239": [
+    "fish"
+  ],
+  "r1931": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3082": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r6903": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2866": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r7404": [
+    "egg",
+    "dairy"
+  ],
+  "r7405": [
+    "egg",
+    "vegetarian",
+    "dairy"
+  ],
+  "r7108": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1769": [],
+  "r1616": [
+    "egg",
+    "vegetarian",
+    "dairy",
+    "alcohol"
+  ],
+  "r7111": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r263": [
+    "halal",
+    "vegetarian"
+  ],
+  "r295": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "egg"
+  ],
+  "r5480": [
+    "wheat",
+    "gluten",
+    "vegan",
+    "low_carbon"
+  ],
+  "r7307": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon"
+  ],
+  "r7308": [
+    "vegan",
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r3099": [],
+  "r2665": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r2219": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r997": [
+    "high_carbon",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r3853": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r7181": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r116": [
+    "dairy",
+    "wheat",
+    "fish",
+    "gluten",
+    "vegetarian"
+  ],
+  "r3169": [
+    "alcohol"
+  ],
+  "r2452": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6904": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r281": [
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r4839": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r228": [
+    "vegan",
+    "halal",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r3958": [
+    "halal",
+    "gluten",
+    "soy"
+  ],
+  "r4925": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r229": [
+    "dairy",
+    "alcohol",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r6207": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "soy",
+    "shellfish",
+    "alcohol"
+  ],
+  "r3164": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r7309": [],
+  "r6915": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6275": [
+    "egg",
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r7125": [
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r7113": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r258": [
+    "dairy",
+    "halal",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r270": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r3190": [
+    "shellfish",
+    "dairy",
+    "alcohol"
+  ],
+  "r3192": [
+    "vegetarian",
+    "dairy",
+    "soy",
+    "alcohol"
+  ],
+  "r839": [
+    "halal",
+    "dairy"
+  ],
+  "r2350": [
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r6527": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r7183": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r7326": [],
+  "r7331": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6536": [
+    "vegetarian"
+  ],
+  "r3285": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3286": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r3589": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r238": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r1088": [
+    "halal",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r233": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r285": [
+    "vegan",
+    "halal",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r284": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r3207": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "egg",
+    "shellfish"
+  ],
+  "r3209": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r6240": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "shellfish",
+    "alcohol"
+  ],
+  "r2884": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r7114": [
+    "egg",
+    "dairy",
+    "soy"
+  ],
+  "r4698": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r261": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r1262": [],
+  "r7886": [],
+  "r3183": [
+    "sesame",
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r7341": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3238": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r995": [
+    "high_carbon",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r3824": [
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r3811": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r2574": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r7184": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r6911": [
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r3278": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3279": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r280": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r5479": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r3382": [
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r255": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "egg"
+  ],
+  "r1144": [
+    "halal",
+    "vegetarian",
+    "dairy"
+  ],
+  "r287": [
+    "gluten",
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r8913": [
+    "fish"
+  ],
+  "r1283": [
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r3438": [
+    "fish",
+    "egg",
+    "soy",
+    "alcohol"
+  ],
+  "r3263": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r234": [
+    "vegan",
+    "halal",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r8544": [
+    "vegan",
+    "dairy",
+    "halal",
+    "vegetarian",
+    "low_carbon",
+    "high_carbon",
+    "egg"
+  ],
+  "r2726": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r506": [
+    "halal",
+    "egg",
+    "vegetarian",
+    "low_carbon"
+  ],
+  "r989": [
+    "halal",
+    "egg",
+    "vegetarian",
+    "low_carbon"
+  ],
+  "r3003": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r3002": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r8598": [],
+  "r884": [
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "egg"
+  ],
+  "r2917": [
+    "vegetarian",
+    "low_carbon"
+  ],
+  "r926": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "egg"
+  ],
+  "r2995": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r6513": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6449": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6448": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6442": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7603": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7604": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1167": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r1192": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "tree_nuts",
+    "low_carbon"
+  ],
+  "r176": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r5595": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r1415": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "tree_nuts",
+    "low_carbon"
+  ],
+  "r2939": [
+    "vegan",
+    "tree_nuts",
+    "soy",
+    "low_carbon",
+    "peanuts"
+  ],
+  "r2292": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2945": [
+    "peanuts",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3436": [
+    "dairy",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r6515": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r6549": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r6517": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6520": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r6518": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6519": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3437": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6791": [
+    "vegan",
+    "dairy",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r6199": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3983": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r6514": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1676": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3152": [
+    "vegetarian",
+    "dairy",
+    "soy"
+  ],
+  "r3022": [
+    "gluten",
+    "vegan",
+    "low_carbon"
+  ],
+  "r6192": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r152": [
+    "halal",
+    "vegetarian",
+    "dairy"
+  ],
+  "r3929": [
+    "halal",
+    "high_carbon",
+    "gluten",
+    "wheat"
+  ],
+  "r3932": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r145": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r956": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r937": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r946": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r887": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r4236": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon"
+  ],
+  "r2111": [
+    "vegan",
+    "dairy",
+    "halal",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "soy"
+  ],
+  "r7587": [
+    "halal"
+  ],
+  "r3193": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r1302": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3713": [
+    "dairy",
+    "sesame",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r3444": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6516": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r8384": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r8383": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r8385": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1655": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1996": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6209": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r984": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1273": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2193": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r957": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r886": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7937": [
+    "dairy",
+    "vegan",
+    "halal",
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg",
+    "alcohol"
+  ],
+  "r8122": [
+    "dairy",
+    "vegan",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r3195": [],
+  "r3198": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r3937": [
+    "fish"
+  ],
+  "r969": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1968": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3947": [
+    "vegan",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "tree_nuts",
+    "soy",
+    "low_carbon"
+  ],
+  "r126": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r829": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r890": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1069": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r7592": [
+    "halal"
+  ],
+  "r6124": [
+    "halal",
+    "vegetarian",
+    "dairy",
+    "low_carbon"
+  ],
+  "r2131": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3756": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r3446": [],
+  "r3255": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r2519": [
+    "vegetarian",
+    "low_carbon"
+  ],
+  "r3703": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2058": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r1260": [
+    "egg",
+    "gluten",
+    "vegetarian",
+    "wheat"
+  ],
+  "r5383": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r3101": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2179": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1417": [
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r1392": [
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r3301": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3017": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r3260": [
+    "gluten"
+  ],
+  "r3335": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r914": [
+    "tree_nuts",
+    "alcohol"
+  ],
+  "r3277": [
+    "wheat",
+    "gluten",
+    "vegan",
+    "low_carbon"
+  ],
+  "r2221": [
+    "sesame",
+    "dairy",
+    "soy"
+  ],
+  "r4256": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r2717": [],
+  "r922": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3194": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r3365": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r3156": [
+    "peanuts",
+    "vegan",
+    "low_carbon"
+  ],
+  "r2521": [
+    "gluten",
+    "shellfish",
+    "wheat"
+  ],
+  "r3357": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r3313": [
+    "fish"
+  ],
+  "r3322": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r968": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r3328": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r5953": [
+    "dairy",
+    "alcohol",
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "tree_nuts",
+    "soy",
+    "egg",
+    "shellfish",
+    "peanuts"
+  ],
+  "r3247": [
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon"
+  ],
+  "r1999": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r999": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r2200": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3370": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r888": [
+    "vegan",
+    "dairy",
+    "halal",
+    "tree_nuts",
+    "soy",
+    "low_carbon"
+  ],
+  "r3450": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r3454": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3064": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r4201": [
+    "egg",
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r3084": [
+    "halal",
+    "egg",
+    "vegetarian",
+    "low_carbon"
+  ],
+  "r3083": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r3095": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "egg"
+  ],
+  "r5604": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r4620": [
+    "egg",
+    "gluten",
+    "vegetarian",
+    "wheat"
+  ],
+  "r3460": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3377": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3314": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3129": [
+    "vegan",
+    "dairy",
+    "gluten",
+    "tree_nuts",
+    "soy",
+    "low_carbon",
+    "peanuts"
+  ],
+  "r3316": [
+    "vegetarian",
+    "soy"
+  ],
+  "r4703": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon"
+  ],
+  "r3077": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r4706": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon"
+  ],
+  "r8361": [
+    "egg",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r8387": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r8389": [
+    "vegan",
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r447": [
+    "gluten",
+    "dairy",
+    "soy",
+    "wheat"
+  ],
+  "r3098": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r3106": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r3111": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r3115": [
+    "gluten",
+    "dairy",
+    "soy",
+    "wheat"
+  ],
+  "r2833": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r2274": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3642": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon"
+  ],
+  "r961": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r3159": [],
+  "r2231": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r4021": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3040": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r3217": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r3212": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r3227": [
+    "tree_nuts"
+  ],
+  "r3231": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r1196": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r958": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3332": [],
+  "r2697": [
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "alcohol"
+  ],
+  "r2280": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1183": [
+    "vegan",
+    "dairy",
+    "sesame",
+    "gluten",
+    "tree_nuts",
+    "soy",
+    "low_carbon",
+    "egg",
+    "peanuts"
+  ],
+  "r3163": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r5438": [
+    "egg",
+    "vegetarian"
+  ],
+  "r2170": [
+    "halal",
+    "wheat",
+    "gluten",
+    "high_carbon",
+    "egg"
+  ],
+  "r2177": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r905": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r1395": [
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r3402": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r3464": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6662": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r3390": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3378": [
+    "tree_nuts",
+    "vegetarian",
+    "dairy"
+  ],
+  "r2923": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "high_carbon",
+    "alcohol"
+  ],
+  "r2938": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r3270": [
+    "gluten",
+    "wheat"
+  ],
+  "r2957": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r816": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2687": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r985": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3574": [
+    "sesame",
+    "dairy",
+    "soy"
+  ],
+  "r3673": [
+    "sesame",
+    "vegetarian",
+    "dairy"
+  ],
+  "r2976": [
+    "alcohol"
+  ],
+  "r2984": [
+    "wheat",
+    "gluten",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1244": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r2988": [
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r3000": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon"
+  ],
+  "r3007": [
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r3014": [
+    "vegetarian",
+    "dairy",
+    "low_carbon"
+  ],
+  "r3030": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r2524": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2428": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3035": [
+    "shellfish"
+  ],
+  "r3041": [
+    "halal",
+    "vegetarian",
+    "dairy",
+    "low_carbon"
+  ],
+  "r2531": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1661": [
+    "vegan",
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r3386": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r5386": [
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r897": [
+    "egg",
+    "gluten",
+    "wheat"
+  ],
+  "r904": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r5607": [
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r3046": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "tree_nuts",
+    "soy",
+    "low_carbon"
+  ],
+  "r2935": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3026": [
+    "wheat",
+    "gluten",
+    "vegan",
+    "low_carbon"
+  ],
+  "r934": [
+    "egg",
+    "gluten",
+    "wheat"
+  ],
+  "r936": [
+    "egg",
+    "vegetarian"
+  ],
+  "r941": [
+    "shellfish",
+    "alcohol"
+  ],
+  "r945": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "tree_nuts",
+    "low_carbon"
+  ],
+  "r949": [
+    "alcohol",
+    "vegan",
+    "low_carbon"
+  ],
+  "r942": [
+    "alcohol",
+    "vegan",
+    "low_carbon"
+  ],
+  "r947": [
+    "vegetarian",
+    "alcohol",
+    "low_carbon"
+  ],
+  "r919": [
+    "sesame",
+    "vegan",
+    "low_carbon"
+  ],
+  "r954": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r955": [
+    "gluten",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3165": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r3616": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r8305": [
+    "dairy"
+  ],
+  "r970": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r971": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1397": [
+    "egg",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r3055": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3767": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r9159": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "high_carbon"
+  ],
+  "r8767": [
+    "vegetarian",
+    "alcohol",
+    "dairy",
+    "low_carbon"
+  ],
+  "r8884": [
+    "sesame"
+  ],
+  "r8904": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r908": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1402": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r4323": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r8764": [
+    "gluten",
+    "dairy",
+    "soy",
+    "wheat"
+  ],
+  "r8765": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r4294": [
+    "vegetarian"
+  ],
+  "r8669": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "low_carbon"
+  ],
+  "r3346": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r8769": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r3458": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2640": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r2244": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r2658": [
+    "halal"
+  ],
+  "r2178": [
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r1515": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3016": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1396": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r203": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r5077": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "tree_nuts",
+    "low_carbon"
+  ],
+  "r133": [
+    "vegan"
+  ],
+  "r2398": [
+    "halal",
+    "high_carbon",
+    "gluten",
+    "wheat"
+  ],
+  "r2495": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r2904": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r8580": [
+    "halal",
+    "sesame"
+  ],
+  "r7936": [
+    "vegan",
+    "dairy",
+    "halal",
+    "wheat",
+    "fish",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg",
+    "alcohol"
+  ],
+  "r5757": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "tree_nuts",
+    "soy",
+    "low_carbon"
+  ],
+  "r299": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r3743": [
+    "halal",
+    "tree_nuts",
+    "vegetarian",
+    "dairy"
+  ],
+  "r1148": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r1138": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r8016": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r5476": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r5986": [
+    "vegan",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r6637": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r6696": [
+    "halal",
+    "dairy"
+  ],
+  "r869": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1277": [
+    "halal",
+    "egg",
+    "vegetarian",
+    "soy"
+  ],
+  "r173": [
+    "halal",
+    "sesame",
+    "vegan",
+    "low_carbon"
+  ],
+  "r2748": [
+    "halal",
+    "vegetarian",
+    "dairy"
+  ],
+  "r6203": [
+    "halal",
+    "tree_nuts",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1511": [
+    "halal",
+    "vegetarian",
+    "dairy"
+  ],
+  "r1105": [
+    "dairy",
+    "halal",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r3043": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1323": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1274": [
+    "halal",
+    "sesame",
+    "vegetarian",
+    "dairy"
+  ],
+  "r8142": [
+    "halal",
+    "vegetarian",
+    "dairy",
+    "low_carbon"
+  ],
+  "r1870": [
+    "halal",
+    "vegetarian",
+    "dairy"
+  ],
+  "r2565": [
+    "halal",
+    "tree_nuts",
+    "vegan",
+    "low_carbon"
+  ],
+  "r2977": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1569": [
+    "tree_nuts",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3852": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6553": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1267": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r9172": [
+    "halal",
+    "vegan",
+    "soy"
+  ],
+  "r7054": [
+    "halal",
+    "vegetarian",
+    "dairy"
+  ],
+  "r1703": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian"
+  ],
+  "r6335": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian"
+  ],
+  "r1957": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "high_carbon"
+  ],
+  "r2967": [
+    "dairy",
+    "halal",
+    "wheat",
+    "fish",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "i6127": [],
+  "i7198": [],
+  "i6092": [],
+  "i7538": [],
+  "i7047": [],
+  "i6422": [],
+  "i6365": [],
+  "i5038": [],
+  "i5107": [],
+  "i5651": [],
+  "i6465": [],
+  "i7715": [],
+  "i6226": [],
+  "i7714": [],
+  "i8565": [],
+  "i5652": [],
+  "i6881": [],
+  "i8564": [],
+  "i8561": [],
+  "i8469": [],
+  "i5657": [],
+  "i8494": [],
+  "i8195": [],
+  "i8562": [],
+  "i5465": [],
+  "r311": [
+    "halal",
+    "gluten",
+    "wheat"
+  ],
+  "r251": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r846": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r306": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r3806": [
+    "vegan",
+    "dairy",
+    "high_carbon",
+    "halal",
+    "wheat",
+    "fish",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r2201": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r7490": [],
+  "r6208": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1525": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r6185": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian"
+  ],
+  "r1180": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1634": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1022": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "high_carbon"
+  ],
+  "r1123": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian"
+  ],
+  "r2392": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r1646": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1647": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r7698": [
+    "halal"
+  ],
+  "r1320": [
+    "halal",
+    "egg",
+    "vegetarian",
+    "dairy"
+  ],
+  "r8581": [
+    "halal",
+    "high_carbon",
+    "gluten"
+  ],
+  "r1714": [
+    "high_carbon",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r5970": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian"
+  ],
+  "r6597": [
+    "halal",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r6598": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian"
+  ],
+  "r2740": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r6624": [
+    "dairy",
+    "soy"
+  ],
+  "r1485": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r1492": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3626": [
+    "halal",
+    "dairy"
+  ],
+  "r1694": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3432": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1619": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r2062": [
+    "halal",
+    "gluten",
+    "vegetarian",
+    "wheat"
+  ],
+  "r1955": [
+    "halal",
+    "high_carbon"
+  ],
+  "r5142": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r7975": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r6839": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian"
+  ],
+  "r2164": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r2448": [
+    "halal",
+    "dairy"
+  ],
+  "r1132": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian"
+  ],
+  "r1989": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3537": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1311": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3663": [
+    "halal",
+    "high_carbon"
+  ],
+  "r2251": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "shellfish"
+  ],
+  "r2158": [
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r2889": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian"
+  ],
+  "r2323": [
+    "halal",
+    "high_carbon"
+  ],
+  "r6342": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian"
+  ],
+  "r2348": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3116": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3422": [
+    "halal"
+  ],
+  "r1881": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1580": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r3758": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r895": [
+    "halal",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r2050": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r1341": [
+    "halal"
+  ],
+  "r6167": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1103": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r6601": [
+    "halal",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r2366": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r6272": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3333": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r1265": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian"
+  ],
+  "r6645": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1771": [
+    "vegan",
+    "halal",
+    "sesame",
+    "tree_nuts",
+    "low_carbon"
+  ],
+  "r1399": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r7606": [],
+  "r3601": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r3220": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r7972": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r877": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r6023": [
+    "halal",
+    "dairy",
+    "alcohol"
+  ],
+  "r3561": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r4492": [
+    "halal",
+    "gluten",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3170": [
+    "halal",
+    "tree_nuts",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3646": [
+    "halal",
+    "tree_nuts",
+    "vegetarian",
+    "low_carbon"
+  ],
+  "r1751": [
+    "halal",
+    "high_carbon"
+  ],
+  "r907": [
+    "vegetarian",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3835": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2024": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian"
+  ],
+  "r1657": [],
+  "r5125": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r1404": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r7230": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7229": [],
+  "r1747": [
+    "halal"
+  ],
+  "r7288": [
+    "fish",
+    "alcohol"
+  ],
+  "r1858": [
+    "dairy",
+    "wheat",
+    "fish",
+    "gluten",
+    "egg"
+  ],
+  "r8072": [
+    "gluten",
+    "vegetarian",
+    "soy",
+    "wheat"
+  ],
+  "r8070": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6169": [
+    "soy"
+  ],
+  "r7232": [],
+  "r7233": [],
+  "r7266": [],
+  "r1681": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7264": [],
+  "r7265": [],
+  "r7263": [
+    "gluten",
+    "wheat"
+  ],
+  "r7072": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7234": [
+    "dairy"
+  ],
+  "r9109": [
+    "gluten",
+    "vegan",
+    "soy",
+    "wheat"
+  ],
+  "r206": [
+    "vegetarian"
+  ],
+  "r7235": [
+    "egg",
+    "soy"
+  ],
+  "r167": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2215": [
+    "alcohol",
+    "vegan",
+    "low_carbon"
+  ],
+  "r6068": [
+    "halal",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r404": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r628": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r415": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r394": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r401": [
+    "vegan",
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r414": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r403": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r399": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r411": [
+    "vegan",
+    "halal",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "egg",
+    "alcohol"
+  ],
+  "r407": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r400": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r408": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r396": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r398": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon",
+    "high_carbon"
+  ],
+  "r417": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r418": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r419": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r421": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r422": [
+    "vegan",
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r424": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r423": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r5036": [
+    "vegan",
+    "halal",
+    "wheat",
+    "gluten",
+    "low_carbon"
+  ],
+  "r445": [
+    "dairy",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r444": [
+    "vegetarian",
+    "dairy",
+    "alcohol"
+  ],
+  "r441": [
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r442": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "alcohol"
+  ],
+  "r5893": [
+    "vegetarian",
+    "dairy",
+    "alcohol"
+  ],
+  "r385": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg",
+    "peanuts"
+  ],
+  "r381": [
+    "egg",
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r6634": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r6619": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r6622": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r6937": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "tree_nuts",
+    "alcohol"
+  ],
+  "r8040": [
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r8041": [
+    "tree_nuts",
+    "dairy",
+    "alcohol"
+  ],
+  "r8042": [
+    "egg",
+    "soy"
+  ],
+  "r8063": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r8064": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r443": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r439": [
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "soy"
+  ],
+  "r8081": [
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r3716": [
+    "dairy"
+  ],
+  "r5147": [
+    "dairy",
+    "sesame",
+    "soy",
+    "egg",
+    "shellfish"
+  ],
+  "r5104": [
+    "sesame",
+    "dairy"
+  ],
+  "r7006": [
+    "dairy",
+    "tree_nuts",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg",
+    "peanuts"
+  ],
+  "r7095": [
+    "sesame",
+    "vegan",
+    "low_carbon"
+  ],
+  "r433": [
+    "dairy",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r7539": [
+    "dairy",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r7378": [
+    "vegetarian",
+    "dairy",
+    "alcohol"
+  ],
+  "r207": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r113": [
+    "egg",
+    "vegetarian",
+    "dairy",
+    "soy"
+  ],
+  "r119": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r440": [
+    "vegan",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r6024": [
+    "vegan",
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "peanuts"
+  ],
+  "r7987": [],
+  "r6755": [
+    "dairy",
+    "vegan",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "peanuts"
+  ],
+  "r375": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r372": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r376": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r371": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r5894": [
+    "gluten",
+    "vegetarian",
+    "tree_nuts"
+  ],
+  "r374": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r471": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r484": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r483": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r475": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r477": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r469": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r467": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r470": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r472": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r473": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r775": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r485": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r474": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r481": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r482": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r480": [
+    "vegetarian",
+    "dairy",
+    "soy"
+  ],
+  "r4480": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r468": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r5429": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r5428": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r500": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r5418": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r487": [
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r5419": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r2667": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r4688": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r5422": [
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "egg"
+  ],
+  "r5423": [
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r5421": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r780": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r7494": [
+    "alcohol",
+    "vegan",
+    "low_carbon"
+  ],
+  "r787": [
+    "dairy",
+    "halal",
+    "sesame",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r6677": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r6472": [
+    "vegan",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r466": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6807": [
+    "dairy",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "low_carbon"
+  ],
+  "r6938": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r6437": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r451": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r452": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6438": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6558": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6557": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6563": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r7531": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r6560": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r6321": [
+    "vegan",
+    "dairy",
+    "halal",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "high_carbon",
+    "egg"
+  ],
+  "r6323": [
+    "vegan",
+    "dairy",
+    "halal",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "high_carbon",
+    "egg"
+  ],
+  "r3746": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "egg",
+    "alcohol"
+  ],
+  "r7204": [
+    "vegan",
+    "gluten",
+    "low_carbon",
+    "peanuts"
+  ],
+  "r5890": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7392": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7037": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7159": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "tree_nuts",
+    "low_carbon"
+  ],
+  "r7393": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7160": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r7394": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7395": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7398": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7317": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r7318": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r7367": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r520": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r519": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r1312": [],
+  "r1319": [],
+  "r3735": [
+    "dairy"
+  ],
+  "r5892": [
+    "gluten",
+    "wheat"
+  ],
+  "r746": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r6540": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r634": [
+    "dairy"
+  ],
+  "r633": [
+    "shellfish",
+    "dairy"
+  ],
+  "r636": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7890": [
+    "fish"
+  ],
+  "r646": [
+    "dairy"
+  ],
+  "r648": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6537": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "alcohol"
+  ],
+  "r5913": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r5276": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r664": [
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r666": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r5895": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "high_carbon"
+  ],
+  "r5896": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r5897": [
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r5905": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r5906": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r5907": [
+    "high_carbon",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r7200": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r8008": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r8043": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon"
+  ],
+  "r1332": [],
+  "r5916": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r7358": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r7347": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r7348": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r7349": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r7350": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "egg",
+    "peanuts"
+  ],
+  "r7351": [
+    "dairy",
+    "tree_nuts",
+    "vegetarian",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r7352": [
+    "vegetarian",
+    "dairy",
+    "soy"
+  ],
+  "r7355": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r7357": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r7359": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "peanuts"
+  ],
+  "r7360": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r7356": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r7353": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r7361": [
+    "vegetarian"
+  ],
+  "r7362": [
+    "vegetarian"
+  ],
+  "r7363": [
+    "vegetarian"
+  ],
+  "r7228": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r7227": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7219": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7226": [
+    "vegetarian",
+    "dairy",
+    "soy"
+  ],
+  "r7220": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r7222": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7224": [
+    "vegetarian",
+    "soy"
+  ],
+  "r7221": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7225": [
+    "vegetarian"
+  ],
+  "r7218": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7223": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r457": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r749": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r794": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg",
+    "alcohol"
+  ],
+  "r5150": [
+    "dairy",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r279": [
+    "high_carbon",
+    "vegetarian",
+    "dairy",
+    "alcohol"
+  ],
+  "r5883": [
+    "alcohol"
+  ],
+  "r1114": [
+    "halal"
+  ],
+  "r320": [
+    "fish"
+  ],
+  "r321": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r329": [
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r853": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "tree_nuts",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r336": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r5884": [
+    "dairy",
+    "halal",
+    "tree_nuts",
+    "vegetarian",
+    "egg"
+  ],
+  "r339": [
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r342": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r354": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "low_carbon"
+  ],
+  "r344": [
+    "halal",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r5379": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r3032": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r345": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r5385": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "alcohol"
+  ],
+  "r5376": [
+    "gluten",
+    "alcohol",
+    "dairy",
+    "wheat"
+  ],
+  "r5377": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "tree_nuts",
+    "alcohol"
+  ],
+  "r5384": [
+    "gluten",
+    "vegetarian",
+    "wheat"
+  ],
+  "r1642": [
+    "vegan",
+    "alcohol"
+  ],
+  "r1637": [
+    "vegan"
+  ],
+  "r1640": [
+    "vegan"
+  ],
+  "r1627": [
+    "vegan",
+    "alcohol"
+  ],
+  "r1631": [
+    "vegan",
+    "alcohol"
+  ],
+  "r5610": [
+    "vegan",
+    "alcohol"
+  ],
+  "r7824": [],
+  "i7002": [],
+  "r1829": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r5143": [
+    "high_carbon",
+    "tree_nuts"
+  ],
+  "r7768": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r7765": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r7627": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r8813": [
+    "egg",
+    "dairy",
+    "soy",
+    "wheat"
+  ],
+  "r8815": [
+    "dairy",
+    "wheat",
+    "fish",
+    "soy",
+    "egg"
+  ],
+  "r8816": [
+    "vegan"
+  ],
+  "r8650": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r5974": [
+    "vegan",
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg",
+    "alcohol"
+  ],
+  "r7458": [
+    "halal",
+    "sesame",
+    "soy"
+  ],
+  "r1466": [
+    "sesame",
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r6810": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r7466": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r8697": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon"
+  ],
+  "r6490": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "high_carbon"
+  ],
+  "r6759": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "egg"
+  ],
+  "r6760": [
+    "vegan",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r868": [
+    "egg",
+    "vegetarian",
+    "low_carbon"
+  ],
+  "r7743": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6559": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r8630": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r4894": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r4000": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r1596": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r3465": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r4325": [
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r2746": [
+    "fish"
+  ],
+  "r1944": [
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r1923": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r8941": [],
+  "r1915": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1514": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r5180": [
+    "shellfish"
+  ],
+  "r4097": [
+    "vegan",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r4146": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r5927": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r1748": [
+    "dairy",
+    "alcohol",
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "tree_nuts",
+    "soy",
+    "egg",
+    "shellfish",
+    "peanuts"
+  ],
+  "r1568": [
+    "sesame",
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r5995": [
+    "sesame",
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r1918": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r4895": [
+    "vegan",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r1486": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r1465": [
+    "gluten",
+    "dairy",
+    "soy",
+    "wheat"
+  ],
+  "r6322": [
+    "vegan",
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "high_carbon"
+  ],
+  "r5910": [
+    "vegan",
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "high_carbon"
+  ],
+  "r6324": [
+    "vegan",
+    "dairy",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "high_carbon"
+  ],
+  "r6328": [
+    "vegan",
+    "dairy",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "high_carbon"
+  ],
+  "r4608": [
+    "dairy",
+    "vegan",
+    "vegetarian",
+    "soy",
+    "low_carbon"
+  ],
+  "r5942": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r4485": [
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r2680": [
+    "vegan",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r2666": [
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg",
+    "shellfish",
+    "alcohol"
+  ],
+  "r5900": [
+    "peanuts",
+    "vegan",
+    "dairy",
+    "high_carbon",
+    "sesame",
+    "halal",
+    "wheat",
+    "fish",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg",
+    "alcohol"
+  ],
+  "r901": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r507": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1419": [
+    "halal",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1599": [
+    "egg",
+    "gluten",
+    "wheat"
+  ],
+  "r1438": [
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r1687": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r5047": [
+    "sesame",
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r1456": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r6142": [
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "alcohol"
+  ],
+  "r2440": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2041": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2780": [
+    "sesame",
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r2034": [
+    "sesame",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1530": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r4430": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6309": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r6308": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6310": [
+    "vegan",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r4432": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r4436": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r4433": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3662": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r4435": [
+    "vegan",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r7644": [
+    "soy"
+  ],
+  "r2862": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r2852": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r2892": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r2867": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r2856": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r2887": [
+    "vegetarian",
+    "dairy",
+    "soy"
+  ],
+  "r5988": [
+    "vegan"
+  ],
+  "r3234": [
+    "vegetarian"
+  ],
+  "r2880": [
+    "vegetarian"
+  ],
+  "r2895": [
+    "vegetarian"
+  ],
+  "r216": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1539": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon"
+  ],
+  "r1544": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r2394": [
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg",
+    "shellfish"
+  ],
+  "r5898": [
+    "vegan",
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg",
+    "alcohol"
+  ],
+  "r5918": [
+    "egg",
+    "vegetarian",
+    "soy"
+  ],
+  "r5915": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r5920": [
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r2537": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r5921": [
+    "egg",
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r1325": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r5925": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r5924": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r6545": [
+    "sesame",
+    "vegan",
+    "low_carbon"
+  ],
+  "r6546": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6547": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6675": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r4644": [
+    "egg",
+    "vegetarian",
+    "soy"
+  ],
+  "r6676": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r4648": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "peanuts"
+  ],
+  "r8937": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon"
+  ],
+  "r5899": [
+    "dairy",
+    "vegan",
+    "high_carbon",
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r5926": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r1558": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon"
+  ],
+  "r6126": [
+    "sesame",
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r7629": [
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy"
+  ],
+  "r5931": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r5932": [
+    "sesame",
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r5933": [
+    "vegan",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r5934": [
+    "sesame",
+    "vegan",
+    "low_carbon"
+  ],
+  "r1959": [
+    "high_carbon",
+    "dairy",
+    "soy"
+  ],
+  "r1589": [
+    "vegetarian",
+    "dairy",
+    "soy"
+  ],
+  "r1837": [
+    "high_carbon",
+    "dairy",
+    "soy"
+  ],
+  "r2482": [
+    "gluten",
+    "shellfish",
+    "soy",
+    "wheat"
+  ],
+  "r8694": [
+    "gluten",
+    "dairy",
+    "soy",
+    "wheat"
+  ],
+  "r5903": [
+    "vegan",
+    "dairy",
+    "halal",
+    "sesame",
+    "wheat",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r1535": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r1723": [
+    "dairy"
+  ],
+  "r1707": [
+    "shellfish",
+    "dairy"
+  ],
+  "r1729": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r1560": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r4525": [
+    "wheat",
+    "vegan",
+    "low_carbon"
+  ],
+  "r3025": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r4489": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r4662": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3707": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r3699": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r4655": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r2579": [
+    "dairy",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r2567": [
+    "fish"
+  ],
+  "r1015": [
+    "alcohol",
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r2582": [
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg",
+    "shellfish"
+  ],
+  "r6385": [
+    "high_carbon",
+    "tree_nuts",
+    "dairy",
+    "alcohol"
+  ],
+  "r680": [
+    "egg",
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r933": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r684": [
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r686": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg",
+    "peanuts"
+  ],
+  "r687": [
+    "high_carbon",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r6390": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r689": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r6387": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r6386": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "alcohol"
+  ],
+  "r2858": [
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "shellfish",
+    "egg"
+  ],
+  "r2908": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r3114": [
+    "high_carbon",
+    "fish"
+  ],
+  "r3103": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r2396": [
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg",
+    "shellfish"
+  ],
+  "r2376": [
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r2409": [
+    "vegan",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r2963": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r2998": [
+    "vegan"
+  ],
+  "r2823": [
+    "egg",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r6129": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r6128": [
+    "dairy"
+  ],
+  "r7992": [
+    "gluten",
+    "dairy",
+    "soy",
+    "wheat"
+  ],
+  "r5857": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r786": [
+    "dairy"
+  ],
+  "r5524": [
+    "dairy",
+    "alcohol",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r3289": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "egg"
+  ],
+  "r3594": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r4578": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "peanuts"
+  ],
+  "r1257": [
+    "dairy",
+    "vegan",
+    "tree_nuts",
+    "soy",
+    "low_carbon"
+  ],
+  "r6395": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "tree_nuts"
+  ],
+  "r6396": [
+    "gluten",
+    "vegan",
+    "low_carbon"
+  ],
+  "r2622": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r802": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2623": [
+    "vegetarian"
+  ],
+  "r2630": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r804": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6397": [
+    "peanuts",
+    "vegan",
+    "low_carbon"
+  ],
+  "r6398": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r2621": [
+    "egg",
+    "vegetarian",
+    "dairy",
+    "soy"
+  ],
+  "r725": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r726": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r724": [
+    "wheat",
+    "gluten",
+    "vegan",
+    "low_carbon"
+  ],
+  "r723": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2636": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r1023": [
+    "high_carbon",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r6389": [
+    "dairy",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r2501": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg",
+    "shellfish"
+  ],
+  "r2548": [
+    "vegan",
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r2457": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r3151": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy"
+  ],
+  "r3052": [
+    "high_carbon",
+    "dairy",
+    "soy"
+  ],
+  "r3057": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r2819": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r2937": [
+    "sesame",
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r5819": [
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r7909": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r7911": [
+    "gluten",
+    "vegetarian",
+    "wheat"
+  ],
+  "r7910": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "alcohol"
+  ],
+  "r1025": [
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r2932": [
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r2814": [
+    "egg",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r7999": [
+    "gluten",
+    "soy",
+    "wheat"
+  ],
+  "r8000": [
+    "egg",
+    "vegetarian"
+  ],
+  "r8002": [
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "soy",
+    "peanuts"
+  ],
+  "r8003": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r1026": [
+    "high_carbon",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r3891": [
+    "vegan",
+    "high_carbon",
+    "halal",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r768": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "alcohol"
+  ],
+  "r767": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg",
+    "alcohol"
+  ],
+  "r765": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg"
+  ],
+  "r773": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg",
+    "alcohol"
+  ],
+  "r771": [
+    "dairy",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r8470": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg",
+    "alcohol"
+  ],
+  "r8781": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon"
+  ],
+  "r3897": [
+    "vegan",
+    "dairy",
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg",
+    "alcohol"
+  ],
+  "r6581": [
+    "dairy",
+    "vegan",
+    "halal",
+    "wheat",
+    "fish",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg",
+    "alcohol"
+  ],
+  "r2922": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r776": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r777": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r821": [
+    "vegan",
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r488": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r1078": [
+    "dairy",
+    "halal",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "tree_nuts",
+    "egg"
+  ],
+  "r7636": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "egg"
+  ],
+  "r7605": [
+    "halal",
+    "gluten",
+    "dairy",
+    "wheat"
+  ],
+  "r4517": [
+    "wheat",
+    "gluten",
+    "vegan",
+    "low_carbon"
+  ],
+  "r8473": [
+    "vegan"
+  ],
+  "r8475": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r8476": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r9061": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r727": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r728": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6019": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r8840": [
+    "vegan",
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "low_carbon"
+  ],
+  "r8832": [
+    "dairy",
+    "vegan",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r3742": [
+    "vegan",
+    "dairy",
+    "wheat",
+    "fish",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "high_carbon",
+    "egg",
+    "alcohol"
+  ],
+  "r3825": [
+    "vegan",
+    "dairy",
+    "high_carbon",
+    "sesame",
+    "halal",
+    "wheat",
+    "fish",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg"
+  ],
+  "r3689": [
+    "vegan",
+    "dairy",
+    "high_carbon",
+    "halal",
+    "sesame",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "low_carbon",
+    "egg",
+    "alcohol"
+  ],
+  "r763": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "alcohol"
+  ],
+  "r764": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "r8573": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "high_carbon",
+    "alcohol"
+  ],
+  "r740": [
+    "gluten",
+    "alcohol",
+    "dairy",
+    "wheat"
+  ],
+  "r124": [
+    "gluten",
+    "dairy",
+    "soy",
+    "wheat"
+  ],
+  "r719": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r722": [
+    "gluten",
+    "vegan",
+    "low_carbon"
+  ],
+  "r704": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "tree_nuts"
+  ],
+  "r720": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r705": [
+    "gluten",
+    "vegetarian",
+    "dairy",
+    "wheat"
+  ],
+  "r716": [
+    "dairy",
+    "sesame",
+    "wheat",
+    "tree_nuts",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r718": [
+    "egg",
+    "vegetarian",
+    "dairy",
+    "soy"
+  ],
+  "r799": [
+    "peanuts"
+  ],
+  "r708": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "vegetarian",
+    "soy",
+    "alcohol"
+  ],
+  "r709": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r1012": [
+    "gluten",
+    "alcohol",
+    "dairy",
+    "wheat"
+  ],
+  "r930": [
+    "dairy",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg",
+    "alcohol"
+  ],
+  "r1011": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r8295": [
+    "dairy",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r8296": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "low_carbon",
+    "alcohol"
+  ],
+  "r1528": [
+    "sesame",
+    "wheat",
+    "gluten",
+    "soy",
+    "egg"
+  ],
+  "r702": [
+    "sesame",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg",
+    "shellfish"
+  ],
+  "r692": [
+    "fish",
+    "egg",
+    "soy",
+    "alcohol"
+  ],
+  "r8471": [
+    "dairy",
+    "vegan",
+    "wheat",
+    "gluten",
+    "soy",
+    "alcohol"
+  ],
+  "i7919": [],
+  "i7918": [],
+  "r6434": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6568": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6567": [
+    "vegan",
+    "low_carbon"
+  ],
+  "r6570": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r6571": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r6569": [
+    "vegetarian",
+    "dairy"
+  ],
+  "r6572": [
+    "vegan",
+    "soy",
+    "low_carbon"
+  ],
+  "r7530": [
+    "vegan",
+    "wheat",
+    "gluten",
+    "tree_nuts",
+    "low_carbon"
+  ],
+  "r8951": [
+    "dairy",
+    "wheat",
+    "fish",
+    "gluten",
+    "soy",
+    "egg",
+    "shellfish"
+  ]
 }

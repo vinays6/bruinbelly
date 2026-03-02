@@ -16,7 +16,7 @@ export default function ReviewCard({ review }) {
           className="w-9 h-9 rounded-full flex items-center justify-center text-xs font-bold text-stone-700 shrink-0"
           style={{ backgroundColor: '#FFD6BA' }}
         >
-          {username.replace('[', '').replace(']', '').slice(0, 2).toUpperCase()}
+          {username.slice(0, 2).toUpperCase()}
         </div>
         <div className="flex-1 min-w-0">
           <p className="font-semibold text-sm text-stone-800">{username}</p>

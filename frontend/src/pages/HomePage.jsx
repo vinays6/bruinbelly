@@ -39,7 +39,7 @@ export default function HomePage({ onNav }) {
       <div className="mb-7 animate-fade-up delay-2">
         <div className="flex items-center justify-between mb-3">
           <p className="text-xs font-bold uppercase tracking-widest text-stone-400">🔥 Trending Today</p>
-          <span className="text-xs text-orange-500 font-semibold">[#1 Today]</span>
+          <span className="text-xs text-orange-500 font-semibold">#1 Today</span>
         </div>
         <div className="bg-white rounded-3xl shadow-sm border border-stone-50 overflow-hidden">
           <div className="h-24 flex items-center justify-center relative"

@@ -29,22 +29,25 @@ def scrapeRecipe(url):
     
     return iconalts
 
-# print(scrapeRecipe("https://dining.ucla.edu/menu-item/?recipe=2640"))
+from tqdm import tqdm
 
-i = 0
+allInfo = list(data.items())
 
-for diningHall,datemenus in data.items():
+for diningHall,datemenus in allInfo:
     for date,items in datemenus.items():
-        for item in items:
-            if(i%10 == 0):
-                print(i)
-            i += 1
-
+        for item in tqdm(list(items)):
             url = item['link']
-            recipeCode = url.split('=')[-1]
+            backpart = url.split('?')[-1]
+            # iXXXX for ingrdient
+            # rZZZZ for recipe
+            recipeCode = backpart[0] + backpart.split('=')[-1]
             if recipeCode not in recipes:
-                recipes[recipeCode] = scrapeRecipe(url)
+                try:
+                    recipes[recipeCode] = scrapeRecipe(url)
+                except:
+                    print("didnt work")
+                    with open('./backend/recipeinfo3.json','w') as file:
+                        json.dump(recipes,file,indent=4,ensure_ascii=False)
 
-
-with open('./backend/recipeinfo','w') as file:
-    json.dump(recipes,file)
+with open('./backend/recipeinfo3.json','w') as file:
+    json.dump(recipes,file,indent=4,ensure_ascii=False)

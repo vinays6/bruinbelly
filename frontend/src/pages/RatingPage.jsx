@@ -5,7 +5,7 @@ import RatingForm from '../components/RatingForm';
 import ReviewCard from '../components/ReviewCard';
 import RatingBadge from '../components/RatingBadge';
 import { createReview, getReviewsByItem } from '../services/api';
-import { getMenuStore, subscribeMenu, fetchMenuIfNeeded } from '../store/menuStore';
+import { getMenuStore, subscribeMenu, fetchMenuIfNeeded, refreshRatingsForItems } from '../store/menuStore';
 
 export default function RatingPage({ itemId, onBack, onNav }) {
   const [submitted, setSubmitted]       = useState(false);
@@ -64,10 +64,12 @@ export default function RatingPage({ itemId, onBack, onNav }) {
 
   const { allMenuItems, loading, error } = menuState;
   const menuItem = allMenuItems.find((item) => String(item.id) === String(itemId));
+  const seededDemoReviews = getSeededDemoReviews(itemId, menuItem);
+  const effectiveReviews = reviews.length > 0 ? reviews : seededDemoReviews;
 
-  const hasReviews = reviews.length > 0;
+  const hasReviews = effectiveReviews.length > 0;
   const averageStarRating = hasReviews
-    ? reviews.reduce((sum, review) => sum + review.rating, 0) / reviews.length
+    ? effectiveReviews.reduce((sum, review) => sum + review.rating, 0) / effectiveReviews.length
     : null;
   const averageDisplayRating = averageStarRating == null ? null : averageStarRating * 2;
   const hasAverageDisplayRating = Number.isFinite(averageDisplayRating) && averageDisplayRating > 0;
@@ -104,6 +106,7 @@ export default function RatingPage({ itemId, onBack, onNav }) {
         const next = prev.filter((entry) => entry.id !== review.id);
         return [review, ...next];
       });
+      await refreshRatingsForItems([Number(itemId)]);
       return review;
     } catch (error) {
       console.error('Failed to submit review', error);
@@ -319,7 +322,7 @@ export default function RatingPage({ itemId, onBack, onNav }) {
           <div className="animate-fade-up">
             <div className="flex items-center justify-between mb-3 pl-1">
               <p className="text-xs font-bold uppercase tracking-widest text-stone-400">
-                Reviews ({reviews.length})
+                Reviews ({effectiveReviews.length})
               </p>
               <button
                 onClick={handleNextItem}
@@ -329,11 +332,11 @@ export default function RatingPage({ itemId, onBack, onNav }) {
                 Next Item →
               </button>
             </div>
-            {reviews.length === 0 ? (
+            {effectiveReviews.length === 0 ? (
               <p className="text-sm text-stone-400">No reviews yet.</p>
             ) : (
               <div className="flex flex-col gap-3">
-                {reviews.map((review) => (
+                {effectiveReviews.map((review) => (
                   <ReviewCard key={review.id} review={review} />
                 ))}
               </div>
@@ -371,4 +374,32 @@ function formatReviewDate(review) {
     hour: 'numeric',
     minute: '2-digit',
   });
+}
+
+function getSeededDemoReviews(itemId, menuItem) {
+  const isMapleSyrupAtDeNeve =
+    String(itemId) === '7110' &&
+    menuItem?.hallId === 1 &&
+    menuItem?.mealPeriod === 'breakfast';
+
+  if (!isMapleSyrupAtDeNeve) return [];
+
+  return [
+    {
+      id: 'demo-maple-1',
+      username: 'Sam B.',
+      rating: 2.0, // 4/10
+      comment: 'Good texture, but a little too sweet for me.',
+      date: 'Mar 1, 8:14 AM',
+      imageFile: null,
+    },
+    {
+      id: 'demo-maple-2',
+      username: 'Jordan K.',
+      rating: 3.0, // 6/10
+      comment: 'Solid with waffles. Better warm than cold.',
+      date: 'Mar 1, 9:02 AM',
+      imageFile: null,
+    },
+  ];
 }
