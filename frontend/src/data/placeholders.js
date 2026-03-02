@@ -111,17 +111,17 @@ export const DEFAULT_ITEM_DETAIL = {
 export const PLACEHOLDER_REVIEWS = [
   {
     id: 'rev-placeholder-1',
-    username: 'bruin_foodie',
+    username: 'fufu16',
     rating: 4.5,
-    comment: 'Loved this today. Balanced flavors and a good portion size.',
+    comment: "Yo ts was lowk kinda fire can't lie it makes the fact that my bf cheated on me a lot better",
     date: 'Today, 12:30 PM',
     imageUrl: null,
   },
   {
     id: 'rev-placeholder-2',
-    username: 'hungry_bruin',
+    username: 'hungryhanson',
     rating: 3.5,
-    comment: 'Solid weekday option. Slightly salty today but still enjoyable.',
+    comment: 'Pretty solid option during the day but you get tired of it soon',
     date: 'Yesterday, 6:15 PM',
     imageUrl: null,
   },
