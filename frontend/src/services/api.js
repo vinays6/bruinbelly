@@ -10,7 +10,10 @@ const apiClient = axios.create({
 export async function getItemsByMealPeriod(restaurantId, date) {
   const normalizedDate = normalizeDateParam(date);
   const response = await apiClient.get(
-    `/restaurant/${restaurantId}/items-by-meal-period/${normalizedDate}`,
+    `/restaurant/${restaurantId}/items-by-meal-period`,
+    {
+      params: { date: normalizedDate },
+    },
   );
   return response.data;
 }
