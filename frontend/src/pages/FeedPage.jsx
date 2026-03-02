@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import FeedCard from '../components/FeedCard';
 import { FEED_POSTS } from '../data/placeholders';
-import { useAuth } from '../AuthContext';
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
@@ -17,60 +16,79 @@ function getYouTubeId(url) {
   return null;
 }
 
-// Real YouTube food videos as dummy backend data
+// Sample shorts with real YouTube food video IDs
 const SAMPLE_SHORTS = [
   {
     id: 'sh1',
-    username: 'bruin_foodie',
-    initials: 'BF',
-    avatarColor: '#FFB5C8',
-    caption: 'Chocolate Lava Cake at De Neve is unreal tonight 🍫🔥 Run, do not walk.',
+    username: 'ucla_dessert_guy',
+    initials: 'UD',
+    avatarColor: '#D4B8FF',
+    caption: 'Tiramisu at De Neve is absolutely unreal ',
     restaurant: 'De Neve',
-    likes: 142,
-    date: 'Today, 6:10 PM',
-    previewUrl: 'youtube:asmr_food_lava',   // replaced below with real IDs
-    emoji: '🍫',
+    likes: 31212,
+    date: 'Today, 8:45 PM',
+    previewUrl: 'youtube:dS7drIjDMDE',
+    emoji: '🍮',
     comments: [
-      { id: 'c1', username: 'hungry_bruin', initials: 'HB', avatarColor: '#B8E4FF', text: 'Running to De Neve right now 😭', date: '2m ago' },
-      { id: 'c2', username: 'ucla_eats_2026', initials: 'UE', avatarColor: '#D4B8FF', text: 'The molten center is good every time.', date: '5m ago' },
+      { id: 'c1', username: 'bruin_foodie', initials: 'BF', avatarColor: '#FFB5C8', text: 'BRO the tiramisu was so good I went back for seconds 😭', date: '3m ago' },
+      { id: 'c2', username: 'westwood_eats', initials: 'WE', avatarColor: '#B8E4FF', text: 'Running to De Neve RIGHT now', date: '7m ago' },
     ],
   },
   {
     id: 'sh2',
-    username: 'hungry_bruin',
-    initials: 'HB',
-    avatarColor: '#B8E4FF',
-    caption: 'Acai Bowl Friday at Bruin Plate 🫐 Granola is extra fresh today.',
-    restaurant: 'Bruin Plate',
-    likes: 87,
-    date: 'Yesterday, 11:30 AM',
-    previewUrl: 'youtube:acai_bowl_video',
-    emoji: '🫐',
+    username: 'de_neve_daily',
+    initials: 'DN',
+    avatarColor: '#FFB5C8',
+    caption: 'BADDIE GETS ROASTED BY CHEF',
+    restaurant: 'De Neve',
+    likes: 142000,
+    date: 'Today, 6:10 PM',
+    previewUrl: 'youtube:kcatAjeBJ5U',
+    emoji: '🍫',
     comments: [
-      { id: 'c3', username: 'westwood_wanderer', initials: 'WW', avatarColor: '#FFD6BA', text: 'Granola hits different on Fridays.', date: '1h ago' },
+      { id: 'c3', username: 'hungry_bruin', initials: 'HB', avatarColor: '#B8E4FF', text: 'The molten center is so good every time', date: '5m ago' },
     ],
   },
   {
     id: 'sh3',
-    username: 'hill_life_305',
-    initials: 'HL',
+    username: 'JoshuaWeissman',
+    initials: 'JW',
     avatarColor: '#B8F0D4',
-    caption: 'Feast ramen bowl POV: absolute perfection 🍜 soft-boiled egg on point.',
-    restaurant: 'Feast',
-    likes: 204,
-    date: '2 days ago',
-    previewUrl: 'youtube:ramen_video_id',
-    emoji: '🍜',
+    caption: 'Making the perfect smash burger at home 🍔 better than Five Guys',
+    restaurant: 'Joshua Weissman',
+    likes: 32034,
+    date: '3 days ago',
+    previewUrl: 'youtube:0cdd5XvsYYM',
+    emoji: '🍔',
+    comments: [],
+  },
+  {
+    id: 'sh4',
+    username: 'TastyFood',
+    initials: 'TF',
+    avatarColor: '#B8E4FF',
+    caption: 'Creamy garlic pasta in under 15 minutes 🍝 weeknight dinner sorted',
+    restaurant: 'Tasty',
+    likes: 28736,
+    date: '4 days ago',
+    previewUrl: 'youtube:xNc40HTifXs',
+    emoji: '🍝',
+    comments: [],
+  },
+  {
+    id: 'sh5',
+    username: 'BingingwBabish',
+    initials: 'BB',
+    avatarColor: '#D4B8FF',
+    caption: 'Recreating the Krabby Patty from SpongeBob 🍔✨ turned out insane',
+    restaurant: 'Babish Culinary Universe',
+    likes: 5102,
+    date: '5 days ago',
+    previewUrl: 'youtube:V05MEltWZZs',
+    emoji: '✨',
     comments: [],
   },
 ];
-
-// Swap placeholder IDs with real YouTube short food video IDs
-// Using popular public food shorts that are embeddable
-SAMPLE_SHORTS[0].previewUrl = 'youtube:dQw4w9WgXcQ'; // placeholder - will be replaced
-SAMPLE_SHORTS[0].previewUrl = 'youtube:ZyhrYis509A'; // Gordon Ramsay cooking
-SAMPLE_SHORTS[1].previewUrl = 'youtube:_OqdnKSE264'; // satisfying food video
-SAMPLE_SHORTS[2].previewUrl = 'youtube:1IszT_guI08'; // ramen making video
 
 // ─── Comment Sheet ───────────────────────────────────────────────────────────
 
@@ -183,7 +201,7 @@ function UploadModal({ onClose, onPost }) {
 
   const handlePost = () => {
     if (!canPost) return;
-    onPost({ caption: caption.trim(), restaurant: restaurant.trim() || 'The Hill', previewUrl });
+    onPost({ caption: caption.trim(), restaurant: restaurant.trim() || '[The Hill]', previewUrl });
     onClose();
   };
 
@@ -407,7 +425,6 @@ function ShortCard({ short, isActive, liked, onLike, onComment, muted, onToggleM
 // ─── Shorts Feed ─────────────────────────────────────────────────────────────
 
 function ShortsFeed() {
-  const { user } = useAuth();
   const [shorts, setShorts] = useState(SAMPLE_SHORTS);
   const [activeIndex, setActiveIndex] = useState(0);
   const [likedShorts, setLikedShorts] = useState([]);
@@ -424,11 +441,11 @@ function ShortsFeed() {
       ...s,
       comments: [...s.comments, {
         id: `c${Date.now()}`,
-        username: user?.username || '...',
-        initials: (user?.username || '..').slice(0, 2).toUpperCase(),
+        username: '[you]',
+        initials: 'YO',
         avatarColor: '#FFD6BA',
         text,
-        date: 'Just now',
+        date: '[Just now]',
       }],
     }));
   };
@@ -436,13 +453,13 @@ function ShortsFeed() {
   const handlePost = ({ caption, restaurant, previewUrl }) => {
     setShorts(prev => [{
       id: `sh${Date.now()}`,
-      username: user?.username || '...',
-      initials: (user?.username || '..').slice(0, 2).toUpperCase(),
+      username: '[you]',
+      initials: 'YO',
       avatarColor: '#FFD6BA',
       caption,
       restaurant,
       likes: 0,
-      date: 'Just now',
+      date: '[Just now]',
       previewUrl,
       emoji: '🎥',
       comments: [],
@@ -585,7 +602,7 @@ export default function FeedPage() {
             {posts.length > 0 && (
               <div className="text-center py-8">
                 <p className="text-sm text-stone-400">You are all caught up! 🎉</p>
-                <p className="text-xs text-stone-300 mt-1">New posts load from backend</p>
+                <p className="text-xs text-stone-300 mt-1">[New posts load from backend]</p>
               </div>
             )}
           </>
