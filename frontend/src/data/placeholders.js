@@ -54,9 +54,9 @@ export const CALENDAR_DAYS = [
 ];
 
 export const TRENDING = {
-  name: 'Acai Power Bowl', restaurant: 'Bruin Plate', rating: 9.3,
-  reviews: '127', emoji: '🫐',
-  summary: 'Bruins are all over this one this week. Fresh granola, solid fruit portions, and consistent quality.',
+  name: 'BYO Yogurt Bowl', restaurant: 'Study', rating: 9.3,
+  reviews: '127', emoji: '🍦',
+  summary: 'Bruins are all over this one this week. Fresh fruit, solid yogurt, and consistent quality for an easy breakfast.',
 };
 
 export const ITEM_DETAILS = {
