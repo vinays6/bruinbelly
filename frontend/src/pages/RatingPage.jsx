@@ -4,21 +4,42 @@ import SectionCard from '../components/SectionCard';
 import RatingForm from '../components/RatingForm';
 import ReviewCard from '../components/ReviewCard';
 import RatingBadge from '../components/RatingBadge';
-import { ITEM_DETAILS, DEFAULT_ITEM_DETAIL, PLACEHOLDER_REVIEWS } from '../data/placeholders';
+import { PLACEHOLDER_REVIEWS } from '../data/placeholders';
 import { getReviews } from '../store/ratingsStore';
+import { getMenuStore, subscribeMenu, fetchMenuIfNeeded } from '../store/menuStore';
 
 export default function RatingPage({ itemId, onBack, onNav }) {
-  const detail = ITEM_DETAILS[itemId] || { ...DEFAULT_ITEM_DETAIL, name: `[item_name for ${itemId}]` };
-
   const [submitted, setSubmitted]       = useState(false);
   const [showReviews, setShowReviews]   = useState(false);
   const [reviews, setReviews]           = useState([]);
   const [lastReview, setLastReview]     = useState(null);
+  const [menuState, setMenuState]       = useState(() => getMenuStore());
+
+  useEffect(() => {
+    const unsubscribe = subscribeMenu(setMenuState);
+    fetchMenuIfNeeded();
+    return unsubscribe;
+  }, []);
 
   useEffect(() => {
     // Load any existing reviews from store
     setReviews(getReviews(itemId));
   }, [itemId]);
+
+  const { allMenuItems, loading, error } = menuState;
+  const menuItem = allMenuItems.find((item) => String(item.id) === String(itemId));
+
+  const hasReviews = reviews.length > 0;
+  const averageStarRating = hasReviews
+    ? reviews.reduce((sum, review) => sum + review.rating, 0) / reviews.length
+    : 0;
+  const averageDisplayRating = averageStarRating * 2;
+
+  const itemName = menuItem?.name || 'Menu item';
+  const restaurantName = menuItem?.hallName || 'Dining hall';
+  const dietaryLabels = menuItem?.dietaryLabels || [];
+  const allergenLabels = menuItem?.allergens || [];
+  const ingredients = menuItem?.ingredients || [];
 
   const handleSubmitSuccess = (review) => {
     setLastReview(review);
@@ -31,10 +52,10 @@ export default function RatingPage({ itemId, onBack, onNav }) {
   };
 
   const handleNextItem = () => {
-    // Derive next itemId - cycle through dining hall items
-    const allIds = ['dn-1','dn-2','dn-3','dn-4','ep-1','ep-2','ep-3','bp-1','bp-2','bp-3','fe-1','fe-2'];
-    const idx = allIds.indexOf(itemId);
-    const nextId = allIds[(idx + 1) % allIds.length];
+    const ids = allMenuItems.map((item) => item.id);
+    if (ids.length === 0) return;
+    const idx = ids.indexOf(itemId);
+    const nextId = idx === -1 ? ids[0] : ids[(idx + 1) % ids.length];
     // Reset state and navigate to next item
     setSubmitted(false);
     setShowReviews(false);
@@ -43,6 +64,47 @@ export default function RatingPage({ itemId, onBack, onNav }) {
   };
 
   const displayedReviews = reviews.length > 0 ? reviews : PLACEHOLDER_REVIEWS;
+
+  if (!loading && error) {
+    return (
+      <div className="min-h-screen" style={{ backgroundColor: '#FFFBF8' }}>
+        <div className="sticky top-0 z-20 bg-[#FFFBF8]/95 backdrop-blur-sm border-b border-stone-100 px-4 py-3 flex items-center gap-3">
+          <button
+            onClick={onBack}
+            aria-label="Go back"
+            className="w-9 h-9 rounded-full bg-white border border-stone-100 shadow-sm
+                     flex items-center justify-center text-stone-600 text-sm font-bold
+                     active:scale-95 transition-transform hover:bg-stone-50"
+          >
+            ←
+          </button>
+          <h1 className="font-display font-semibold text-base text-stone-800 truncate flex-1">
+            Rate a menu item
+          </h1>
+        </div>
+
+        <div className="px-4 pt-8">
+          <div className="bg-white rounded-2xl shadow-sm border border-stone-100 p-6 text-center">
+            <p className="text-4xl mb-3">⚠️</p>
+            <p className="font-semibold text-stone-700 mb-1">
+              Menu unavailable — check backend connection
+            </p>
+            <p className="text-sm text-stone-400">
+              Make sure the Flask backend is running on http://localhost:8000, then try again.
+            </p>
+            <button
+              onClick={() => fetchMenuIfNeeded()}
+              className="mt-4 inline-flex items-center justify-center px-4 py-2 rounded-xl bg-orange-500 text-white text-sm font-semibold active:scale-95 transition-transform"
+            >
+              Retry
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  const isLoadingItem = loading && !menuItem;
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#FFFBF8' }}>
@@ -58,9 +120,9 @@ export default function RatingPage({ itemId, onBack, onNav }) {
           ←
         </button>
         <h1 className="font-display font-semibold text-base text-stone-800 truncate flex-1">
-          {detail.name}
+          {itemName}
         </h1>
-        <RatingBadge rating={detail.avgRating} size="sm" />
+        <RatingBadge rating={averageDisplayRating} size="sm" />
       </div>
 
       <div className="px-4 pb-36 pt-4 flex flex-col gap-4">
@@ -79,59 +141,89 @@ export default function RatingPage({ itemId, onBack, onNav }) {
           <div className="flex items-start justify-between gap-3 pt-2">
             <div className="flex-1 min-w-0">
               <h2 className="font-display font-bold text-xl text-stone-800 leading-tight mb-1">
-                {detail.name}
+                {itemName}
               </h2>
               <p className="text-sm text-stone-400 flex items-center gap-1">
-                📍 {detail.restaurant}
+                📍 {restaurantName}
               </p>
               <div className="flex items-center gap-1.5 mt-2">
                 <span className="text-orange-400 text-sm">★</span>
-                <span className="text-sm font-semibold text-stone-700">{detail.avgRating.toFixed(1)}</span>
+                <span className="text-sm font-semibold text-stone-700">
+                  {averageDisplayRating.toFixed(1)}
+                </span>
                 <span className="text-xs text-stone-400">avg rating</span>
               </div>
             </div>
-            <RatingBadge rating={detail.avgRating} size="md" />
+            <RatingBadge rating={averageDisplayRating} size="md" />
           </div>
         </SectionCard>
 
         {/* Description + labels */}
         <SectionCard title="About this item">
           <div className="flex flex-wrap gap-2 mb-3">
-            {detail.labels.map((label, i) => (
-              <LabelPill key={i} label={label} index={i} />
-            ))}
+            {dietaryLabels.length > 0 ? (
+              dietaryLabels.map((label, i) => (
+                <LabelPill key={i} label={label} index={i} />
+              ))
+            ) : (
+              <p className="text-xs text-stone-400">
+                Dietary information not available for this item.
+              </p>
+            )}
           </div>
-          <p className="text-sm text-stone-500 leading-relaxed">{detail.description}</p>
+          <p className="text-sm text-stone-500 leading-relaxed">
+            Rate your experience with this menu item to help other Bruins decide what to eat.
+          </p>
         </SectionCard>
 
         {/* Ingredients + allergens */}
         <SectionCard title="Specifics">
           <div className="mb-4">
             <h3 className="text-xs font-bold uppercase tracking-widest text-stone-400 mb-2">Ingredients</h3>
-            <ul className="space-y-1" aria-label="Ingredients list">
-              {detail.ingredients.map((ing, i) => (
-                <li key={i} className="flex items-center gap-2 text-sm text-stone-600">
-                  <span className="w-1.5 h-1.5 rounded-full bg-orange-300 shrink-0" />
-                  {ing}
-                </li>
-              ))}
-            </ul>
+            {ingredients && ingredients.length > 0 ? (
+              <ul className="space-y-1" aria-label="Ingredients list">
+                {ingredients.map((ing, i) => (
+                  <li key={i} className="flex items-center gap-2 text-sm text-stone-600">
+                    <span className="w-1.5 h-1.5 rounded-full bg-orange-300 shrink-0" />
+                    {ing}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="text-sm text-stone-400">
+                Ingredients are not available for this item.
+              </p>
+            )}
           </div>
           <div>
             <h3 className="text-xs font-bold uppercase tracking-widest text-stone-400 mb-2">Dietary Restrictions</h3>
-            <ul className="space-y-1" aria-label="Allergens list">
-              {detail.allergens.map((a, i) => (
-                <li key={i} className="flex items-center gap-2 text-sm text-stone-600">
-                  <span className="w-1.5 h-1.5 rounded-full bg-rose-300 shrink-0" />
-                  {a}
-                </li>
-              ))}
-            </ul>
+            {allergenLabels.length > 0 ? (
+              <ul className="space-y-1" aria-label="Allergens list">
+                {allergenLabels.map((a, i) => (
+                  <li key={i} className="flex items-center gap-2 text-sm text-stone-600">
+                    <span className="w-1.5 h-1.5 rounded-full bg-rose-300 shrink-0" />
+                    {a}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="text-sm text-stone-400">
+                Allergy information is not available for this item.
+              </p>
+            )}
           </div>
         </SectionCard>
 
         {/* ── MAIN CONTENT AREA: form / success / reviews ── */}
-        {!submitted && !showReviews && (
+        {isLoadingItem && (
+          <div className="bg-white rounded-2xl shadow-sm border border-stone-100 p-6 flex flex-col gap-3 animate-pulse">
+            <div className="h-4 w-32 bg-stone-100 rounded-full" />
+            <div className="h-3 w-full bg-stone-100 rounded-full" />
+            <div className="h-3 w-2/3 bg-stone-100 rounded-full" />
+          </div>
+        )}
+
+        {!isLoadingItem && !submitted && !showReviews && (
           <div>
             <p className="text-xs font-bold uppercase tracking-widest text-stone-400 mb-3 pl-1">
               Rate this item
@@ -140,7 +232,7 @@ export default function RatingPage({ itemId, onBack, onNav }) {
           </div>
         )}
 
-        {submitted && !showReviews && (
+        {!isLoadingItem && submitted && !showReviews && (
           <div className="bg-white rounded-2xl shadow-sm border border-stone-100 p-6 flex flex-col items-center gap-4 animate-slide-up text-center">
             <div className="w-16 h-16 rounded-full bg-emerald-50 border-2 border-emerald-200 flex items-center justify-center text-3xl">
               ✅
@@ -148,8 +240,10 @@ export default function RatingPage({ itemId, onBack, onNav }) {
             <div>
               <h3 className="font-display font-bold text-lg text-stone-800 mb-1">Rating Submitted!</h3>
               <p className="text-sm text-stone-400">
-                You rated <span className="font-semibold text-stone-600">{detail.name}</span>{' '}
-                <span className="font-bold text-orange-500">{lastReview?.rating.toFixed(1)} / 5.0</span>
+                You rated <span className="font-semibold text-stone-600">{itemName}</span>{' '}
+                <span className="font-bold text-orange-500">
+                  {lastReview?.rating.toFixed(1)} / 5.0
+                </span>
               </p>
             </div>
             <div className="flex flex-col gap-2 w-full">
@@ -173,7 +267,7 @@ export default function RatingPage({ itemId, onBack, onNav }) {
           </div>
         )}
 
-        {showReviews && (
+        {!isLoadingItem && showReviews && (
           <div className="animate-fade-up">
             <div className="flex items-center justify-between mb-3 pl-1">
               <p className="text-xs font-bold uppercase tracking-widest text-stone-400">
