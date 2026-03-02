@@ -15,6 +15,33 @@ export async function getItemsByMealPeriod(restaurantId, date) {
   return response.data;
 }
 
+export async function getReviewsByItem(itemId) {
+  const response = await apiClient.get(`/item/${itemId}/reviews`);
+  return response.data;
+}
+
+export async function createReview({
+  itemId,
+  restaurantId,
+  rating,
+  comment,
+}) {
+  const response = await apiClient.post('/create-review', {
+    item_id: itemId,
+    restaurant_id: restaurantId,
+    rating,
+    comment,
+  });
+  return response.data;
+}
+
+export async function getItemRatingsSummary(itemIds) {
+  const response = await apiClient.post('/items/ratings-summary', {
+    item_ids: itemIds,
+  });
+  return response.data;
+}
+
 function normalizeDateParam(date) {
   if (!date) return date;
   return date.replace(/-/g, '');
