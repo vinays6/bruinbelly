@@ -49,12 +49,11 @@ def create_review():
     # rating and user_id are required; others are optional
     # read binary image file if provided
     img = request.files.get('image')
-    image_bytes = img.read() if img is not None else None
 
     review = Review(
         rating=int(request.form['rating']),
         comment=request.form.get('comment'),
-        image_data=image_bytes,
+        image_data=img,
         user_id=int(request.form['user_id']),
         restaurant_id=request.form.get('restaurant_id') and int(request.form['restaurant_id']),
         item_id=request.form.get('item_id') and int(request.form['item_id'])
@@ -63,14 +62,13 @@ def create_review():
     db.session.commit()
     return '', 200
 
-@app.route("/restaurant-id", methods=['GET'])
-def get_restaurant_id():
+@app.route("/restaurant-id/<string:restaurant_name>", methods=['GET'])
+def get_restaurant_id(restaurant_name):
     """
     Retrieve the restaurant ID by its name.
     """
     try:
         # Get the restaurant name from query parameters
-        restaurant_name = request.args.get('name')
         if not restaurant_name:
             return jsonify({"error": "Restaurant name is required"}), 400
 
@@ -105,7 +103,7 @@ def get_reviews_for_restaurant(restaurant_id):
                 "id": review.id,
                 "rating": review.rating,
                 "comment": review.comment,
-                "image_data": review.image_data.decode('utf-8') if review.image_data else None,
+                "image_data": review.image_data,
                 "user_id": review.user_id,
                 "restaurant_id": review.restaurant_id,
                 "item_id": review.item_id,
