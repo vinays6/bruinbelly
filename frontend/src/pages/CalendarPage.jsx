@@ -6,7 +6,58 @@ export default function CalendarPage() {
   const [selected, setSelected] = useState(0);
   const [exported, setExported] = useState(false);
 
+
+  // Helper to format date to YYYYMMDD
+  const formatDate = (dateStr) => {
+    // Expects 'Mar 1', assume year is current (2026)
+    const [month, day] = dateStr.replace(',', '').split(' ');
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const mm = (months.indexOf(month) + 1).toString().padStart(2, '0');
+    const dd = day.padStart(2, '0');
+    return `2026${mm}${dd}`;
+  };
+
+  // ICS generator
+  const generateICS = () => {
+    const lines = [
+      'BEGIN:VCALENDAR',
+      'VERSION:2.0',
+      'PRODID:-//BruinBelly//WeeklyPicks//EN',
+    ];
+    for (const d of CALENDAR_DAYS) {
+      const dt = formatDate(d.date);
+      lines.push('BEGIN:VEVENT');
+      lines.push(`SUMMARY:${d.meal}`);
+      lines.push(`DESCRIPTION:Recommended: ${d.restaurant}. ${d.why}`);
+      lines.push(`DTSTART;VALUE=DATE:${dt}`);
+      // DTEND is exclusive; next day
+      const dateObj = new Date(2026, parseInt(dt.substr(4,2)) - 1, parseInt(dt.substr(6,2)));
+      dateObj.setDate(dateObj.getDate() + 1);
+      const dtend = `${dateObj.getFullYear()}${(dateObj.getMonth()+1).toString().padStart(2,'0')}${dateObj.getDate().toString().padStart(2,'0')}`;
+      lines.push(`DTEND;VALUE=DATE:${dtend}`);
+      lines.push('TRANSP:TRANSPARENT');
+      // UID can be generated simply: YYMMDD@bruinbelly
+      lines.push(`UID:${dt}@bruinbelly`);
+      lines.push('END:VEVENT');
+    }
+    lines.push('END:VCALENDAR');
+    return lines.join("\r\n");
+  };
+
   const handleExport = () => {
+    const ics = generateICS();
+    const blob = new Blob([ics], { type: 'text/calendar' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'WeeklyPicks.ics';
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(() => {
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }, 100);
+
     setExported(true);
     setTimeout(() => setExported(false), 2000);
   };
