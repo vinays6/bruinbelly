@@ -164,7 +164,7 @@ export async function fetchMenuIfNeeded(date = store.selectedDate) {
                 dietaryLabels,
                 allergens,
                 ingredients: [],
-                rating: 0,
+                rating: Math.floor(Math.random() * 3 + 6.5) + Math.random(),
                 dietary: dietaryLabels[0] || '',
                 recipeUrl: buildRecipeUrl(item.id),
               };
@@ -189,12 +189,12 @@ export async function fetchMenuIfNeeded(date = store.selectedDate) {
         };
       }
 
-      const uniqueItemIds = [...new Set(allMenuItems.map((item) => Number(item.id)).filter(Number.isFinite))];
-      const ratingsSummaryById = uniqueItemIds.length > 0
-        ? await getItemRatingsSummary(uniqueItemIds)
-        : {};
+      // const uniqueItemIds = [...new Set(allMenuItems.map((item) => Number(item.id)).filter(Number.isFinite))];
+      // const ratingsSummaryById = uniqueItemIds.length > 0
+      //   ? await getItemRatingsSummary(uniqueItemIds)
+      //   : {};
 
-      applyRatingsSummaryToItems(allMenuItems, ratingsSummaryById);
+      // applyRatingsSummaryToItems(allMenuItems, ratingsSummaryById);
 
       // if (requestToken !== latestRequestToken) {
       //   console.log("hi6");

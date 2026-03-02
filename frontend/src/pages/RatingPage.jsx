@@ -71,7 +71,8 @@ export default function RatingPage({ itemId, onBack, onNav }) {
   const averageStarRating = hasReviews
     ? effectiveReviews.reduce((sum, review) => sum + review.rating, 0) / effectiveReviews.length
     : null;
-  const averageDisplayRating = averageStarRating == null ? null : averageStarRating * 2;
+  const averageDisplayRating = menuItem.rating;
+  // const averageDisplayRating = averageStarRating == null ? null : averageStarRating * 2;
   const hasAverageDisplayRating = Number.isFinite(averageDisplayRating) && averageDisplayRating > 0;
 
   const itemName = menuItem?.name || 'Menu item';
