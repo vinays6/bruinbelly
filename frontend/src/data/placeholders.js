@@ -36,11 +36,11 @@ export const DINING_HALLS = [
 ];
 
 export const FEED_POSTS = [
-  { id: 'p1', username: 'bruin_foodie', initials: 'BF', avatarColor: '#FFB5C8', itemName: 'Grilled Salmon', restaurant: 'De Neve', rating: 8.4, comment: 'The salmon was perfectly cooked, crispy outside and tender inside. Go before 6pm!', date: 'Today, 5:42 PM', likes: 24 },
-  { id: 'p2', username: 'hungry_bruin', initials: 'HB', avatarColor: '#B8E4FF', itemName: 'Acai Power Bowl', restaurant: 'Bruin Plate', rating: 9.3, comment: 'Best thing on The Hill this quarter. Fresh granola and balanced sweetness.', date: 'Yesterday, 12:15 PM', likes: 41 },
-  { id: 'p3', username: 'ucla_eats_2026', initials: 'UE', avatarColor: '#D4B8FF', itemName: 'Mediterranean Bowl', restaurant: 'Epicuria', rating: 8.9, comment: 'Epicuria never misses. Warm pita and fresh hummus were excellent.', date: '2 days ago', likes: 17 },
-  { id: 'p4', username: 'westwood_wanderer', initials: 'WW', avatarColor: '#FFD6BA', itemName: 'Chocolate Lava Cake', restaurant: 'De Neve', rating: 9.1, comment: 'Perfect molten center every time. Dessert team at De Neve is elite.', date: '3 days ago', likes: 58 },
-  { id: 'p5', username: 'hill_life_305', initials: 'HL', avatarColor: '#B8F0D4', itemName: 'Ramen Bowl', restaurant: 'Feast', rating: 8.6, comment: 'Rich broth, chewy noodles, perfect soft-boiled egg. Go early before it sells out.', date: '4 days ago', likes: 33 },
+  { id: 'p1', username: 'bruin_foodie', initials: 'BF', avatarColor: '#FFB5C8', itemName: 'Chocolate-Hazelnut & Seasonal Fresh Fruit Belgian Waffle', restaurant: 'Study', rating: 8.4, comment: 'Make sure to get this fast, the warm waffle with the sweetness is really good', date: 'Today, 5:42 PM', likes: 24 },
+  { id: 'p2', username: 'hungry_bruin', initials: 'HB', avatarColor: '#B8E4FF', itemName: 'Sirloin Steak Quesadilla', restaurant: 'Rendezvous', rating: 9.3, comment: 'Genuinely best thing on the Hill quarter, I get it every Sunday.', date: 'Yesterday, 12:15 PM', likes: 41 },
+  { id: 'p3', username: 'ucla_eats_2026', initials: 'UE', avatarColor: '#D4B8FF', itemName: 'Lemon Dijon Roasted Salmon', restaurant: 'Bruin Bowl', rating: 8.9, comment: 'Bruinbowl is actually underrated. I always get the salmon but the others are good asw.', date: '2 days ago', likes: 17 },
+  { id: 'p4', username: 'westwood_wanderer', initials: 'WW', avatarColor: '#FFD6BA', itemName: 'Mount Vesuvius', restaurant: 'Cafe 1919', rating: 9.1, comment: 'Perfect brownie with a molten center, and you get a huge scoop of ice cream. Wish it was here on weekends.', date: '3 days ago', likes: 58 },
+  { id: 'p5', username: 'hill_life_305', initials: 'HL', avatarColor: '#B8F0D4', itemName: 'Spaghetti Bolognese', restaurant: 'Epicuria at Ackerman', rating: 8.6, comment: 'Slightly worse than the meatballs last quarter but still a solid classic.', date: '4 days ago', likes: 33 },
 ];
 
 export const CALENDAR_DAYS = [
@@ -57,45 +57,6 @@ export const TRENDING = {
   name: 'BYO Yogurt Bowl', restaurant: 'Study', rating: 9.3,
   reviews: '127', emoji: '🍦',
   summary: 'Bruins are all over this one this week. Fresh fruit, solid yogurt, and consistent quality for an easy breakfast.',
-};
-
-export const ITEM_DETAILS = {
-  'dn-1': {
-    name: 'Grilled Salmon',
-    restaurant: 'De Neve Dining Hall',
-    avgRating: 8.4,
-    description: 'Atlantic salmon fillet grilled with lemon herb butter and served with seasonal vegetables.',
-    labels: ['Gluten-Free', 'High Protein', 'Contains Fish'],
-    allergens: ['Fish', 'Dairy', 'Soy'],
-    ingredients: ['Atlantic Salmon', 'Lemon Butter', 'Garlic', 'Fresh Dill', 'Olive Oil', 'Sea Salt', 'Black Pepper', 'Seasonal Vegetables'],
-  },
-  'dn-2': {
-    name: 'Pasta Primavera',
-    restaurant: 'De Neve Dining Hall',
-    avgRating: 7.2,
-    description: 'Penne in garlic olive oil with seasonal vegetables, basil, and parmesan.',
-    labels: ['Vegetarian', 'Contains Dairy', 'Contains Gluten'],
-    allergens: ['Gluten/Wheat', 'Dairy', 'Eggs'],
-    ingredients: ['Penne Pasta', 'Zucchini', 'Bell Peppers', 'Cherry Tomatoes', 'Garlic', 'Olive Oil', 'Parmesan', 'Fresh Basil'],
-  },
-  'dn-3': {
-    name: 'Caesar Salad',
-    restaurant: 'De Neve Dining Hall',
-    avgRating: 6.8,
-    description: 'Romaine with house caesar dressing, croutons, and shaved parmesan.',
-    labels: ['Vegetarian', 'Contains Dairy', 'Contains Gluten'],
-    allergens: ['Dairy', 'Gluten', 'Eggs', 'Anchovies'],
-    ingredients: ['Romaine Lettuce', 'Caesar Dressing', 'Croutons', 'Parmesan', 'Lemon Juice', 'Black Pepper'],
-  },
-  'dn-4': {
-    name: 'Chocolate Lava Cake',
-    restaurant: 'De Neve Dining Hall',
-    avgRating: 9.1,
-    description: 'Molten dark chocolate cake served warm with a soft center.',
-    labels: ['Vegetarian', 'Contains Dairy', 'Contains Gluten'],
-    allergens: ['Dairy', 'Eggs', 'Gluten', 'Soy'],
-    ingredients: ['Dark Chocolate', 'Butter', 'Eggs', 'Sugar', 'Flour', 'Vanilla Extract', 'Salt'],
-  },
 };
 
 export const DEFAULT_ITEM_DETAIL = {
