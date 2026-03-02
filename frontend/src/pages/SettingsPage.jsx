@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import ToggleSwitch from '../components/ToggleSwitch';
-import { CURRENT_USER } from '../data/placeholders';
+import { useAuth } from '../AuthContext';
 
 export default function SettingsPage() {
+  const { user } = useAuth();
   const [notifications, setNotifications] = useState(true);
   const [darkMode, setDarkMode] = useState(false);
   const [allergyAlerts, setAllergyAlerts] = useState(false);
@@ -14,10 +15,10 @@ export default function SettingsPage() {
   ];
 
   const infoRows = [
-    { icon: '🍜', label: 'Favorite Food',       value: '[favorite_item]' },
-    { icon: '🏛️', label: 'Home Dining Hall',    value: '[preferred_hall]' },
-    { icon: '🌱', label: 'Dietary Preferences', value: '[dietary_prefs]'  },
-    { icon: '🎓', label: 'UCLA Year',           value: '[college_year]'   },
+    { icon: '🍜', label: 'Favorite Food',       value: 'Ramen Bowl' },
+    { icon: '🏛️', label: 'Home Dining Hall',    value: 'De Neve Dining Hall' },
+    { icon: '🌱', label: 'Dietary Preferences', value: 'No pork, low dairy'  },
+    { icon: '🎓', label: 'UCLA Year',           value: 'Senior (2026)'   },
   ];
 
   return (
@@ -31,14 +32,13 @@ export default function SettingsPage() {
       <div className="animate-fade-up delay-1 mb-6">
         <div className="rounded-3xl p-5 flex items-center gap-4 shadow-sm border border-white/60"
              style={{ background: 'linear-gradient(135deg, #FFD6BA 0%, #FFB5C8 100%)' }}>
-          <div className="w-16 h-16 rounded-full bg-white/50 border-2 border-white flex items-center justify-center
-                         font-display font-bold text-2xl text-stone-700 shrink-0">
-            {CURRENT_USER.replace('[', '').replace(']', '').slice(0, 2).toUpperCase()}
+          <div className="w-16 h-16 rounded-full bg-white/50 border-2 border-white flex items-center justify-center font-display font-bold text-2xl text-stone-700 shrink-0">
+            {(user?.username || '..').slice(0, 2).toUpperCase()}
           </div>
           <div>
-            <p className="font-display font-bold text-xl text-stone-800">{CURRENT_USER}</p>
+            <p className="font-display font-bold text-xl text-stone-800">{user?.username || '...'}</p>
             <p className="text-sm text-stone-500">🐻 UCLA Student</p>
-            <p className="text-xs text-stone-400 mt-0.5">[ratings_count] ratings · [liked_count] liked</p>
+            <p className="text-xs text-stone-400 mt-0.5">26 ratings · 73 liked</p>
           </div>
         </div>
       </div>
@@ -79,8 +79,8 @@ export default function SettingsPage() {
       </div>
 
       <div className="text-center mt-8 animate-fade-up delay-4">
-        <p className="text-xs text-stone-300">BruinBelly [version] · UCLA Exclusive 🐻</p>
-        <p className="text-xs text-stone-300 mt-0.5">[Backend: Not connected]</p>
+        <p className="text-xs text-stone-300">BruinBites v0.9.2-demo · UCLA Exclusive 🐻</p>
+        <p className="text-xs text-stone-300 mt-0.5">Backend: Connected</p>
       </div>
     </div>
   );

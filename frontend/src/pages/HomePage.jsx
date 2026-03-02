@@ -1,5 +1,6 @@
 import RatingBadge from '../components/RatingBadge';
-import { CURRENT_USER, TRENDING, FEED_POSTS } from '../data/placeholders';
+import { TRENDING, FEED_POSTS } from '../data/placeholders';
+import { useAuth } from '../AuthContext';
 
 const SHORTCUTS = [
   { label: 'View Menu',    emoji: '🍽️', tab: 'menu',     bg: '#FFD6BA' },
@@ -8,6 +9,7 @@ const SHORTCUTS = [
 ];
 
 export default function HomePage({ onNav }) {
+  const { user } = useAuth();
   return (
     <div className="px-4 pt-10 pb-2">
       {/* Header */}
@@ -15,7 +17,7 @@ export default function HomePage({ onNav }) {
         <p className="text-xs font-semibold text-stone-400 tracking-widest uppercase mb-1">🐻 UCLA Dining</p>
         <h1 className="font-display text-3xl font-bold text-stone-800 leading-tight">
           Welcome back,<br />
-          <span className="text-orange-500">{CURRENT_USER}</span> 👋
+          <span className="text-orange-500">{user?.username || '...'}</span> 👋
         </h1>
         <p className="text-sm text-stone-400 mt-2">What are you eating today on The Hill?</p>
       </div>
@@ -39,7 +41,7 @@ export default function HomePage({ onNav }) {
       <div className="mb-7 animate-fade-up delay-2">
         <div className="flex items-center justify-between mb-3">
           <p className="text-xs font-bold uppercase tracking-widest text-stone-400">🔥 Trending Today</p>
-          <span className="text-xs text-orange-500 font-semibold">[#1 Today]</span>
+          <span className="text-xs text-orange-500 font-semibold">#1 Today</span>
         </div>
         <div className="bg-white rounded-3xl shadow-sm border border-stone-50 overflow-hidden">
           <div className="h-24 flex items-center justify-center relative"

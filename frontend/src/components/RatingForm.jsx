@@ -1,41 +1,52 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import StarRatingInput from './StarRatingInput';
 import ImageUploadPreview from './ImageUploadPreview';
-import { CURRENT_USER } from '../data/placeholders';
-import { addReview } from '../store/ratingsStore';
 
-export default function RatingForm({ itemId, onSubmitSuccess }) {
+export default function RatingForm({
+  onSubmitSuccess,
+  submitting = false,
+  initialRating = 0,
+  initialComment = '',
+}) {
   const [rating, setRating]     = useState(0);
   const [comment, setComment]   = useState('');
   const [imageFile, setImage]   = useState(null);
   const [error, setError]       = useState('');
 
-  const handleSubmit = (e) => {
+  useEffect(() => {
+    setRating(initialRating || 0);
+    setComment(initialComment || '');
+  }, [initialRating, initialComment]);
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    if (submitting) return;
+
     if (rating === 0) {
       setError('Please select a star rating before submitting.');
       return;
     }
-    if (rating < 0 || rating > 5) {
-      setError('Rating must be between 0 and 5.');
+    if (rating < 0 || rating > 10) {
+      setError('Rating must be between 0 and 10.');
       return;
     }
     setError('');
 
-    const review = {
-      id:        `rev-${Date.now()}`,
-      username:  CURRENT_USER,
-      rating,
-      comment:   comment.trim(),
-      date:      new Date().toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }),
-      imageFile: imageFile || null,
-    };
+    try {
+      const review = await onSubmitSuccess({
+        rating,
+        comment: comment.trim(),
+        imageFile: imageFile || null,
+      });
 
-    addReview(itemId, review);
-    setRating(0);
-    setComment('');
-    setImage(null);
-    onSubmitSuccess(review);
+      if (review) {
+        setRating(review.rating != null ? review.rating * 2 : 0);
+        setComment(review.comment || '');
+        setImage(null);
+      }
+    } catch {
+      setError('Unable to submit review right now. Please try again.');
+    }
   };
 
   return (
@@ -77,11 +88,12 @@ export default function RatingForm({ itemId, onSubmitSuccess }) {
         <button
           type="submit"
           aria-label="Submit your rating"
+          disabled={submitting}
           className="w-full bg-orange-500 text-white font-semibold py-4 rounded-2xl
-                     shadow-lg active:scale-[0.98] transition-transform text-sm
+                     shadow-lg active:scale-[0.98] transition-transform text-sm disabled:opacity-60
                      hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
         >
-          Submit Rating
+          {submitting ? 'Submitting…' : 'Submit Rating'}
         </button>
       </div>
     </form>

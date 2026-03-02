@@ -8,8 +8,6 @@ class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(80), unique=True, nullable=False)
     email = db.Column(db.String(120), unique=True, nullable=False)
-    password = db.Column(db.String(20), nullable=False)
-
     reviews = db.relationship(
         'Review',
         back_populates='user',
@@ -113,7 +111,7 @@ class MenuItem(db.Model):
 class Item(db.Model):
     __tablename__ = 'item'
 
-    id = db.Column(db.Text, primary_key=True)
+    id = db.Column(db.Integer, primary_key=True)
 
     name = db.Column(db.Text, nullable=False)
 
@@ -155,7 +153,7 @@ class Review(db.Model):
     __tablename__ = 'review'
 
     id = db.Column(db.Integer, primary_key=True)
-    rating = db.Column(db.Integer, nullable=False)
+    rating = db.Column(db.Float, nullable=False)
     comment = db.Column(db.Text)
     image_data = db.Column(db.Text)
 

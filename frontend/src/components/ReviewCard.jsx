@@ -5,6 +5,8 @@ export default function ReviewCard({ review }) {
   const emptyStars = 5 - fullStars - (halfStar ? 1 : 0);
 
   const previewUrl = review.imageFile ? URL.createObjectURL(review.imageFile) : null;
+  const username = review.username || 'Anonymous';
+  const scoreOutOfTen = Number.isFinite(review.rating) ? (review.rating * 2).toFixed(1) : '-';
 
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-stone-100 p-4 animate-fade-up">
@@ -14,10 +16,10 @@ export default function ReviewCard({ review }) {
           className="w-9 h-9 rounded-full flex items-center justify-center text-xs font-bold text-stone-700 shrink-0"
           style={{ backgroundColor: '#FFD6BA' }}
         >
-          {review.username.replace('[', '').replace(']', '').slice(0, 2).toUpperCase()}
+          {username.slice(0, 2).toUpperCase()}
         </div>
         <div className="flex-1 min-w-0">
-          <p className="font-semibold text-sm text-stone-800">{review.username}</p>
+          <p className="font-semibold text-sm text-stone-800">{username}</p>
           <p className="text-xs text-stone-400">{review.date}</p>
         </div>
         <div className="flex items-center gap-1.5 shrink-0">
@@ -30,7 +32,7 @@ export default function ReviewCard({ review }) {
               <span key={`e-${i}`} className="text-stone-200 text-sm">★</span>
             ))}
           </div>
-          <span className="text-xs font-bold text-orange-500">{review.rating.toFixed(1)}</span>
+          <span className="text-xs font-bold text-orange-500">{scoreOutOfTen}</span>
         </div>
       </div>
 
