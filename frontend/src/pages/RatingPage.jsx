@@ -4,8 +4,7 @@ import SectionCard from '../components/SectionCard';
 import RatingForm from '../components/RatingForm';
 import ReviewCard from '../components/ReviewCard';
 import RatingBadge from '../components/RatingBadge';
-import { PLACEHOLDER_REVIEWS } from '../data/placeholders';
-import { getReviews } from '../store/ratingsStore';
+import { createReview, getReviewsByItem } from '../services/api';
 import { getMenuStore, subscribeMenu, fetchMenuIfNeeded } from '../store/menuStore';
 
 export default function RatingPage({ itemId, onBack, onNav }) {
@@ -13,6 +12,9 @@ export default function RatingPage({ itemId, onBack, onNav }) {
   const [showReviews, setShowReviews]   = useState(false);
   const [reviews, setReviews]           = useState([]);
   const [lastReview, setLastReview]     = useState(null);
+  const [draftReview, setDraftReview]   = useState(null);
+  const [reviewError, setReviewError]   = useState('');
+  const [submittingReview, setSubmittingReview] = useState(false);
   const [menuState, setMenuState]       = useState(() => getMenuStore());
 
   useEffect(() => {
@@ -22,8 +24,42 @@ export default function RatingPage({ itemId, onBack, onNav }) {
   }, []);
 
   useEffect(() => {
-    // Load any existing reviews from store
-    setReviews(getReviews(itemId));
+    let canceled = false;
+    setReviewError('');
+
+    async function loadReviews() {
+      if (!itemId) {
+        setReviews([]);
+        return;
+      }
+
+      try {
+        const data = await getReviewsByItem(Number(itemId));
+        if (canceled) return;
+        const mapped = data.map((review) => ({
+          id: review.id,
+          username: 'Bruin',
+          rating: Number(review.rating),
+          comment: review.comment || '',
+          date: formatReviewDate(review),
+          imageFile: null,
+        }));
+        setReviews(mapped);
+        setDraftReview(mapped[0] || null);
+      } catch (error) {
+        if (canceled) return;
+        console.error('Failed to load reviews', error);
+        setReviewError('Could not load reviews.');
+        setReviews([]);
+        setDraftReview(null);
+      }
+    }
+
+    loadReviews();
+
+    return () => {
+      canceled = true;
+    };
   }, [itemId]);
 
   const { allMenuItems, loading, error } = menuState;
@@ -32,19 +68,50 @@ export default function RatingPage({ itemId, onBack, onNav }) {
   const hasReviews = reviews.length > 0;
   const averageStarRating = hasReviews
     ? reviews.reduce((sum, review) => sum + review.rating, 0) / reviews.length
-    : 0;
-  const averageDisplayRating = averageStarRating * 2;
+    : null;
+  const averageDisplayRating = averageStarRating == null ? null : averageStarRating * 2;
+  const hasAverageDisplayRating = Number.isFinite(averageDisplayRating) && averageDisplayRating > 0;
 
   const itemName = menuItem?.name || 'Menu item';
   const restaurantName = menuItem?.hallName || 'Dining hall';
   const dietaryLabels = menuItem?.dietaryLabels || [];
-  const allergenLabels = menuItem?.allergens || [];
-  const ingredients = menuItem?.ingredients || [];
+  const recipeUrl = menuItem?.recipeUrl || '';
 
-  const handleSubmitSuccess = (review) => {
-    setLastReview(review);
-    setSubmitted(true);
-    setReviews(getReviews(itemId));
+  const handleSubmitSuccess = async ({ rating, comment }) => {
+    setReviewError('');
+    setSubmittingReview(true);
+    try {
+      const created = await createReview({
+        itemId: Number(itemId),
+        restaurantId: menuItem?.hallId ? Number(menuItem.hallId) : null,
+        rating: rating / 2,
+        comment,
+      });
+
+      const review = {
+        id: created.id,
+        username: 'Bruin',
+        rating: Number(created.rating),
+        comment: created.comment || '',
+        date: formatReviewDate(created),
+        imageFile: null,
+      };
+
+      setLastReview(review);
+      setDraftReview(review);
+      setSubmitted(true);
+      setReviews((prev) => {
+        const next = prev.filter((entry) => entry.id !== review.id);
+        return [review, ...next];
+      });
+      return review;
+    } catch (error) {
+      console.error('Failed to submit review', error);
+      setReviewError('Could not submit review. Please try again.');
+      throw error;
+    } finally {
+      setSubmittingReview(false);
+    }
   };
 
   const handleViewReviews = () => {
@@ -62,8 +129,6 @@ export default function RatingPage({ itemId, onBack, onNav }) {
     setLastReview(null);
     onNav('rate', nextId);
   };
-
-  const displayedReviews = reviews.length > 0 ? reviews : PLACEHOLDER_REVIEWS;
 
   if (!loading && error) {
     return (
@@ -149,7 +214,7 @@ export default function RatingPage({ itemId, onBack, onNav }) {
               <div className="flex items-center gap-1.5 mt-2">
                 <span className="text-orange-400 text-sm">★</span>
                 <span className="text-sm font-semibold text-stone-700">
-                  {averageDisplayRating.toFixed(1)}
+                  {hasAverageDisplayRating ? averageDisplayRating.toFixed(1) : '-'}
                 </span>
                 <span className="text-xs text-stone-400">avg rating</span>
               </div>
@@ -171,47 +236,22 @@ export default function RatingPage({ itemId, onBack, onNav }) {
               </p>
             )}
           </div>
+          {recipeUrl && (
+            <p className="text-sm text-stone-500 mb-2">
+              UCLA recipe:{' '}
+              <a
+                href={recipeUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="text-orange-600 font-medium underline"
+              >
+                View menu item
+              </a>
+            </p>
+          )}
           <p className="text-sm text-stone-500 leading-relaxed">
             Rate your experience with this menu item to help other Bruins decide what to eat.
           </p>
-        </SectionCard>
-
-        {/* Ingredients + allergens */}
-        <SectionCard title="Specifics">
-          <div className="mb-4">
-            <h3 className="text-xs font-bold uppercase tracking-widest text-stone-400 mb-2">Ingredients</h3>
-            {ingredients && ingredients.length > 0 ? (
-              <ul className="space-y-1" aria-label="Ingredients list">
-                {ingredients.map((ing, i) => (
-                  <li key={i} className="flex items-center gap-2 text-sm text-stone-600">
-                    <span className="w-1.5 h-1.5 rounded-full bg-orange-300 shrink-0" />
-                    {ing}
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p className="text-sm text-stone-400">
-                Ingredients are not available for this item.
-              </p>
-            )}
-          </div>
-          <div>
-            <h3 className="text-xs font-bold uppercase tracking-widest text-stone-400 mb-2">Dietary Restrictions</h3>
-            {allergenLabels.length > 0 ? (
-              <ul className="space-y-1" aria-label="Allergens list">
-                {allergenLabels.map((a, i) => (
-                  <li key={i} className="flex items-center gap-2 text-sm text-stone-600">
-                    <span className="w-1.5 h-1.5 rounded-full bg-rose-300 shrink-0" />
-                    {a}
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p className="text-sm text-stone-400">
-                Allergy information is not available for this item.
-              </p>
-            )}
-          </div>
         </SectionCard>
 
         {/* ── MAIN CONTENT AREA: form / success / reviews ── */}
@@ -228,7 +268,15 @@ export default function RatingPage({ itemId, onBack, onNav }) {
             <p className="text-xs font-bold uppercase tracking-widest text-stone-400 mb-3 pl-1">
               Rate this item
             </p>
-            <RatingForm itemId={itemId} onSubmitSuccess={handleSubmitSuccess} />
+            <RatingForm
+              onSubmitSuccess={handleSubmitSuccess}
+              submitting={submittingReview}
+              initialRating={draftReview?.rating ? draftReview.rating * 2 : 0}
+              initialComment={draftReview?.comment || ''}
+            />
+            {reviewError && (
+              <p className="text-xs text-rose-500 mt-2 pl-1">{reviewError}</p>
+            )}
           </div>
         )}
 
@@ -242,7 +290,7 @@ export default function RatingPage({ itemId, onBack, onNav }) {
               <p className="text-sm text-stone-400">
                 You rated <span className="font-semibold text-stone-600">{itemName}</span>{' '}
                 <span className="font-bold text-orange-500">
-                  {lastReview?.rating.toFixed(1)} / 5.0
+                  {lastReview?.rating != null ? (lastReview.rating * 2).toFixed(1) : '-'} / 10.0
                 </span>
               </p>
             </div>
@@ -271,7 +319,7 @@ export default function RatingPage({ itemId, onBack, onNav }) {
           <div className="animate-fade-up">
             <div className="flex items-center justify-between mb-3 pl-1">
               <p className="text-xs font-bold uppercase tracking-widest text-stone-400">
-                Reviews ({displayedReviews.length})
+                Reviews ({reviews.length})
               </p>
               <button
                 onClick={handleNextItem}
@@ -281,15 +329,46 @@ export default function RatingPage({ itemId, onBack, onNav }) {
                 Next Item →
               </button>
             </div>
-            <div className="flex flex-col gap-3">
-              {displayedReviews.map((review) => (
-                <ReviewCard key={review.id} review={review} />
-              ))}
-            </div>
+            {reviews.length === 0 ? (
+              <p className="text-sm text-stone-400">No reviews yet.</p>
+            ) : (
+              <div className="flex flex-col gap-3">
+                {reviews.map((review) => (
+                  <ReviewCard key={review.id} review={review} />
+                ))}
+              </div>
+            )}
+            {reviewError && (
+              <p className="text-xs text-rose-500 mt-2">{reviewError}</p>
+            )}
           </div>
         )}
 
       </div>
     </div>
   );
+}
+
+function formatReviewDate(review) {
+  const dateSource = review?.created_at || review?.date;
+  if (!dateSource) {
+    return new Date().toLocaleString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+    });
+  }
+
+  const parsed = new Date(dateSource);
+  if (Number.isNaN(parsed.getTime())) {
+    return String(dateSource);
+  }
+
+  return parsed.toLocaleString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+  });
 }

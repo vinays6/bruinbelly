@@ -1,4 +1,4 @@
-import { getItemsByMealPeriod } from '../services/api';
+import { getItemRatingsSummary, getItemsByMealPeriod } from '../services/api';
 
 export const DINING_HALLS_META = [
   {
@@ -117,6 +117,7 @@ export async function fetchMenuIfNeeded(date = store.selectedDate) {
                 ingredients: [],
                 rating: 0,
                 dietary: dietaryLabels[0] || '',
+                recipeUrl: buildRecipeUrl(item.id),
               };
 
               allMenuItems.push(menuItem);
@@ -137,6 +138,17 @@ export async function fetchMenuIfNeeded(date = store.selectedDate) {
           hall,
           categories,
         };
+      }
+
+      const uniqueItemIds = [...new Set(allMenuItems.map((item) => Number(item.id)).filter(Number.isFinite))];
+      const ratingsSummaryById = uniqueItemIds.length > 0
+        ? await getItemRatingsSummary(uniqueItemIds)
+        : {};
+
+      for (const item of allMenuItems) {
+        const summary = ratingsSummaryById?.[String(item.id)];
+        const avgRating = summary?.avg_rating;
+        item.rating = Number.isFinite(avgRating) ? avgRating * 2 : null;
       }
 
       // if (requestToken !== latestRequestToken) {
@@ -244,4 +256,9 @@ function buildAllergenLabels(item) {
   if (item.alcohol) labels.push('Contains alcohol');
   if (item.peanuts) labels.push('Contains peanuts');
   return labels;
+}
+
+function buildRecipeUrl(itemId) {
+  if (!itemId) return '';
+  return `https://dining.ucla.edu/menu-item/?recipe=${itemId}`;
 }

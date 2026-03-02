@@ -1,18 +1,19 @@
 import { useState } from 'react';
 
-// Supports 0–5 in 0.5 increments
+// Supports 0–10 in 1.0 increments (mapped to 5 stars in 0.5-star steps)
 export default function StarRatingInput({ value, onChange }) {
   const [hover, setHover] = useState(null);
 
-  const displayed = hover !== null ? hover : value;
+  const displayedScore = hover !== null ? hover : value;
+  const displayedStars = displayedScore / 2;
 
   // Each star covers 2 half-positions (i=0 → 0.5, i=1 → 1.0, ... i=9 → 5.0)
   const getStarFill = (starIndex) => {
-    // starIndex 0-4 = star 1-5
+    // starIndex 0-4 = stars 1-5, each star = 2 points
     const full  = starIndex + 1;
     const half  = starIndex + 0.5;
-    if (displayed >= full) return 'full';
-    if (displayed >= half) return 'half';
+    if (displayedStars >= full) return 'full';
+    if (displayedStars >= half) return 'half';
     return 'empty';
   };
 
@@ -20,20 +21,20 @@ export default function StarRatingInput({ value, onChange }) {
     const rect = e.currentTarget.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const isLeft = x < rect.width / 2;
-    setHover(isLeft ? starIndex + 0.5 : starIndex + 1);
+    setHover((isLeft ? starIndex + 0.5 : starIndex + 1) * 2);
   };
 
   const handleClick = (e, starIndex) => {
     const rect = e.currentTarget.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const isLeft = x < rect.width / 2;
-    onChange(isLeft ? starIndex + 0.5 : starIndex + 1);
+    onChange((isLeft ? starIndex + 0.5 : starIndex + 1) * 2);
   };
 
   const handleKeyDown = (e, starIndex) => {
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
-      onChange(starIndex + 1);
+      onChange((starIndex + 1) * 2);
     }
   };
 
@@ -90,28 +91,28 @@ export default function StarRatingInput({ value, onChange }) {
           id="numeric-rating"
           type="number"
           min="0"
-          max="5"
-          step="0.5"
+          max="10"
+          step="1"
           value={value === 0 ? '' : value}
           onChange={(e) => {
             const v = parseFloat(e.target.value);
             if (isNaN(v)) { onChange(0); return; }
-            onChange(Math.min(5, Math.max(0, Math.round(v * 2) / 2)));
+            onChange(Math.min(10, Math.max(0, Math.round(v))));
           }}
           placeholder="0.0"
           className="w-20 text-center border border-stone-200 rounded-xl px-2 py-1.5 text-sm font-semibold
                      text-stone-800 focus:outline-none focus:ring-2 focus:ring-orange-300 focus:border-orange-400"
         />
-        <span className="text-sm text-stone-400">/ 5.0</span>
+        <span className="text-sm text-stone-400">/ 10.0</span>
       </div>
 
       {/* Label */}
       <p className="text-sm font-semibold text-orange-500 h-5">
         {value === 0 ? '' :
-         value <= 1 ? 'Poor' :
-         value <= 2 ? 'Fair' :
-         value <= 3 ? 'Good' :
-         value <= 4 ? 'Great' :
+         value <= 2 ? 'Poor' :
+         value <= 4 ? 'Fair' :
+         value <= 6 ? 'Good' :
+         value <= 8 ? 'Great' :
          'Amazing!'}
       </p>
     </div>

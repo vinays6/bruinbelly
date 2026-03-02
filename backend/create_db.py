@@ -56,19 +56,17 @@ def initialize_db():
                         meal_time = MealTime.ALLDAY
                     
                     format_string = "%Y-%m-%d"
-                    date_time = datetime.strptime(menu_date, format_string)
+                    menu_date_obj = datetime.strptime(menu_date, format_string).date()
 
                     # 5. Create or get item
                     item_id = int(item_data['link'].split('=')[-1])
-                    is_recipe = item_data['link'].split('?')[-1].split('=')[0] == 'recipe'
-                    full_item_id = ('r' if is_recipe else 'i') + str(item_id)
                     item = Item.query.filter_by(
-                        id=full_item_id,
+                        id=item_id,
                     ).first()
 
                     if not item:
                         item = Item(
-                            id=full_item_id,
+                            id=item_id,
                             name=item_name,
                         )
                         db.session.add(item)
@@ -79,7 +77,7 @@ def initialize_db():
                         menu_id=menu.id,
                         item_id=item.id,
                         meal_time=meal_time,
-                        date=date_time
+                        date=menu_date_obj
                     ).first()
 
                     if not exists:
@@ -87,7 +85,7 @@ def initialize_db():
                             menu=menu,
                             item=item,
                             meal_time=meal_time,
-                            date=date_time
+                            date=menu_date_obj
                         )
                         db.session.add(menu_item)
 

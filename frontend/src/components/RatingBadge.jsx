@@ -1,6 +1,9 @@
 export default function RatingBadge({ rating, size = 'md' }) {
   const num = typeof rating === 'number' ? rating : parseFloat(rating);
-  const color = num >= 8.5
+  const hasRating = Number.isFinite(num) && num > 0;
+  const color = !hasRating
+    ? 'border-stone-300 bg-stone-50 text-stone-500'
+    : num >= 8.5
     ? 'border-emerald-400 bg-emerald-50 text-emerald-700'
     : num >= 7
     ? 'border-amber-400 bg-amber-50 text-amber-700'
@@ -9,7 +12,7 @@ export default function RatingBadge({ rating, size = 'md' }) {
   return (
     <div className={`${sz} ${color} rounded-full border-2 flex items-center justify-center font-bold shrink-0 shadow-sm`}
          aria-label={`Rating ${rating}`}>
-      {num.toFixed(1)}
+      {hasRating ? num.toFixed(1) : '-'}
     </div>
   );
 }
