@@ -29,6 +29,55 @@ export const DINING_HALLS_META = [
     emoji: '🍜',
     bgColor: '#FFF3B8',
   },
+  {
+    id: 4,
+    slug: 'bruin-bowl',
+    name: 'Bruin Bowl',
+    emoji: '🥣',
+    bgColor: '#DFF2FF',
+  },
+  {
+    id: 5,
+    slug: 'bruin-cafe',
+    name: 'Bruin Cafe',
+    emoji: '☕',
+    bgColor: '#FFE5CC',
+  },
+  {
+    id: 6,
+    slug: 'cafe-1919',
+    name: 'Cafe 1919',
+    emoji: '🍕',
+    bgColor: '#FFE2E2',
+  },
+  {
+    id: 7,
+    slug: 'epicuria-ackerman',
+    name: 'Epicuria at Ackerman',
+    emoji: '🌿',
+    bgColor: '#D8F0E3',
+  },
+  {
+    id: 9,
+    slug: 'rendezvous',
+    name: 'Rendezvous',
+    emoji: '🥡',
+    bgColor: '#FFF0CC',
+  },
+  {
+    id: 10,
+    slug: 'the-drey',
+    name: 'The Drey',
+    emoji: '🥪',
+    bgColor: '#E8E0FF',
+  },
+  {
+    id: 11,
+    slug: 'the-study',
+    name: 'The Study at Hedrick',
+    emoji: '📚',
+    bgColor: '#E5F5D9',
+  },
 ];
 
 let store = {
