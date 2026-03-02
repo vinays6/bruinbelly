@@ -59,45 +59,6 @@ export const TRENDING = {
   summary: 'Bruins are all over this one this week. Fresh fruit, solid yogurt, and consistent quality for an easy breakfast.',
 };
 
-export const ITEM_DETAILS = {
-  'dn-1': {
-    name: 'Grilled Salmon',
-    restaurant: 'De Neve Dining Hall',
-    avgRating: 8.4,
-    description: 'Atlantic salmon fillet grilled with lemon herb butter and served with seasonal vegetables.',
-    labels: ['Gluten-Free', 'High Protein', 'Contains Fish'],
-    allergens: ['Fish', 'Dairy', 'Soy'],
-    ingredients: ['Atlantic Salmon', 'Lemon Butter', 'Garlic', 'Fresh Dill', 'Olive Oil', 'Sea Salt', 'Black Pepper', 'Seasonal Vegetables'],
-  },
-  'dn-2': {
-    name: 'Pasta Primavera',
-    restaurant: 'De Neve Dining Hall',
-    avgRating: 7.2,
-    description: 'Penne in garlic olive oil with seasonal vegetables, basil, and parmesan.',
-    labels: ['Vegetarian', 'Contains Dairy', 'Contains Gluten'],
-    allergens: ['Gluten/Wheat', 'Dairy', 'Eggs'],
-    ingredients: ['Penne Pasta', 'Zucchini', 'Bell Peppers', 'Cherry Tomatoes', 'Garlic', 'Olive Oil', 'Parmesan', 'Fresh Basil'],
-  },
-  'dn-3': {
-    name: 'Caesar Salad',
-    restaurant: 'De Neve Dining Hall',
-    avgRating: 6.8,
-    description: 'Romaine with house caesar dressing, croutons, and shaved parmesan.',
-    labels: ['Vegetarian', 'Contains Dairy', 'Contains Gluten'],
-    allergens: ['Dairy', 'Gluten', 'Eggs', 'Anchovies'],
-    ingredients: ['Romaine Lettuce', 'Caesar Dressing', 'Croutons', 'Parmesan', 'Lemon Juice', 'Black Pepper'],
-  },
-  'dn-4': {
-    name: 'Chocolate Lava Cake',
-    restaurant: 'De Neve Dining Hall',
-    avgRating: 9.1,
-    description: 'Molten dark chocolate cake served warm with a soft center.',
-    labels: ['Vegetarian', 'Contains Dairy', 'Contains Gluten'],
-    allergens: ['Dairy', 'Eggs', 'Gluten', 'Soy'],
-    ingredients: ['Dark Chocolate', 'Butter', 'Eggs', 'Sugar', 'Flour', 'Vanilla Extract', 'Salt'],
-  },
-};
-
 export const DEFAULT_ITEM_DETAIL = {
   name: 'Menu item',
   restaurant: 'UCLA Dining',
