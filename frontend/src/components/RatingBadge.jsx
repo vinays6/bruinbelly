@@ -3,25 +3,11 @@ import { useRef } from 'react';
 export default function RatingBadge({ rating, size = 'md' }) {
   // store a single random value for the life of the component
   // pick 1–9, not 0, so we always display something
-  // const addition = useRef(Math.random()) > 0.5 ? 0.5 : 0;
-  const randomNum = useRef(Math.floor(Math.random() * 3) + 6 + 2*Math.random());
-
-  // parse the prop and guard against non‑numeric input
-  const num_in = typeof rating === 'number' ? rating : parseFloat(rating);
-  if (!Number.isFinite(num_in)) {
-    console.debug('RatingBadge received non‑numeric rating:', rating);
-  }
+  // const addition = useRef(Math.random()) > 0.5 ? 0.5 :
+  const num = rating;
 
   // debug
-  console.debug('RatingBadge num_in:', num_in);
-  console.debug('RatingBadge randomNum.current:', randomNum.current);
-
-  // if the incoming value is not finite *or* exactly 0.0, substitute our
-  // random value – covers both “0” and junk strings/undefined/etc.
-  const num =
-    !Number.isFinite(num_in) || num_in === 0.0
-      ? randomNum.current
-      : num_in;
+  console.debug('RatingBadge num_in:', num);
 
   const hasRating = Number.isFinite(num) && num > 0;
 
