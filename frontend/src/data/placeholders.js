@@ -44,13 +44,13 @@ export const FEED_POSTS = [
 ];
 
 export const CALENDAR_DAYS = [
-  { day: 'Mon', date: 'Mar 3', restaurant: 'De Neve', meal: 'Grilled Salmon Night', emoji: '🐟', why: 'Highest-rated protein this week. Freshness and consistency are strong on Mondays.' },
-  { day: 'Tue', date: 'Mar 4', restaurant: 'Bruin Plate', meal: 'Acai Bowl Morning', emoji: '🫐', why: 'Most-liked breakfast this month. Portions are consistently generous on Tuesdays.' },
-  { day: 'Wed', date: 'Mar 5', restaurant: 'Epicuria', meal: 'Mediterranean Wednesday', emoji: '🌿', why: 'Mediterranean menu lands midweek and usually scores above 9.0 from repeat diners.' },
-  { day: 'Thu', date: 'Mar 6', restaurant: 'Feast', meal: 'Ramen Bowl Special', emoji: '🍜', why: 'Signature broth night at Feast. Demand spikes after 6 PM, so go earlier.' },
-  { day: 'Fri', date: 'Mar 7', restaurant: 'De Neve', meal: 'Friday Pizza Night', emoji: '🍕', why: 'Friday pizza is a Hill staple with high satisfaction and fast turnover.' },
-  { day: 'Sat', date: 'Mar 8', restaurant: 'Bruin Plate', meal: 'Weekend Brunch Spread', emoji: '☀️', why: 'Brunch menu has broader options and better pacing for weekend mornings.' },
-  { day: 'Sun', date: 'Mar 9', restaurant: 'Epicuria', meal: 'Sunday Comfort Dinner', emoji: '🍗', why: 'Comfort-style Sunday dinner is a reliable top pick before the new week.' },
+  { day: 'Sun', date: 'Mar 1', restaurant: 'Epicuria', meal: 'Sunday Comfort Dinner', emoji: '🍗', why: 'Comfort-style Sunday dinner is a reliable top pick before the new week.' },
+  { day: 'Mon', date: 'Mar 2', restaurant: 'De Neve', meal: 'Grilled Salmon Night', emoji: '🐟', why: 'Highest-rated protein this week. Freshness and consistency are strong on Mondays.' },
+  { day: 'Tue', date: 'Mar 3', restaurant: 'Bruin Plate', meal: 'Acai Bowl Morning', emoji: '🫐', why: 'Most-liked breakfast this month. Portions are consistently generous on Tuesdays.' },
+  { day: 'Wed', date: 'Mar 4', restaurant: 'Epicuria', meal: 'Mediterranean Wednesday', emoji: '🌿', why: 'Mediterranean menu lands midweek and usually scores above 9.0 from repeat diners.' },
+  { day: 'Thu', date: 'Mar 5', restaurant: 'Feast', meal: 'Ramen Bowl Special', emoji: '🍜', why: 'Signature broth night at Feast. Demand spikes after 6 PM, so go earlier.' },
+  { day: 'Fri', date: 'Mar 6', restaurant: 'De Neve', meal: 'Friday Pizza Night', emoji: '🍕', why: 'Friday pizza is a Hill staple with high satisfaction and fast turnover.' },
+  { day: 'Sat', date: 'Mar 7', restaurant: 'Bruin Plate', meal: 'Weekend Brunch Spread', emoji: '☀️', why: 'Brunch menu has broader options and better pacing for weekend mornings.' },
 ];
 
 export const TRENDING = {

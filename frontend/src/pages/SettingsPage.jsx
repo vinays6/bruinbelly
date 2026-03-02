@@ -79,13 +79,8 @@ export default function SettingsPage() {
       </div>
 
       <div className="text-center mt-8 animate-fade-up delay-4">
-<<<<<<< HEAD
         <p className="text-xs text-stone-300">BruinBites v0.9.2-demo · UCLA Exclusive 🐻</p>
         <p className="text-xs text-stone-300 mt-0.5">Backend: Connected</p>
-=======
-        <p className="text-xs text-stone-300">BruinBelly [version] · UCLA Exclusive 🐻</p>
-        <p className="text-xs text-stone-300 mt-0.5">[Backend: Not connected]</p>
->>>>>>> 3eb8c8ef2fb19ac55383927e1fcee2660345776c
       </div>
     </div>
   );
